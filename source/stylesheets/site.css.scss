@@ -1,6 +1,7 @@
 @import "pages";
-@import "colors";
-@import "button";
-@import "navbar";
-@import "newsletter";
-@import "banner";
+@import "config/colors";
+@import "components/button";
+@import "components/navbar";
+@import "components/newsletter";
+@import "components/header";
+@import "config/fonts";

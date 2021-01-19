@@ -1,0 +1,38 @@
+.header {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.header h1 {
+  line-height: 1.5;
+  color: #425ba4;
+  font-weight: 700;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+}
+
+.half-highlight {
+  line-height: 1.5;
+  color: #425ba4;
+  font-weight: 700;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, transparent 50%, #35ffcf 50%);
+  background-size: 200% 30%;
+  background-repeat: repeat-x;
+  background-position: -100% 100%;
+  transition: background-position 0.5s;
+}
+
+.header p {
+  font-size: 16px;
+  color: #425ba4;
+}
+
+.header-image {
+  max-width: 100%;
+  height: auto;
+}
