@@ -11,19 +11,24 @@ footer {
 
 .text-neon {
   color: #35ffcf;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .text-white {
   color: #fff;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .text-copyright {
-  font-size: small;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: lighter;
   text-align: center !important;
   position: absolute;
   bottom: 0;
   vertical-align: bottom;
+  color: #fff;
 }
 
 .logo-footer {
