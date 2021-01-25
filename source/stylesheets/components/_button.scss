@@ -2,7 +2,8 @@
   background: #35ffcf;
   color: #425ba4;
   font-family: Roboto, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   border: none;
   border-radius: 15px;
   padding: 10px 35px;
@@ -11,9 +12,32 @@
 .btn-app:hover {
   background: #0ed4a6;
   color: #425ba4;
+  font-weight: bold;
   font-family: Roboto, sans-serif;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 15px;
   padding: 10px 35px;
+}
+
+.btn-subscribe {
+  background: #f8dadb;
+  color: #425ba4;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px 0 15px 0;
+  padding: 10px 15px;
+}
+
+.btn-subscribe:hover {
+  background: #f8dadbe1;
+  color: #425ba4;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  border-radius: 15px 0 15px 0;
+  padding: 10px 15px;
 }
