@@ -25,7 +25,7 @@ footer {
   font-size: 16px;
   font-weight: lighter;
   text-align: center !important;
-  position: absolute;
+
   bottom: 0;
   vertical-align: bottom;
   color: #fff;
@@ -33,16 +33,4 @@ footer {
 
 .logo-footer {
   height: 60px;
-}
-
-.table-center {
-  margin: 0 auto;
-  width: 70%;
-}
-
-@media (max-width: 767px) {
-  .table-center {
-    margin: 0 auto;
-    width: 100%;
-  }
 }
