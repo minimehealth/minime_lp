@@ -1,11 +1,11 @@
 footer {
   background-color: #425ba4;
-
+  position: relative;
   padding: 100px;
   margin-top: 0;
   width: 100%;
-  div {
-    font-size: 12px;
+  p {
+    text-align: center;
   }
 }
 
@@ -15,4 +15,17 @@ footer {
 
 .text-white {
   color: #fff;
+}
+
+.text-copyright {
+  font-size: small;
+  font-weight: 100;
+  text-align: center !important;
+  position: absolute;
+  bottom: 0;
+  vertical-align: bottom;
+}
+
+.logo-footer {
+  height: 80px;
 }
