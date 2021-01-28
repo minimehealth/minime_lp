@@ -2,28 +2,55 @@
   <div class="container">
     <div class="container p-5">
       <h2 class="body-header text-center">MINI.ME APP</h2>
-      <p class="body-text pt-5">Ein strukturierter und intuitiver Reisebegleiter - der hilft, das Potenzial von Übungen in der Verhaltenstherapie auszuschöpfen - von der ersten bis zur letzten Therapiestunde und darüber hinaus.</p>
+      <p class="body-text-black font-weight-bold pt-5">Ein strukturierter und intuitiver Reisebegleiter - der hilft, das Potenzial von Übungen in der Verhaltenstherapie auszuschöpfen - von der ersten bis zur letzten Therapiestunde und darüber hinaus.</p>
     </div>
-    <div class="container p-5 d-flex">
-      <div>
-        <p class="body-text">Intuitive Anwendung</p>
-        <p class="body-text">Individuell anpassbare Inhalte</p>
-        <p class="body-text">Immer zur Hand</p>        
+    <div class="container p-5 d-flex justify-content-between align-items-center">
+      <div class="d-block">
+        <%= image_tag 'noun_digital.png', class: "icon mb-3" %>
+        <h3 class="header-text-blue font-weight-bold">DIGITAL</h3>
+        <p class="body-text-black text-nowrap">Intuitive Anwendung</p>
+        <p class="body-text-black text-nowrap">Individuell anpassbare Inhalte</p>
+        <p class="body-text-black text-nowrap">Immer zur Hand</p>        
       </div>
-      <div class="d-none d-lg-block">
-        <%= image_tag 'cbt.png', class: "body-image" %>
+      <div class="d-none d-lg-block text-right pr-5 mr-5">
+        <%= image_tag 'phone-sorc.png', class: "phone-vertical" %>
       </div>
     </div>
-    <div class="container p-5 d-flex">
+    <div class="container p-5 d-flex justify-content-between align-items-center">
       <div class="d-none d-lg-block">
-        <%= image_tag 'anxiety-quiz.png', class: "body-image" %>
+        <%= image_tag 'phone-data.png', class: "phone-tilted" %>
       </div>
-      <p class="body-text text-right">Patient*Innen werden dazu angeleitet das eigene Erleben und Verhalten im Alltag zu dokumentieren, um Reaktionsmuster zu identifizieren, zu reflektieren und gegebenenfalls zu verändern</p>
+      <div class="d-block text-right">
+        <%= image_tag 'noun_visualization.png', class: "icon mb-3" %>
+        <h3 class="header-text-blue font-weight-bold">VISUELL</h3>
+        <p class="body-text-black text-nowrap">Leitet spielerisch durch Übungen</p>
+        <p class="body-text-black text-nowrap">Strukturiert Selbstbeobachtungen</p>
+        <p class="body-text-black text-nowrap">Begleitet in Trainingsphasen</p>        
+      </div>
     </div>
-    <div class="container p-5 d-flex">
-      <p class="body-text">Bisher gibt es die Vorlagen zumeist nur in Papierform.</p>
+    <div class="container p-5 d-flex justify-content-between align-items-center">
+      <div class="d-block">
+        <%= image_tag 'noun_comm.png', class: "icon mb-3" %>
+        <h3 class="header-text-blue font-weight-bold">KOMMUNIKATIV</h3>
+        <p class="body-text-black">Teilt ausgewählte Einträge mit Therapeut*Innen</p>
+        <p class="body-text-black">Dokumentiert den gesamten Therapieprozess</p>
+        <p class="body-text-black">Erklärt Diagnosen und visualisiert Zusammenhänge</p>        
+      </div>
+      <div class="d-none d-lg-block text-right">
+        <%= image_tag 'phone-chat.png', class: "phone-tilted" %>
+      </div>
+    </div>
+    <div class="container p-5 d-flex justify-content-between align-items-center">
       <div class="d-none d-lg-block">
-        <%= image_tag 'personal_notebook.png', class: "body-image" %>
+        <%= image_tag 'phone-privacy.png', class: "phone-vertical pl-5 ml-5" %>
+      </div>
+      <div class="d-block text-right">
+        <%= image_tag 'noun_protection.png', class: "icon mb-3" %>
+        <h3 class="header-text-blue font-weight-bold">SICHER</h3>
+        <p class="body-text-black">Verschlüsselt alle Daten</p>
+        <p class="body-text-black">Speichert Daten nur über einen kurzen Zeitraum</p>
+        <p class="body-text-black">Übermittlung der Einträge nur während der Sitzungen</p>     
+        <p class="body-text-black text-nowrap pt-3">...der sichere Raum zur Selbstreflexion.</p>   
       </div>
     </div>
   </div>
