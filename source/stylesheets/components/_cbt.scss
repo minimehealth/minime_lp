@@ -3,7 +3,9 @@
 }
 
 .body-header {
-  font-size: 26px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #425ba4;
 }
 
 .body-text {
@@ -14,4 +16,8 @@
 .body-image {
   max-width: 100%;
   height: auto;
+}
+
+.background-white {
+  background-color: white;
 }
