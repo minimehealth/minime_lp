@@ -111,3 +111,41 @@
   border-radius: 15px;
   padding: 10px 35px;
 }
+
+@media (max-width: 767px) {
+  .btn-newsletter {
+    background: #f8dadbe1;
+    color: #425ba4;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  .btn-newsletter:hover {
+    background: #f8dadbe1 !important;
+    color: #425ba4;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    border-radius: 15px 0 15px 0;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  .btn-newsletter:active {
+    background: #f8dadbe1 !important;
+    color: #425ba4;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: none !important;
+    font-size: 18px;
+    border-radius: 15px 0 15px 0;
+    padding: 10px 15px;
+    width: 100%;
+  }
+}
