@@ -15,7 +15,7 @@
 }
 
 .color-dark {
-  color: black !important;
+  color: #5e75b9 !important;
 }
 
 .navbar-toggler > svg {
@@ -34,3 +34,10 @@
 .logo {
   height: 40px;
 }
+
+// @media (max-width: 767px) {
+//   .navbar-collapse {
+//     background-color: #5e75b9;
+//     color: #f3d4d2;
+//   }
+// }

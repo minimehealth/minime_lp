@@ -26,3 +26,15 @@
   font-size: 34px;
   color: #014f99;
 }
+
+@media (max-width: 991px) {
+  .phone-vertical {
+    max-width: 40%;
+    height: auto;
+  }
+
+  .phone-tilted {
+    max-width: 70%;
+    height: auto;
+  }
+}

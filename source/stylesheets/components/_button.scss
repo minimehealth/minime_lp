@@ -111,3 +111,129 @@
   border-radius: 15px;
   padding: 10px 35px;
 }
+
+@media (max-width: 767px) {
+  .btn-newsletter {
+    background: #f8dadbe1;
+    color: #425ba4;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  .btn-newsletter:hover {
+    background: #f8dadbe1 !important;
+    color: #425ba4;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    border-radius: 15px 0 15px 0;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  .btn-newsletter:active {
+    background: #f8dadbe1 !important;
+    color: #425ba4;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: none !important;
+    font-size: 18px;
+    border-radius: 15px 0 15px 0;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  .btn-app {
+    background: #35ffcf;
+    color: #425ba4;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 35px;
+    width: 80%;
+  }
+
+  .btn-app:hover {
+    background: #0ed4a6;
+    color: #425ba4;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    border: none;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px 35px;
+    width: 80%;
+  }
+
+  .btn-app:hover {
+    background: #0ed4a6 !important;
+    color: #425ba4;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    border: none !important;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px 35px;
+    width: 80%;
+  }
+  .btn-more {
+    background: white;
+    color: #434343;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: solid !important;
+    border-color: #454545;
+    border-radius: 15px;
+    padding: 10px 35px;
+    width: 80%;
+  }
+
+  .btn-more:hover {
+    background: white !important;
+    color: #434343;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: solid;
+    border-color: #454545;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px 35px;
+    width: 80%;
+  }
+
+  .btn-more:active {
+    background: white !important;
+    color: #434343;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: solid !important;
+    border-color: #454545 !important;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px 35px;
+    width: 80%;
+  }
+
+  .btn-more:visited {
+    background: white !important;
+    color: #434343;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: solid !important;
+    border-color: #454545 !important;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px 35px;
+    width: 80%;
+    align-items: center;
+  }
+}
