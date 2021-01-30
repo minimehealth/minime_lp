@@ -18,7 +18,7 @@
   color: #5e75b9 !important;
 }
 
-.navbar-toggler > svg {
+.navbar-toggler > i {
   color: #5e75b9;
   border: none;
 }
@@ -41,3 +41,25 @@
 //     color: #f3d4d2;
 //   }
 // }
+
+/* hide close when burger shown */
+
+.navbar-toggler:not(.collapsed) .bi-x {
+  display: inline;
+}
+
+.navbar-toggler:not(.collapsed) .bi-grid-fill {
+  display: none;
+}
+
+.navbar-toggler.collapsed .bi-x {
+  display: none;
+}
+
+.navbar-toggler.collapsed .bi-grid-fill {
+  display: inline;
+}
+
+.navbar-default .navbar-toggler .bi-grid-fill {
+  display: inline;
+}
