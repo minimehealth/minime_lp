@@ -35,6 +35,10 @@
   height: 40px;
 }
 
+.not-desktop {
+  display: none;
+}
+
 // @media (max-width: 767px) {
 //   .navbar-collapse {
 //     background-color: #5e75b9;
@@ -78,7 +82,6 @@ body {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
   .nav-link {
-    padding-top: 20px !important;
     color: #f3d4d2 !important;
     text-transform: uppercase;
   }
@@ -91,5 +94,9 @@ body {
   #close {
     display: inline;
     font-size: 40px;
+  }
+  .not-desktop {
+    padding-top: 20px !important;
+    display: inline;
   }
 }
