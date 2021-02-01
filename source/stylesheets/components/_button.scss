@@ -145,7 +145,7 @@
   padding: 10px 35px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .btn-newsletter {
     background: #f8dadbe1;
     color: #425ba4;
@@ -195,7 +195,7 @@
   }
 
   .btn-app:hover {
-    background: #0ed4a6;
+    background: #35ffcf;
     color: #425ba4;
     font-weight: bold;
     font-family: Roboto, sans-serif;
@@ -207,7 +207,7 @@
   }
 
   .btn-app:hover {
-    background: #0ed4a6 !important;
+    background: #35ffcf !important;
     color: #425ba4;
     font-weight: bold;
     font-family: Roboto, sans-serif;
