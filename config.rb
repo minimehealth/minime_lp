@@ -48,3 +48,5 @@ page '/*.txt', layout: false
 #   activate :minify_javascript
 # end
 
+activate :directory_indexes  #Removes .html from file
+
