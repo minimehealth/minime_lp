@@ -15,3 +15,7 @@
 //     navlinks.forEach((link) => (link.className = "nav-link color-dark"));
 //   }
 // };
+window.onload = function () {
+  const close = document.querySelector("#close");
+  close.addEventListener;
+};

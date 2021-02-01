@@ -2,22 +2,25 @@
   <div class="container px-lg-5">
     <a class="navbar-brand color-dark" href="#"><%= image_tag 'logo_mobile.png', :class => "logo" %></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="bi bi-grid-fill"></i>
-      <i class="bi bi-x"></i>
+      <i id="grid" class="bi bi-grid-fill"></i>
+      
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="text-right">
+          <a href="#"><span class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id='close'><i id="close" class="bi bi-x"></i></span></a>
+        </li>
         <li class="nav-item active">
-          <a class="nav-link color-dark" href="#app">App<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#app">App<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link color-dark" href="#therapists">Therapeut*Innen</a>
+          <a class="nav-link" href="#therapists">Therapeut*Innen</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link color-dark" href="#team">Team</a>
+          <a class="nav-link" href="#team">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link color-dark" href="#footer" tabindex="-1" aria-disabled="true">Contact</a>
+          <a class="nav-link" href="#footer" tabindex="-1" aria-disabled="true">Kontakt</a>
         </li>
       </ul>   
     
