@@ -12,13 +12,13 @@
     <div class="row text-left">
       <div class="col-sm-12 col-md-4 mt-5 mb-3 my-md-3 my-lg-3 my-xl-3">
         <div class="text-neon mb-2">APP</div>
-        <div class="text-white text-uppercase">Für Therapeut*Innen</div>
-        <div class="text-white text-uppercase">Für Patient*Innen</div>
+        <a href="#therapists"><div class="text-white text-uppercase">Für Therapeut*Innen</div></a>
+        <a href="#app"><div class="text-white text-uppercase">Für Patient*Innen</div></a>
       </div>
       <div class="col-sm-12 col-md-4 my-3">
         <div class="text-neon mb-2">RECHTLICHES</div>
-        <div class="text-white">IMPRESSUM</div>
-        <div class="text-white">DATENSCHUTZ</div>
+        <div><%= link_to 'IMPRESSUM', '/impressum', class: "text-white" %></div>
+        <div><%= link_to 'DATENSCHUTZ', '/datenschutz', class: "text-white" %></div>
       </div>
       <div class="col-sm-12 col-md-4 my-3">
         <div class="text-neon mb-2">KONTAKT</div>
@@ -28,12 +28,12 @@
     <div class="row mt-3 text-left">
       <div class="col-sm-12 col-md-4 my-3 ">
         <div class="text-neon mb-2">UNTERNEHMEN</div>
-        <div class="text-white">ÜBER UNS</div>
-        <div class="text-white">PARTNER</div>
+        <a href="#team"><div class="text-white text-uppercase">ÜBER UNS</div></a>
+        <a href="#partners"><div class="text-white text-uppercase">PARTNER</div></a>
       </div>
       <div class="col-sm-12 col-md-4 my-3">
         <div class="text-neon mb-2">WISSEN</div>
-        <div class="text-white">CBT</div>
+        <a href="#cbt"><div class="text-white text-uppercase">CBT</div></a>
       </div>
       <div class="col-sm-12 col-md-4 mt-5 mb-3 my-md-3 my-lg-3 my-xl-3 text-left ">
         <div class="text-neon mb-2 d-none d-sm-none d-md-block d-lg-block d-xl-block">NEWSLETTER</div>
