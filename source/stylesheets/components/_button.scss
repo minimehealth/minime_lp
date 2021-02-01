@@ -10,18 +10,18 @@
 }
 
 .btn-app:hover {
-  background: #0ed4a6;
+  background: #35ffcf;
   color: #425ba4;
   font-weight: bold;
   font-family: Roboto, sans-serif;
-  border: none;
+  border: none !important;
   font-size: 18px;
   border-radius: 15px;
   padding: 10px 35px;
 }
 
-.btn-app:hover {
-  background: #0ed4a6 !important;
+.btn-app:active {
+  background: #35ffcf;
   color: #425ba4;
   font-weight: bold;
   font-family: Roboto, sans-serif;
@@ -62,6 +62,39 @@
   font-size: 18px;
   border-radius: 15px 0 15px 0;
   padding: 10px 15px;
+}
+
+.button {
+  background: #f8dadbe1 !important;
+  color: #425ba4 !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  border-radius: 15px 0 15px 0 !important;
+  padding: 10px 15px !important;
+  border: none !important;
+  height: auto !important;
+}
+
+.button:hover {
+  background: #f8dadbe1 !important;
+  color: #425ba4 !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  border-radius: 15px 0 15px 0 !important;
+  padding: 10px 15px !important;
+  border: none !important;
+  height: auto !important;
+}
+
+.button:active {
+  background: #f8dadbe1 !important;
+  color: #425ba4 !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  border-radius: 15px 0 15px 0 !important;
+  padding: 10px 15px !important;
+  border: none !important;
+  height: auto !important;
 }
 
 .btn-more {
