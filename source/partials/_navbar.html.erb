@@ -2,21 +2,31 @@
   <div class="container px-lg-5">
     <a class="navbar-brand color-dark" href="#"><%= image_tag 'logo_mobile.png', :class => "logo" %></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <svg xmlns="https://drive.google.com/file/d/1qatQYCvMDSPPJBibWoYu8NYhdpXgTLzK/view?usp=sharing" width="25" height="25" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
-        <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
-      </svg>
-
+      <i id="grid" class="bi bi-grid-fill"></i>
+      
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link color-dark" href="#">Home <span class="sr-only">(current)</span></a>
+        <li class="text-right">
+          <a href="#"><span class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id='close'><i id="close" class="bi bi-x"></i></span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link color-dark" href="#">Team</a>
+        <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link text-uppercase" href="#app">Unsere Lösung<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link color-dark" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link text-uppercase" href="#therapists">Für Therapeut*Innen</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link text-uppercase" href="#team">Unser Team</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link text-uppercase" href="#footer">Kontakt</a>
+        </li>
+        <li class="nav-item rest-links" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link not-desktop text-uppercase" href="#footer">Datenschutz</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" >
+          <a class="nav-link not-desktop text-uppercase" href="#footer">Impressum</a>
         </li>
       </ul>   
     

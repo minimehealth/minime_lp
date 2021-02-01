@@ -14,11 +14,11 @@
   color: #f7ede2ff !important;
 }
 
-.color-dark {
+.nav-link {
   color: #5e75b9 !important;
 }
 
-.navbar-toggler > svg {
+.navbar-toggler > i {
   color: #5e75b9;
   border: none;
 }
@@ -35,9 +35,73 @@
   height: 40px;
 }
 
+.not-desktop {
+  display: none;
+}
+
 // @media (max-width: 767px) {
 //   .navbar-collapse {
 //     background-color: #5e75b9;
 //     color: #f3d4d2;
 //   }
 // }
+
+/* hide close when burger shown */
+#close {
+  display: none;
+}
+
+body {
+  padding-top: 55px;
+}
+
+/* mobile navbar sidebar under lg breakpoint */
+@media (max-width: 991px) {
+  .navbar-collapse.collapsing .navbar-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -25%;
+    transition: all 0.2s ease;
+    color: #f3d4d2;
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #5e75b9;
+    color: #f3d4d2;
+    flex-direction: column;
+    height: auto;
+    padding-top: 40px;
+    width: 100%;
+    transition: right 0.35s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  .nav-link {
+    color: #f3d4d2 !important;
+    text-transform: uppercase;
+  }
+
+  .navbar-toggle {
+    padding-right: 40px !important;
+    color: #f3d4d2 !important;
+  }
+
+  #close {
+    display: inline;
+    font-size: 40px;
+  }
+  .not-desktop {
+    display: inline;
+  }
+  .rest-links {
+    margin-top: 70px;
+  }
+  .nav-item {
+    padding-top: 20px !important;
+  }
+}
