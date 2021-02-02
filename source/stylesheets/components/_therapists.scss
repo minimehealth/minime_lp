@@ -9,10 +9,11 @@
 .dots {
   list-style-image: url("../images/dot.png") !important;
   list-style-position: outside;
-  padding-left: 0px;
+  padding-left: 40px;
 }
 
 li span {
   display: inline;
   margin-left: -1em;
+  text-align: center;
 }
