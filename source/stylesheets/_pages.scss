@@ -6,6 +6,18 @@ body {
   text-align: center;
 }
 
+.background-green {
+  background-color: #f1fff8;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.background-lightblue {
+  background-color: #dde4ff;
+}
+
 h1 {
   font-size: 42px;
   font-weight: bold;
@@ -40,6 +52,14 @@ p {
   font-size: 24px;
   color: #425ba4;
 }
+li span {
+  font-size: 24px !important;
+}
+
+.body-text-black {
+  color: #434343;
+}
+
 // a {
 //   color: rgba(#000, 0.7);
 
