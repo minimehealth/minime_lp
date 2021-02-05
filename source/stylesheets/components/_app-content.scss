@@ -1,7 +1,3 @@
-.background-lightblue {
-  background-color: #dde4ff;
-}
-
 .icon {
   max-width: 20%;
   height: auto;
@@ -17,8 +13,16 @@
   height: auto;
 }
 
-.body-text-black {
-  color: #434343;
+.dots {
+  list-style-image: url("../images/dot.png") !important;
+  list-style-position: outside;
+  padding-left: 40px;
+}
+
+li span {
+  display: inline;
+  margin-left: -1em;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
