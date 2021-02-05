@@ -13,26 +13,26 @@
     height: auto;
   }
   .circle-background {
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    /* Resize the background image to cover the entire container */
+    width: 40%;
+  }
+
+  .circle-container {
+    display: none;
   }
 
   .circle-text {
-    text-align: left;
+    position: absolute;
   }
 }
 
 .circle-background {
-  background-image: url("../images/circle.png");
-  height: 400px;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: fill;
-  position: relative;
+  width: 40%;
+}
 
-  text-align: center; /* Resize the background image to cover the entire container */
+.circle-container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 .circle-text {
