@@ -6,7 +6,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :livereload
-# activate :sprockets,
+# activate :sprockets
 # activate :i18n, langs: [:de]
 
 # activate :external_pipeline,
