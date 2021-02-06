@@ -3,8 +3,4 @@
 .DS_Store
 .sass-cache
 build/
-
-# Local Netlify folder
-.netlify
-
 node_modules
