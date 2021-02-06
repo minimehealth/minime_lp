@@ -13,6 +13,11 @@
   height: auto;
 }
 
+.ipad {
+  max-width: 100%;
+  height: auto;
+}
+
 .dots {
   list-style-image: url("../images/dot.png") !important;
   list-style-position: outside;
@@ -33,6 +38,11 @@ li span {
 
   .phone-tilted {
     max-width: 70%;
+    height: auto;
+  }
+
+  .ipad {
+    max-width: 100%;
     height: auto;
   }
 }

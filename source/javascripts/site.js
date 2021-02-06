@@ -20,3 +20,5 @@
 //   const navlink = document.querySelectorAll(".nav-link");
 //   navlink.addEventListener;
 // };
+
+// require gdpr/cookie_consent

@@ -1,7 +1,5 @@
 .header {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
+  height: 80vh;
 }
 
 .header h1 {
@@ -33,4 +31,10 @@
 .header-image {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 991px) {
+  .header {
+    height: auto;
+  }
 }
