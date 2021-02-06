@@ -6,9 +6,14 @@ activate :autoprefixer do |prefix|
 end
 
 activate :livereload
-# activate :sprockets
+# activate :sprockets,
 # activate :i18n, langs: [:de]
 
+# activate :external_pipeline,
+#   name: :webpack,
+#   command: build? ? './node_modules/webpack/bin/webpack.js --bail' : './node_modules/webpack/bin/webpack.js --watch --d',
+#   source: ".tmp/dist",
+#   latency: 1,
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/

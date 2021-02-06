@@ -21,4 +21,4 @@
 //   navlink.addEventListener;
 // };
 
-// require gdpr/cookie_consent
+//= require gdpr/cookie_consent
