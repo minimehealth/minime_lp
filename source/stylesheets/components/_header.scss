@@ -1,5 +1,6 @@
 .header {
   height: 80vh;
+  display: flex;
 }
 
 .header h1 {
@@ -26,6 +27,9 @@
 .header p {
   font-size: 20px;
   color: #425ba4;
+}
+.header > .row {
+  margin: auto;
 }
 
 .header-image {
