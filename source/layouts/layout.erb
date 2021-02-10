@@ -12,7 +12,16 @@
     <%= favicon_tag 'images/minime_logo.png' %>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
-   <script id="usercentrics-cmp" data-settings-id="0H8EOonN-" src="https://app.usercentrics.eu/browser-ui/latest/bundle.js" defer></script>
+    <script id="usercentrics-cmp" data-settings-id="0H8EOonN-" src="https://app.usercentrics.eu/browser-ui/latest/bundle.js" defer></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/plain" data-usercentrics="ga" async src="https://www.googletagmanager.com/gtag/js?id=G-TD7BH3DED4"></script>
+    <script type="text/plain" data-usercentrics="ga">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-TD7BH3DED4');
+    </script>
   </head>
   <body>
     <%= yield %>
