@@ -41,4 +41,25 @@
   .header {
     height: auto;
   }
+  .header h1 {
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    font-size: 35px;
+  }
+
+  .half-highlight {
+    line-height: 1.2;
+    color: #425ba4;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    background-image: linear-gradient(to right, transparent 50%, #35ffcf 50%);
+    background-size: 200% 30%;
+    background-repeat: repeat-x;
+    background-position: -100% 80%;
+    transition: background-position 0.5s;
+  }
 }

@@ -73,6 +73,43 @@ li span {
   color: #425ba4;
 }
 
+@media (max-width: 991px) {
+  h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #425ba4;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #425ba4;
+  }
+
+  h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #014f99;
+  }
+
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #014f99;
+  }
+
+  h5 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #434343;
+  }
+
+  p {
+    font-size: 20px;
+    color: #425ba4;
+  }
+}
+
 // a {
 //   color: rgba(#000, 0.7);
 
