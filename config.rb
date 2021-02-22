@@ -42,11 +42,13 @@ page '/*.txt', layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+activate :automatic_alt_tags
+
+helpers do
+  def contact
+    'contact'
+  end
+end
 
 activate :s3_sync do |s3_sync|
   s3_sync.bucket                = 'minime.health'
