@@ -1,23 +1,27 @@
 .btn-app {
   background: #35ffcf;
   color: #425ba4;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: bold;
-  border: none;
+  border: 3px solid #35ffcf !important;
   border-radius: 15px;
   padding: 10px 35px;
 }
 
 .btn-app:hover {
-  background: #35ffcf;
-  color: #425ba4;
+  line-height: 1.5;
+  background: #425ba4;
+  border: 3px solid #425ba4 !important;
+  color: #35ffcf;
   font-weight: bold;
-  font-family: Roboto, sans-serif;
-  border: none !important;
   font-size: 18px;
-  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
   padding: 10px 35px;
+  left: 80%;
+  opacity: 1;
+  transition: all 0.3s;
 }
 
 .btn-app:active {
