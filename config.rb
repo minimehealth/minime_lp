@@ -24,8 +24,11 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
+
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
@@ -103,3 +106,4 @@ end
 #   # cf.filter = /\.html$/i
 # end
 
+## ./config.rb
