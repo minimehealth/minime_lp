@@ -189,7 +189,7 @@ DEPENDENCIES
   middleman-s3_sync (~> 4.0.1.rc.3)
   mime-types (~> 3.0.0)
   tzinfo-data
-  wdm (~> 0.1)
+  wdm
 
 BUNDLED WITH
-   2.1.4
+   2.2.15
