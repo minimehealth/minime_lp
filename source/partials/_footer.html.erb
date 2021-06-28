@@ -1,19 +1,23 @@
 <footer id="footer">
   <div class="container">
-    <div class="row text-left">
+    <div class="row text-start">
       <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-2 my-3">
-          <%= image_tag 'minime_logo.png', :class => "logo-footer" %>
+        <%= image_tag 'minime_logo.png', :class => "logo-footer" %>
       </div>
-      <div class="col-8 col-sm-9 col-md-9 col-lg-9 col-xl-10 text-left my-3">
+      <div class="col-8 col-sm-9 col-md-9 col-lg-9 col-xl-10 text-start my-3">
         <div class="text-pink">minime</div>
         <div class="text-pink">DIE DIGITALE THERAPIEBEGLEITUNG</div>
       </div>
     </div>
-    <div class="row text-left">
+    <div class="row text-start">
       <div class="col-sm-12 col-md-4 mt-5 mb-3 my-md-3 my-lg-3 my-xl-3">
         <div class="text-neon mb-2">APP</div>
-        <a href="#app"><div class="text-white text-uppercase">Für Therapeut*Innen</div></a>
-        <a href="#app"><div class="text-white text-uppercase">Für Patient*Innen</div></a>
+        <a href="#app">
+          <div class="text-white text-uppercase">Für Therapeut*Innen</div>
+        </a>
+        <a href="#app">
+          <div class="text-white text-uppercase">Für Patient*Innen</div>
+        </a>
       </div>
       <div class="col-sm-12 col-md-4 my-3">
         <div class="text-neon mb-2">RECHTLICHES</div>
@@ -25,30 +29,31 @@
         <div><a href="mailto:INFO@MINIME.HEALTH?subject=Nachricht von der MINIME Webseite" class="text-white">INFO@MINIME.HEALTH</a></div>
       </div>
     </div>
-    <div class="row mt-3 text-left">
+    <div class="row mt-3 text-start">
       <div class="col-sm-12 col-md-4 my-3 ">
         <div class="text-neon mb-2">UNTERNEHMEN</div>
-        <a href="#team"><div class="text-white text-uppercase">ÜBER UNS</div></a>
-        <a href="#partners"><div class="text-white text-uppercase">PARTNER</div></a>
+        <a href="#team">
+          <div class="text-white text-uppercase">ÜBER UNS</div>
+        </a>
+        <a href="#partners">
+          <div class="text-white text-uppercase">PARTNER</div>
+        </a>
       </div>
       <div class="col-sm-12 col-md-4 my-3">
         <div class="text-neon mb-2">WISSEN</div>
-        <a href="#cbt"><div class="text-white text-uppercase">Therapeutische Übungen</div></a>
+        <a href="#cbt">
+          <div class="text-white text-uppercase">Therapeutische Übungen</div>
+        </a>
       </div>
-      <div class="col-sm-12 col-md-4 mt-5 mb-3 my-md-3 my-lg-3 my-xl-3 text-left ">
+      <div class="col-sm-12 col-md-4 mt-5 mb-3 my-md-3 my-lg-3 my-xl-3 text-start ">
         <div class="text-neon mb-4">NEWSLETTER</div>
         <button type="button" class="float-lg-left btn btn-newsletter shadow-none d-none d-sm-none d-md-block d-lg-block d-xl-block text-uppercase" data-toggle="modal" data-target="#exampleModal">Jetzt abonnieren</button>
         <button type="button" class="float-lg-left btn btn-newsletter shadow-none d-block d-sm-block d-md-none d-lg-none d-xl-none text-uppercase" data-toggle="modal" data-target="#exampleModal">Jetzt abonnieren</button>
       </div>
     </div>
   </div>
-  
-
   <div class="d-flex justify-content-center">
     <div class="pb-2 text-copyright">Copyright © 2021 minime - All Rights Reserved.</div>
-  </div> 
-
+  </div>
   <%= partial "partials/newsletter" %>
-
-        
 </footer>

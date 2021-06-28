@@ -29,6 +29,12 @@ body {
   background-color: $dark-blue;
 }
 
+.outline-header {
+  -webkit-text-fill-color: $blue;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 2px;
+}
+
 h1,
 h2,
 h3,
