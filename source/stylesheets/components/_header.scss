@@ -11,7 +11,7 @@
 
 .half-highlight {
   line-height: 1.5;
-  color: #425ba4;
+  color: $dark-blue;
   font-weight: 700;
   font-size: 42px;
   display: inline-block;
@@ -24,7 +24,7 @@
 
 .header p {
   font-size: 20px;
-  color: #425ba4;
+  color: $dark-blue;
 }
 .header > .row {
   margin: auto;
@@ -48,7 +48,7 @@
 
   .half-highlight {
     line-height: 1.2;
-    color: #425ba4;
+    color: $dark-blue;
     font-weight: 700;
     font-size: 35px;
     display: inline-block;

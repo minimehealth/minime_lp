@@ -1,0 +1,15 @@
+.white-box {
+  background-color: white;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.white-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.icon {
+  height: 30px;
+}
