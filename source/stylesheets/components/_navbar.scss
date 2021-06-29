@@ -4,10 +4,7 @@
 
 .navbar {
   overflow: hidden;
-}
-
-.background-white {
-  background-color: white !important;
+  background-color: $light-blue !important;
 }
 
 .color-linen {
@@ -15,16 +12,16 @@
 }
 
 .nav-link {
-  color: #5b5b5b !important;
+  color: $dark-blue !important;
   padding: 0px 20px !important;
-  font-size: 14px !important;
+  font-size: 18px !important;
   vertical-align: center !important;
   height: 50px;
   line-height: 50px;
 }
 
 .navbar-toggler > i {
-  color: #5e75b9;
+  color: $dark-blue;
   border: none;
 }
 
@@ -37,7 +34,7 @@
 }
 
 .logo {
-  height: 50px;
+  height: 98px;
 }
 
 .not-desktop {
