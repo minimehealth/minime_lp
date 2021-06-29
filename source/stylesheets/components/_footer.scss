@@ -1,5 +1,5 @@
 footer {
-  background-color: #425ba4;
+  background-color: $blue;
   position: relative;
   padding: 100px;
   margin-top: 0;
@@ -37,7 +37,7 @@ footer {
 
 @media (max-width: 575px) {
   footer {
-    background-color: #425ba4;
+    background-color: $blue;
     position: relative;
     padding: 30px;
     margin-top: 0;
