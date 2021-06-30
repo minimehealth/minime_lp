@@ -5,6 +5,7 @@
 .navbar {
   overflow: hidden;
   background-color: $light-blue !important;
+  padding-bottom: 0px;
 }
 
 .color-linen {
@@ -53,8 +54,10 @@
   display: none;
 }
 
-body {
-  padding-top: 55px;
+.border-nav {
+  border-bottom: solid;
+  border-color: white;
+  border-width: 10px;
 }
 
 /* mobile navbar sidebar under lg breakpoint */
