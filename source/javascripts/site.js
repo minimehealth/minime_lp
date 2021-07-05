@@ -21,4 +21,30 @@
 //   navlink.addEventListener;
 // };
 
+
+function offset(el) {
+  var rect = el.getBoundingClientRect(),
+  scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+}
+
+document.addEventListener('scroll', function(e) {
+  // const appsteps = document.getElementById("app-steps")
+  const how = document.getElementById("how")
+  var howOffset = offset(how);
+  // let appPosition = document.height - top - appsteps.height;
+  // console.log(how)
+  lastKnownScrollPosition = window.scrollY;
+  // return how.top + window.scrollY;
+  // console.log(lastKnownScrollPosition)
+  // console.log(appPosition)
+  const navbar = document.getElementById("navbar")
+  // console.log(navbar)
+  if (lastKnownScrollPosition > (howOffset.top - 180) ) {  
+    navbar.classList.remove("border-nav");
+  } else {
+    navbar.classList.add("border-nav");
+  }
+});
 //= require gdpr/cookie_consent

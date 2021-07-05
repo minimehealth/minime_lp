@@ -1,13 +1,22 @@
 .blue-grid-right {
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr;
+  grid-gap: 8px;
 }
 
 .margin-right {
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 .list-text {
   line-height: 32px;
+}
+
+li span {
+  position: relative;
+  left: -10px;
+}
+
+ul {
+  padding-left: 1.5em !important;
 }
