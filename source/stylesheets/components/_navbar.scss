@@ -35,7 +35,7 @@
 }
 
 .logo {
-  height: 98px;
+  height: 50px;
 }
 
 .not-desktop {
@@ -61,7 +61,8 @@
 }
 
 /* mobile navbar sidebar under lg breakpoint */
-@media (max-width: 991px) {
+
+@media (max-width: 768px) {
   .navbar-collapse.collapsing .navbar-nav {
     display: block;
     position: fixed;
@@ -82,7 +83,7 @@
     flex-direction: column;
     height: auto;
     padding-top: 40px;
-    width: 100%;
+    width: 100vh;
     transition: right 0.35s ease;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
@@ -92,7 +93,57 @@
   }
 
   .navbar-toggle {
-    padding-right: 40px !important;
+    padding-right: 5em !important;
+    color: #f3d4d2 !important;
+  }
+
+  #close {
+    display: inline;
+    font-size: 40px;
+  }
+  .not-desktop {
+    display: inline;
+  }
+  .rest-links {
+    margin-top: 90px;
+  }
+  .nav-item {
+    padding-top: 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-collapse.collapsing .navbar-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -25%;
+    transition: all 0.2s ease;
+    color: #f3d4d2;
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #5e75b9;
+    color: #f3d4d2;
+    flex-direction: column;
+    height: auto;
+    padding-top: 40px;
+    width: 100vh;
+    transition: right 0.35s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  .nav-link {
+    color: #f3d4d2 !important;
+    text-transform: uppercase;
+  }
+
+  .navbar-toggle {
+    padding-right: 5em !important;
     color: #f3d4d2 !important;
   }
 

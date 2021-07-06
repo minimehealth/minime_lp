@@ -1,59 +1,63 @@
-<footer id="footer">
-  <div class="container">
-    <div class="row text-start">
-      <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-2 my-3">
+<footer id="footer" class="background-blue pt-lg-5">
+  <div class="container px-lg-5 py-5 mb-4">
+    <div class="footer-grid text-lg-start text-center">
+      <div>
         <%= image_tag 'white_seal.svg', :class => "logo-footer" %>
+        <div class="minime-claim my-4">DIE DIGITALE THERAPIEBEGLEITUNG</div>
+        <a href="https://www.linkedin.com/company/minime-health" target="_blank" class="text-white">
+          <%= image_tag 'linkedin_round.svg', :class => "social-icons" %></a>
+        <a href="mailto:INFO@MINIME.HEALTH?subject=Nachricht von der MINIME Webseite" class="text-white"> <%= image_tag 'email_round.svg', :class => "social-icons" %></a>
       </div>
-      <div class="col-8 col-sm-9 col-md-9 col-lg-9 col-xl-10 text-start my-3">
-        <div class="text-pink">minime</div>
-        <div class="text-pink">DIE DIGITALE THERAPIEBEGLEITUNG</div>
+      <div class="footer-sub-grid text-start">
+        <div>
+          <h4 class="text-white mb-3">App</h4>
+          <a href="#how">
+            <p class="text-white">Für Therapeut:innen</p>
+          </a>
+          <a href="#patients">
+            <p class="text-white">Für Patient:innen</p>
+          </a>
+        </div>
+        <div>
+          <h4 class="text-white mb-3">Unternehmen</h4>
+          <a href="#team">
+            <p class="text-white">Über Uns</p>
+          </a>
+          <a href="#partners">
+            <p class="text-white">Partner</p>
+          </a>
+        </div>
+        <div>
+          <h4 class="text-white mb-3">WISSEN</h4>
+          <a href="#app-steps">
+            <p class="text-white">Therapeutische Übungen</p>
+          </a>
+        </div>
+        <div>
+          <h4 class="text-white mb-3">Rechtliches</h4>
+          <a href='/impressum' target="_blank">
+            <p class="text-white">Impressum</p>
+          </a>
+          <a href='/datenschutz' target="_blank">
+            <p class="text-white">Datenschutz</p>
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="row text-start">
-      <div class="col-sm-12 col-md-4 mt-5 mb-3 my-md-3 my-lg-3 my-xl-3">
-        <div class="text-neon mb-2">APP</div>
-        <a href="#app">
-          <div class="text-white text-uppercase">Für Therapeut*Innen</div>
-        </a>
-        <a href="#app">
-          <div class="text-white text-uppercase">Für Patient*Innen</div>
-        </a>
-      </div>
-      <div class="col-sm-12 col-md-4 my-3">
-        <div class="text-neon mb-2">RECHTLICHES</div>
-        <div><%= link_to 'IMPRESSUM', '/impressum', class: "text-white" %></div>
-        <div><%= link_to 'DATENSCHUTZ', '/datenschutz', class: "text-white" %></div>
-      </div>
-      <div class="col-sm-12 col-md-4 my-3">
-        <div class="text-neon mb-2">KONTAKT</div>
-        <div><a href="mailto:INFO@MINIME.HEALTH?subject=Nachricht von der MINIME Webseite" class="text-white">INFO@MINIME.HEALTH</a></div>
-      </div>
-    </div>
-    <div class="row mt-3 text-start">
-      <div class="col-sm-12 col-md-4 my-3 ">
-        <div class="text-neon mb-2">UNTERNEHMEN</div>
-        <a href="#team">
-          <div class="text-white text-uppercase">ÜBER UNS</div>
-        </a>
-        <a href="#partners">
-          <div class="text-white text-uppercase">PARTNER</div>
-        </a>
-      </div>
-      <div class="col-sm-12 col-md-4 my-3">
-        <div class="text-neon mb-2">WISSEN</div>
-        <a href="#cbt">
-          <div class="text-white text-uppercase">Therapeutische Übungen</div>
-        </a>
-      </div>
-      <div class="col-sm-12 col-md-4 mt-5 mb-3 my-md-3 my-lg-3 my-xl-3 text-start ">
-        <div class="text-neon mb-4">NEWSLETTER</div>
-        <button type="button" class="float-lg-left btn btn-newsletter shadow-none d-none d-sm-none d-md-block d-lg-block d-xl-block text-uppercase" data-toggle="modal" data-target="#exampleModal">Jetzt abonnieren</button>
-        <button type="button" class="float-lg-left btn btn-newsletter shadow-none d-block d-sm-block d-md-none d-lg-none d-xl-none text-uppercase" data-toggle="modal" data-target="#exampleModal">Jetzt abonnieren</button>
+      <div class="text-start">
+        <h4 class="text-white mb-3">Kontakt</h4>
+        <div class="mb-3">
+          <a href="mailto:INFO@MINIME.HEALTH?subject=Nachricht von der MINIME Webseite" class="text-white">info@minime.health</a>
+        </div>
+        <div>
+          <a href="tel:+491793290246" class="text-white">+49 179 3290246</a>
+        </div>
+        <p class="text-white mt-3">minime health c/o Vision Health Pioneers<br>
+          Wöhlertstr. 14<br>
+          10115 Berlin</p>
       </div>
     </div>
   </div>
-  <div class="d-flex justify-content-center">
-    <div class="pb-2 text-copyright">Copyright © 2021 minime - All Rights Reserved.</div>
+  <div class="d-flex justify-content-center align-items-center py-4 background-transparent">
+    <p class="text-copyright">Copyright © 2021 minime - All Rights Reserved.</p>
   </div>
-  <%= partial "partials/newsletter" %>
 </footer>

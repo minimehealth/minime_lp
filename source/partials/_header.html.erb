@@ -1,11 +1,14 @@
 <div id="header" class="header background-header">
-  <div class="container p-5 border-header">
-    <div class="header-grid pt-5 my-5">
+  <div class="container px-lg-5 py-3 border-header">
+    <div class="header-grid pt-5 mb-3">
       <div>
         <h1 class="pt-md-5 pt-lg-5 text-start text-md-start text-lg-start text-xl-start">Moderne Psychotherapie braucht moderne Tools</h1>
-        <p class="mt-3 text- text-md-start text-lg-left text-xl-left">minime bringt Therapie und Alltag zusammen - spielerisch und interaktiv. Therapeut*innen und ihre Patient*innen können nun das volle Potenzial der Verhaltenstherapie ausschöpfen.</p>
-        <div class="text-start text-md-start text-lg-left text-xl-left"><a href="#app"><button type="button" class="my-3 float-lg-left btn btn-app shadow-none icon-arrow-right">Jetzt mehr erfahren!</button></a>
+        <p class="mt-3 text-start text-md-start text-lg-left text-xl-left">minime bringt Therapie und Alltag zusammen - spielerisch und interaktiv. Therapeut*innen und ihre Patient*innen können nun das volle Potenzial der Verhaltenstherapie ausschöpfen.</p>
+        <div class="text-start text-md-start text-lg-left text-xl-left">
+          <button type="button" class="float-lg-left btn btn-app shadow-none d-none d-sm-none d-md-block d-lg-block d-xl-block" data-toggle="modal" data-target="#exampleModal">Jetzt mehr erfahren!</button>
+          <button type="button" class="float-lg-left btn btn-app shadow-none d-block d-sm-block d-md-none d-lg-none d-xl-none" data-toggle="modal" data-target="#exampleModal">Jetzt mehr erfahren!</button>
         </div>
+        <%= partial "partials/newsletter" %>
       </div>
       <div>
         <%= image_tag 'minime.svg', class: "minime pt-5" %>

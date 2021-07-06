@@ -1,28 +1,3 @@
-.icon-app {
-  max-width: 20%;
-  height: auto;
-}
-
-.phone-vertical {
-  max-width: 60%;
-  height: auto;
-}
-
-.phone-sec {
-  max-width: 40%;
-  height: auto;
-}
-
-.phone-tilted {
-  max-width: 100%;
-  height: auto;
-}
-
-.ipad {
-  max-width: 100%;
-  height: auto;
-}
-
 .dots {
   list-style-image: url("../images/dot.png") !important;
   list-style-position: outside;
@@ -35,19 +10,8 @@ li span {
   text-align: center;
 }
 
-@media (max-width: 991px) {
-  .phone-vertical {
-    max-width: 40%;
-    height: auto;
-  }
+@media (max-width: 768px) {
+}
 
-  .phone-tilted {
-    max-width: 70%;
-    height: auto;
-  }
-
-  .ipad {
-    max-width: 100%;
-    height: auto;
-  }
+@media (max-width: 480px) {
 }
