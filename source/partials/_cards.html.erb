@@ -1,16 +1,19 @@
-<div id="cards" class="background-lighterblue text-left">
-  <div class="container py-5">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-lg-left text-center">
-        <%= image_tag 'cardgame.png', class: "phone-vertical pl-md-5 pb-5" %>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
-        <h3 class="cards-header text-uppercase font-weight-bold text-left"> Psychoedukatives Kartenset</h3>
-        <p class="cards-header font-weight-light text-left">von Paul Schneeweiß (Co-Founder)</p>
-        <p class="text-left">Grundlage für minime ist das psychoedukative Kartenset "Von Teufelskreisen und Glaubenssätzen" für die therapeutische Arbeit mit Patient*Innen. Das Kartenset stellt verhaltenstherapeutische Alltagsbegriffe symbolhaft dar. Hierdurch lassen sich Verhaltensbeobachtungen begleiten, Störungsmodelle erarbeiten, Interventionen herleiten und Trainingsphasen evaluieren. <span class="font-italic">minime</span> greift diese Idee auf und integriert sie in eine ganzheitliche, digitale Therapiebegleitung per App.</p>
-        <div class="text-center text-md-left">
-        <%= link_to 'ZUM VERLAG', 'https://www.beltz.de/fachmedien/psychologie/buecher/produkt_produktdetails/45304-von_teufelskreisen_und_glaubenssaetzen.html', target: "_blank", type: "button", class: "mt-3 float-lg-left btn btn-cardgame shadow-none" %>
+<div id="cards" class="background-lighterblue text-start py-5">
+  <div class="container  px-lg-5 py-3">
+    <div class="pt-lg-5 mb-3">
+      <h2 class="text-start"> Psychoedukatives<br>
+        <span class="outline-header-blue">Kartenset</span></h2>
+      <p class="cards-header font-weight-light text-start">von Paul Schneeweiß (Co-Founder)</p>
+    </div>
+    <div class="cards-grid justify-content-center align-items-center">
+      <div>
+        <p class="text-start">Grundlage für minime ist das psychoedukative Kartenset "Von Teufelskreisen und Glaubenssätzen" für die therapeutische Arbeit mit Patient*Innen. Das Kartenset stellt verhaltenstherapeutische Alltagsbegriffe symbolhaft dar. Hierdurch lassen sich Verhaltensbeobachtungen begleiten, Störungsmodelle erarbeiten, Interventionen herleiten und Trainingsphasen evaluieren. <span class="font-italic">minime</span> greift diese Idee auf und integriert sie in eine ganzheitliche, digitale Therapiebegleitung per App.</p>
+        <div class="text-start">
+          <%= link_to 'Zum Verlag', 'https://www.beltz.de/fachmedien/psychologie/buecher/produkt_produktdetails/45304-von_teufelskreisen_und_glaubenssaetzen.html', target: "_blank", type: "button", class: "mt-3 float-lg-left btn btn-app shadow-none" %>
         </div>
+      </div>
+      <div>
+        <%= image_tag 'cardgame.png', class: "card-game px-lg-5 px-md-5" %>
       </div>
     </div>
   </div>

@@ -3,10 +3,6 @@
   height: auto;
 }
 
-.background-white {
-  background-color: white;
-}
-
 @media (max-width: 991px) {
   .body-image {
     width: 60%;
@@ -40,4 +36,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
 }
