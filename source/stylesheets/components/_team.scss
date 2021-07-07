@@ -39,7 +39,7 @@
 
 @media (max-width: 768px) {
   .partner {
-    width: 50px;
+    width: 100px;
   }
 
   .blue-box {
@@ -50,7 +50,7 @@
   .blue-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 1em;
   }
 
   .card {
@@ -90,8 +90,8 @@
 
   .blue-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
   }
 
   .card {

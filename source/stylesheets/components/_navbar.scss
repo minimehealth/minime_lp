@@ -8,10 +8,6 @@
   padding-bottom: 0px;
 }
 
-.color-linen {
-  color: #f7ede2ff !important;
-}
-
 .nav-link {
   color: $dark-blue !important;
   padding: 0px 20px !important;
@@ -36,6 +32,8 @@
 
 .logo {
   height: 50px;
+  margin-bottom: 0.7em;
+  margin-top: 0.7em;
 }
 
 .not-desktop {
@@ -45,7 +43,7 @@
 // @media (max-width: 767px) {
 //   .navbar-collapse {
 //     background-color: #5e75b9;
-//     color: #f3d4d2;
+//     color: white;
 //   }
 // }
 
@@ -63,14 +61,35 @@
 /* mobile navbar sidebar under lg breakpoint */
 
 @media (max-width: 768px) {
+  #close {
+    display: inline;
+    font-size: 40px;
+    color: white;
+  }
+
+  ul {
+    margin: 0 !important;
+    padding-left: 0 !important;
+  }
+
   .navbar-collapse.collapsing .navbar-nav {
     display: block;
     position: fixed;
     top: 0;
-    bottom: 0;
-    right: -25%;
+    left: 0;
     transition: all 0.2s ease;
-    color: #f3d4d2;
+    color: white;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../../images/hamburger.svg) !important;
+  }
+
+  .logo {
+    height: 40px;
+    justify-self: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
   }
 
   .navbar-collapse.show .navbar-nav {
@@ -78,29 +97,25 @@
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: #5e75b9;
-    color: #f3d4d2;
+    background-color: $dark-blue;
+    color: white;
     flex-direction: column;
     height: auto;
     padding-top: 40px;
-    width: 100vh;
+    width: 100vw;
     transition: right 0.35s ease;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
   .nav-link {
-    color: #f3d4d2 !important;
+    color: white !important;
     text-transform: uppercase;
   }
 
   .navbar-toggle {
     padding-right: 5em !important;
-    color: #f3d4d2 !important;
+    color: white !important;
   }
 
-  #close {
-    display: inline;
-    font-size: 40px;
-  }
   .not-desktop {
     display: inline;
   }
@@ -113,14 +128,35 @@
 }
 
 @media (max-width: 480px) {
+  #close {
+    display: inline;
+    font-size: 40px;
+    color: white;
+  }
+
+  ul {
+    margin: 0 !important;
+    padding-left: 0 !important;
+  }
+
   .navbar-collapse.collapsing .navbar-nav {
     display: block;
     position: fixed;
     top: 0;
-    bottom: 0;
-    right: -25%;
+    left: 0;
     transition: all 0.2s ease;
-    color: #f3d4d2;
+    color: white;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../../images/hamburger.svg) !important;
+  }
+
+  .logo {
+    height: 40px;
+    justify-self: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
   }
 
   .navbar-collapse.show .navbar-nav {
@@ -128,29 +164,25 @@
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: #5e75b9;
-    color: #f3d4d2;
+    background-color: $dark-blue;
+    color: white;
     flex-direction: column;
     height: auto;
     padding-top: 40px;
-    width: 100vh;
+    width: 100vw;
     transition: right 0.35s ease;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
   .nav-link {
-    color: #f3d4d2 !important;
+    color: white !important;
     text-transform: uppercase;
   }
 
   .navbar-toggle {
     padding-right: 5em !important;
-    color: #f3d4d2 !important;
+    color: white !important;
   }
 
-  #close {
-    display: inline;
-    font-size: 40px;
-  }
   .not-desktop {
     display: inline;
   }
