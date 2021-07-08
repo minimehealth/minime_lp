@@ -4,12 +4,12 @@
   grid-gap: 1em;
 }
 
-.header-image {
-  max-width: 100%;
-  height: auto;
+.header-space {
+  padding-top: 70px;
 }
 
 .border-header {
+  height: 800px;
   border-left: solid;
   border-right: solid;
   border-top-right-radius: 10px;
@@ -38,7 +38,10 @@
 }
 
 .minime {
-  height: 250px;
+  height: 500px;
+  right: 0;
+  top: 2em;
+  position: absolute;
 }
 
 @media (max-width: 768px) {

@@ -1,17 +1,113 @@
-.dots {
-  list-style-image: url("../images/dot.png") !important;
-  list-style-position: outside;
-  padding-left: 40px;
+.illustrations-one {
+  padding-right: 0px;
+  position: absolute;
+  height: 400px;
+  left: 50px;
+  top: 0;
 }
 
-li span {
-  display: inline;
-  margin-left: -1em;
-  text-align: center;
+.illustrations-two {
+  padding-right: 0px;
+  position: absolute;
+  height: 450px;
+  right: 0px;
+  top: 250px;
 }
 
+.illustrations-three {
+  padding-right: 0px;
+  position: absolute;
+  height: 400px;
+  left: 0px;
+  bottom: 330px;
+}
+
+.illustrations-four {
+  padding-right: 0px;
+  position: absolute;
+  height: 400px;
+  right: 50px;
+  bottom: 30px;
+}
+.app-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  row-gap: 15em;
+}
+
+.section-1 {
+  background-image: url(../../images/line-1.svg);
+  background-repeat: no-repeat;
+  background-size: 85% 90%;
+  // background-position: 0px 0px 10px 100px;
+  margin-bottom: 3em;
+}
+
+.section-2 {
+  background-image: url(../../images/line-2.svg);
+  background-repeat: no-repeat;
+  background-size: 75% auto;
+
+  margin-bottom: 3em;
+}
 @media (max-width: 768px) {
 }
 
 @media (max-width: 480px) {
+  .illustrations-one {
+    padding-right: 0px;
+    position: relative;
+    height: 300px;
+    left: 0;
+    padding-top: 0px !important;
+  }
+
+  .illustrations-two {
+    padding-right: 0px;
+    position: absolute;
+    height: 300px;
+    top: 800px;
+    right: 0;
+  }
+
+  .mobile-image-space {
+    height: 250px;
+  }
+
+  .illustrations-three {
+    padding-right: 0px;
+    position: absolute;
+    height: 300px;
+    left: 0;
+    top: 1300px;
+  }
+
+  .illustrations-four {
+    padding-right: 0px;
+    position: absolute;
+    height: 300px;
+    right: 0;
+    left: 100;
+  }
+
+  .app-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    row-gap: 1em;
+  }
+
+  .section-1 {
+    background-image: none;
+
+    // background-position: 0px 0px 10px 100px;
+    margin-bottom: 3em;
+  }
+
+  .section-2 {
+    background-image: none;
+
+    margin-bottom: 3em;
+  }
 }

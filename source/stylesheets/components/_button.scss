@@ -1,10 +1,11 @@
 .btn-app {
-  background: $neon-green;
+  background: $neon-green !important;
   color: white !important;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 10px;
-  padding: 16px 32px;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  border-radius: 10px !important;
+  padding: 16px 32px !important;
+  border: none !important;
 }
 
 .btn-app:hover {
@@ -15,242 +16,22 @@
   color: white;
 }
 
-.btn-newsletter {
-  background: #f8dadbe1;
-  color: #425ba4;
-
-  font-weight: 500;
-  font-size: 18px;
-  border: none;
-  border-radius: 15px 0 15px 0;
-  padding: 10px 15px;
-}
-
-.btn-newsletter:hover {
-  background: #f8dadbe1 !important;
-  color: #425ba4;
-  font-weight: 500;
-  border: none;
-  font-size: 18px;
-  border-radius: 15px 0 15px 0;
-  padding: 10px 15px;
-  margin-left: 25px;
-  transition: 0.6s;
-}
-
-.btn-newsletter:active {
-  background: #f8dadbe1 !important;
-  color: #425ba4;
-
-  font-weight: 500;
-  border: none !important;
-  font-size: 18px;
-  border-radius: 15px 0 15px 0;
-  padding: 10px 15px;
-}
-
-.button-newsletter-2 {
-  background: #f8dadbe1 !important;
-  color: #425ba4 !important;
-  font-weight: 500 !important;
-  font-size: 18px !important;
-  border-radius: 15px 0 15px 0 !important;
-  padding: 10px 15px !important;
-  border: none !important;
-  height: auto !important;
-}
-
-.button-newsletter-2:hover {
-  background: #f8dadbe1 !important;
-  color: #425ba4 !important;
-  font-weight: 500 !important;
-  font-size: 18px !important;
-  border-radius: 15px 0 15px 0 !important;
-  padding: 10px 15px !important;
-  border: none !important;
-  height: auto !important;
-}
-
-.button-newsletter-2:active {
-  background: #f8dadbe1 !important;
-  color: #425ba4 !important;
-  font-weight: 500 !important;
-  font-size: 18px !important;
-  border-radius: 15px 0 15px 0 !important;
-  padding: 10px 15px !important;
-  border: none !important;
-  height: auto !important;
-}
-
-.btn-cardgame {
-  background-color: transparent !important;
-  color: #434343;
-
-  font-weight: 500;
-  font-size: 18px;
-  border: solid !important;
-  border-color: #454545;
-  border-radius: 15px;
-  padding: 10px 35px;
-}
-
-.btn-cardgame:hover {
-  background-color: #434343 !important;
-  color: #f1fdff !important;
-
-  font-weight: 500;
-  border: solid;
-  border-color: #454545;
-  font-size: 18px;
-  border-radius: 15px;
-  padding: 10px 35px;
-}
-
-.btn-cardgame:active {
-  background-color: transparent !important;
-  color: #434343 !important;
-  font-weight: 500;
-  border: solid !important;
-  border-color: #454545 !important;
-  font-size: 18px;
-  border-radius: 15px;
-  padding: 10px 35px;
-}
-
-.btn-cardgame:visited {
-  background-color: transparent !important;
-  color: #434343;
-  font-weight: 500;
-  border: solid !important;
-  border-color: #454545 !important;
-  font-size: 18px;
-  border-radius: 15px;
-  padding: 10px 35px;
-}
-
 @media (max-width: 991px) {
-  .btn-newsletter {
-    background: #f8dadbe1;
-    color: #425ba4;
-    font-weight: 500;
-    font-size: 18px;
-    border: none;
-    border-radius: 15px 0 15px 0;
-    padding: 10px 15px;
-    width: 100%;
-  }
-
-  .btn-newsletter:hover {
-    background: #f8dadbd0 !important;
-    color: #425ba4;
-    font-weight: 500;
-    border: none;
-    font-size: 18px;
-    border-radius: 15px 0 15px 0;
-    padding: 10px 15px;
-    width: 100%;
-  }
-
-  .btn-newsletter:active {
-    background: #f8dadbe1 !important;
-    color: #425ba4;
-    font-weight: 500;
-    border: none !important;
-    font-size: 18px;
-    border-radius: 15px 0 15px 0;
-    padding: 10px 15px;
-    width: 100%;
-  }
-
   .btn-app {
-    background: $neon-green;
-    color: #425ba4;
-
-    font-size: 18px;
-    font-weight: 500;
-    border: none;
     border-radius: 15px;
     padding: 10px 35px;
     width: 80%;
   }
 
   .btn-app:hover {
-    background: $neon-green;
-    color: #425ba4;
-    font-weight: 500;
-
-    border: none;
-    font-size: 18px;
     border-radius: 15px;
     padding: 10px 35px;
     width: 80%;
-  }
-
-  .btn-app:hover {
-    background: $neon-green !important;
-    color: #425ba4;
-    font-weight: 500;
-    border: none !important;
-    font-size: 18px;
-    border-radius: 15px;
-    padding: 10px 35px;
-    width: 80%;
-  }
-  .btn-cardgame {
-    background: transparent !important;
-    color: #434343;
-
-    font-weight: 500;
-    font-size: 18px;
-    border: solid !important;
-    border-color: #454545;
-    border-radius: 15px;
-    padding: 10px 35px;
-    width: 80%;
-  }
-
-  .btn-cardgame:hover {
-    background: transparent !important;
-    color: #434343;
-    font-weight: 500;
-    border: solid;
-    border-color: #454545;
-    font-size: 18px;
-    border-radius: 15px;
-    padding: 10px 35px;
-    width: 80%;
-  }
-
-  .btn-cardgame:active {
-    background: transparent !important;
-    color: #434343;
-    font-weight: 500;
-    border: solid !important;
-    border-color: #454545 !important;
-    font-size: 18px;
-    border-radius: 15px;
-    padding: 10px 35px;
-    width: 80%;
-  }
-
-  .btn-cardgame:visited {
-    background: transparent !important;
-    color: #434343;
-    font-weight: 500;
-    border: solid !important;
-    border-color: #454545 !important;
-    font-size: 18px;
-    border-radius: 15px;
-    padding: 10px 35px;
-    width: 80%;
-    align-items: center;
   }
 }
 
 @media (max-width: 768px) {
-
 }
 
 @media (max-width: 480px) {
-
 }
