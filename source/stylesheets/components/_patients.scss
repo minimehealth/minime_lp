@@ -1,0 +1,144 @@
+.blue-frame {
+  border: 2px;
+  border-color: $dark-blue;
+  background-color: white;
+  border-radius: 10px;
+  height: 220px;
+  border-style: solid;
+}
+
+.mini-minime {
+  height: 60px;
+  left: 280px;
+  top: 0px;
+}
+
+.grid-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+.check-box {
+  background-image: url(../../images/check_box.svg);
+  height: 150px; /* You must set a specified height */
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+  border-radius: 10px;
+}
+
+.right-text-box {
+  width: 60%;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .blue-frame {
+    border: 2px;
+    border-color: $dark-blue;
+    background-color: white;
+    border-radius: 10px;
+    height: 220px;
+    border-style: solid;
+  }
+
+  .mini-minime {
+    height: 50px;
+    left: 180px;
+    top: 0px;
+  }
+
+  .grid-three {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    grid-row-gap: 1em;
+  }
+
+  .grid-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    grid-row-gap: 1em;
+  }
+
+  .check-box {
+    background-image: url(../../images/check_box.svg);
+    height: 150px;
+    width: 100%;
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .right-text-box {
+    width: 100%;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blue-frame {
+    border: 2px;
+    border-color: $dark-blue;
+    background-color: white;
+    border-radius: 10px;
+    height: 220px;
+    border-style: solid;
+  }
+
+  .mini-minime {
+    height: 50px;
+    left: 180px;
+    top: 0px;
+  }
+
+  .grid-three {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    grid-row-gap: 1em;
+  }
+
+  .grid-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    grid-row-gap: 1em;
+  }
+
+  .check-box {
+    background-image: url(../../images/check_box.svg);
+    height: 150px;
+    width: 100%;
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .right-text-box {
+    width: 100%;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    padding: 20px;
+  }
+}

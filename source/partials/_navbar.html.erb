@@ -1,35 +1,40 @@
-<nav id="nb" class="navbar shadow-sm navbar-expand-lg fixed-top navbar-light bg-light background-white px-lg-5">
-  <div class="container px-lg-5">
-    <a class="navbar-brand color-dark" href="#"><%= image_tag 'logo_mobile.png', :class => "logo" %></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <i id="grid" class="bi bi-grid-fill"></i>
-      
+<nav id="nb" class="navbar navbar-expand-lg fixed-top navbar-light bg-light" >
+  <div id="navbar" class="container-fluid container px-lg-5 border-nav">
+    <a class="navbar-brand" href="/"><%= image_tag 'logo.svg', :class => "logo mobile-hidden" %><%= image_tag 'white_seal.svg', :class => "logo desktop-hidden" %></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul class="navbar-nav ml-auto mt-lg-0">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="text-right">
-          <a href="#"><span class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i id="close" class="bi bi-x"></i></span></a>
+          <a href="#"><span class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target=".navbar-collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><i id="close" class="bi bi-x"></i></span></a>
         </li>
-        <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link text-uppercase" href="#app">Unsere Lösung<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link text-uppercase" href="#team">Unser Team</a>
-        </li>
-        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link text-uppercase" href="#footer">Kontakt</a>
-        </li>
-        <li class="nav-item rest-links" data-toggle="collapse" data-target=".navbar-collapse.show">
-          <%= link_to 'DATENSCHUTZ', '/datenschutz', class: "nav-link not-desktop text-uppercase" %>
-        </li>
-        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" >
-          <%= link_to 'IMPRESSUM', '/impressum', class: "nav-link not-desktop text-uppercase" %>
-        </li>
-      </ul>   
-    
-      <%# <button class="btn btn-app my-3 px-5 py-3 my-sm-0" type="submit" tabindex="-1">Download App</button> %>
-
-
+        <a class="nav-link" href="#how">
+          <li class="nav-item active" data-bs-toggle="collapse" data-target=".navbar-collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            Unsere Lösung
+          </li>
+        </a>
+        <a class="nav-link" href="#team">
+          <li class="nav-item active" data-bs-toggle="collapse" data-target=".navbar-collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            Unser Team
+          </li>
+        </a>
+        <a class="nav-link" href="#contact">
+          <li class="nav-item active" data-bs-toggle="collapse" data-target=".navbar-collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            Kontakt
+          </li>
+        </a>
+        <a class="nav-link not-desktop " href="/datenschutz">
+          <li class="nav-item active" data-bs-toggle="collapse" data-target=".navbar-collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            Datenschutz
+          </li>
+        </a>
+        <a class="nav-link not-desktop " href="/impressum">
+          <li class="nav-item active" data-bs-toggle="collapse" data-target=".navbar-collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            Impressum
+          </li>
+        </a>
+      </ul>
     </div>
   </div>
 </nav>
