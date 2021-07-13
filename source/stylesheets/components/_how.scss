@@ -4,6 +4,12 @@
   height: 220px;
 }
 
+.box-background-blue {
+  background-color: $dark-blue;
+  border-radius: 10px;
+  height: 220px;
+}
+
 .white-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -38,6 +44,14 @@
     border-radius: 10px;
     height: auto;
     margin: 0px 20px;
+  }
+
+  .box-background-blue {
+    background-color: $dark-blue;
+    border-radius: 10px;
+    height: auto;
+    margin: 0px 20px;
+    color: white;
   }
 
   .white-grid {
