@@ -11,7 +11,7 @@
   position: absolute;
   height: 450px;
   right: 0px;
-  top: 250px;
+  top: 290px;
 }
 
 .illustrations-three {
@@ -19,7 +19,7 @@
   position: absolute;
   height: 400px;
   left: 0px;
-  bottom: 330px;
+  bottom: 350px;
 }
 
 .illustrations-four {
@@ -160,6 +160,69 @@
     background-size: cover;
 
     margin-bottom: 3em;
+  }
+}
+
+@media (max-width: 760px) {
+  .illustrations-one {
+    padding-right: 0px;
+    position: relative;
+    height: 270px;
+    left: 100px;
+    padding-top: 0px !important;
+  }
+
+  .illustrations-two {
+    padding-right: 0px;
+    position: absolute;
+    height: 350px;
+    top: 680px;
+    right: 0;
+  }
+
+  .mobile-image-space {
+    height: 270px;
+  }
+
+  .illustrations-three {
+    padding-right: 0px;
+    position: absolute;
+    height: 300px;
+    left: 0;
+    top: 1180px;
+  }
+
+  .illustrations-four {
+    padding-right: 0px;
+    position: absolute;
+    height: 350px;
+    right: 0;
+  }
+
+  .app-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0em;
+    row-gap: 1em;
+  }
+
+  .section-1 {
+    background-image: url(../../images/m-line-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: 0px 0px 10px 100px;
+    margin-bottom: 2em;
+  }
+
+  .section-2 {
+    background-image: url(../../images/m-line-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3em;
+  }
+
+  .padding-left {
+    padding-left: 10px;
   }
 }
 
