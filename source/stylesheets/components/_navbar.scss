@@ -60,7 +60,69 @@
 
 /* mobile navbar sidebar under lg breakpoint */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .nav-link {
+    font-weight: 500;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: $light-blue !important;
+    padding-bottom: 0px;
+  }
+
+  .nav-link {
+    color: $dark-blue !important;
+    padding: 0px 20px !important;
+    font-size: 18px !important;
+    vertical-align: center !important;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .navbar-toggler > i {
+    color: $dark-blue;
+    border: none;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .logo {
+    height: 50px;
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+  }
+
+  .not-desktop {
+    display: none;
+  }
+
+  // @media (max-width: 767px) {
+  //   .navbar-collapse {
+  //     background-color: #5e75b9;
+  //     color: white;
+  //   }
+  // }
+
+  /* hide close when burger shown */
+  #close {
+    display: none;
+  }
+
+  .border-nav {
+    border-bottom: solid;
+    border-color: white;
+    border-width: 10px;
+  }
+}
+
+@media (max-width: 900px) {
   #close {
     display: inline;
     font-size: 40px;

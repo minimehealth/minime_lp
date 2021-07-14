@@ -96,6 +96,11 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     row-gap: 1em;
+    margin-left: 100px;
+  }
+
+  #contact {
+    margin-left: 100px;
   }
 }
 
@@ -148,5 +153,10 @@ footer {
     grid-template-columns: 1fr;
     grid-gap: 1em;
     row-gap: 1em;
+    margin-left: 30px;
+  }
+
+  #contact {
+    margin-left: 30px;
   }
 }

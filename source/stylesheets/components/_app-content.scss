@@ -51,7 +51,116 @@
 
   margin-bottom: 3em;
 }
+@media (max-width: 1024px) {
+  .illustrations-one {
+    padding-right: 0px;
+    position: absolute;
+    height: 300px;
+    left: 50px;
+    top: 0;
+  }
+
+  .illustrations-two {
+    padding-right: 0px;
+    position: absolute;
+    height: 350px;
+    right: 0px;
+    top: 250px;
+  }
+
+  .illustrations-three {
+    padding-right: 0px;
+    position: absolute;
+    height: 350px;
+    left: 0px;
+    bottom: 330px;
+  }
+
+  .illustrations-four {
+    padding-right: 0px;
+    position: absolute;
+    height: 300px;
+    right: 50px;
+    bottom: 10px;
+  }
+  .app-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    row-gap: 15em;
+  }
+
+  .section-1 {
+    background-image: url(../../images/line-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: 0px 0px 10px 100px;
+    margin-bottom: 3em;
+  }
+
+  .section-2 {
+    background-image: url(../../images/line-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 3em;
+  }
+}
+
 @media (max-width: 768px) {
+  .illustrations-one {
+    padding-right: 0px;
+    position: absolute;
+    height: 300px;
+    left: 50px;
+    top: 0;
+  }
+
+  .illustrations-two {
+    padding-right: 0px;
+    position: absolute;
+    height: 350px;
+    right: 0px;
+    top: 280px;
+  }
+
+  .illustrations-three {
+    padding-right: 0px;
+    position: absolute;
+    height: 300px;
+    left: 0px;
+    bottom: 350px;
+  }
+
+  .illustrations-four {
+    padding-right: 0px;
+    position: absolute;
+    height: 300px;
+    right: 50px;
+    bottom: 10px;
+  }
+  .app-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    row-gap: 15em;
+  }
+
+  .section-1 {
+    background-image: url(../../images/line-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: 0px 0px 10px 100px;
+    margin-bottom: 3em;
+  }
+
+  .section-2 {
+    background-image: url(../../images/line-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 3em;
+  }
 }
 
 @media (max-width: 480px) {
@@ -72,15 +181,15 @@
   }
 
   .mobile-image-space {
-    height: 250px;
+    height: 260px;
   }
 
   .illustrations-three {
     padding-right: 0px;
     position: absolute;
-    height: 300px;
+    height: 280px;
     left: 0;
-    top: 1300px;
+    top: 1340px;
   }
 
   .illustrations-four {
@@ -94,7 +203,7 @@
   .app-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1em;
+    grid-gap: 0em;
     row-gap: 1em;
   }
 
@@ -111,5 +220,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 3em;
+  }
+
+  .padding-left {
+    padding-left: 10px;
   }
 }
