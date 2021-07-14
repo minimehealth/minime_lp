@@ -6,14 +6,29 @@
   border-radius: 10px !important;
   padding: 16px 32px !important;
   border: none !important;
+  transition: transform 0.5s; /* Animation */
 }
 
 .btn-app:hover {
   color: white;
+  transform: scale(1.1);
 }
 
 .btn-app:active {
   color: white;
+}
+
+.btn-blue {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s; /* Animation */
+}
+
+.btn-blue:hover {
+  color: white;
+  transform: scale(1.1);
 }
 
 @media (max-width: 991px) {
