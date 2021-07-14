@@ -1,54 +1,57 @@
 .indicates-required {
-  font-family: "Roboto" !important;
-}
-
-.modal-title {
-  font-size: 22px !important;
-  font-weight: bold !important;
-  color: #425ba4 !important;
-}
-
-.input-group {
-  font-family: "Roboto" !important;
-}
-
-label {
-  font-family: "Roboto" !important;
-}
-
-.background-news {
-  background-color: #f1fdff !important;
+  font-family: $body-font !important;
 }
 
 .close {
-  color: #425ba4 !important;
+  color: $dark-blue !important;
+  background-color: transparent !important;
+  border: none;
+  font-size: 50px;
+}
+
+.modal-body p {
+  text-align: start !important;
+}
+.modal-title {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: $dark-blue !important;
+}
+
+.link > a {
+  font-family: $body-font !important;
+  font-weight: 500 !important;
+  color: $dark-blue !important;
+}
+
+.input-group {
+  font-family: $body-font !important;
+}
+
+label {
+  font-family: $body-font !important;
+}
+
+.background-news {
+  background-color: $light-blue !important;
 }
 
 form {
-  background-color: #f1fdff !important;
-  color: #425ba4 !important;
+  background-color: $light-blue !important;
+  color: $dark-blue !important;
 }
 
 input {
-  background-color: #f1fdff !important;
-  color: #425ba4 !important;
+  background-color: white !important;
+  color: $dark-blue !important;
 }
 
 .asterisk {
-  color: #425ba4 !important;
+  color: $dark-blue !important;
 }
 .newsletter-image {
   width: 50%;
   height: auto;
-}
-
-#mc-embedded-subscribe {
-  margin: 10px 0px !important;
-}
-
-#mc-embedded-subscribe:hover {
-  margin-left: 25px !important;
-  transition: 0.6s !important;
 }
 
 @media (max-width: 768px) {

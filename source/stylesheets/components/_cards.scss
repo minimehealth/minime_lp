@@ -4,13 +4,30 @@
 }
 
 .card-game {
-  height: 400px;
+  height: 500px;
 }
 
 .cards-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  .cards-header {
+    font-style: italic;
+    margin-bottom: 25px;
+  }
+
+  .card-game {
+    height: 500px;
+  }
+
+  .cards-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -26,18 +43,8 @@
 
   .cards-grid {
     display: grid;
-    grid-template-columns: 1fr;
-
+    grid-template-columns: 2fr 1fr;
     grid-gap: 1em;
-  }
-  .cards-grid > div:nth-of-type(1) {
-    order: 2;
-  }
-
-  .cards-grid > div:nth-of-type(2) {
-    order: 1;
-    align-items: center;
-    justify-self: center;
   }
 }
 

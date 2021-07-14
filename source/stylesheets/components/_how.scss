@@ -1,7 +1,14 @@
 .white-box {
   background-color: white;
   border-radius: 10px;
-  height: 220px;
+  height: 250px;
+}
+
+.box-background-blue {
+  background-color: $dark-blue;
+  border-radius: 10px;
+  height: 250px;
+  color: white;
 }
 
 .white-grid {
@@ -14,11 +21,43 @@
   height: 50px;
 }
 
+@media (max-width: 1024px) {
+  .white-box {
+    background-color: white;
+    border-radius: 10px;
+    height: 250px;
+  }
+
+  .box-background-blue {
+    background-color: $dark-blue;
+    border-radius: 10px;
+    height: 250px;
+    color: white;
+  }
+
+  .white-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .icon {
+    height: 50px;
+  }
+}
+
 @media (max-width: 768px) {
   .white-box {
     background-color: white;
     border-radius: 10px;
-    height: 220px;
+    height: 250px;
+  }
+
+  .box-background-blue {
+    background-color: $dark-blue;
+    border-radius: 10px;
+    height: 250px;
+    color: white;
   }
 
   .white-grid {
@@ -38,6 +77,14 @@
     border-radius: 10px;
     height: auto;
     margin: 0px 20px;
+  }
+
+  .box-background-blue {
+    background-color: $dark-blue;
+    border-radius: 10px;
+    height: auto;
+    margin: 0px 20px;
+    color: white;
   }
 
   .white-grid {
