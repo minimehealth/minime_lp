@@ -2,6 +2,13 @@
   font-family: $body-font !important;
 }
 
+.modal-body {
+  margin: 0 auto;
+  padding: 3em;
+  align-self: center;
+  justify-self: center;
+}
+
 .close {
   color: $dark-blue !important;
   background-color: transparent !important;
@@ -55,7 +62,4 @@ input {
 }
 
 @media (max-width: 768px) {
-}
-
-@media (max-width: 480px) {
 }
