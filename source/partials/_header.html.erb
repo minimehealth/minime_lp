@@ -7,13 +7,13 @@
         <div class="text-start text-md-start text-lg-left text-xl-left mt-5">
           <button type="button" class="float-lg-left btn btn-app shadow-none d-none d-sm-none d-md-block d-lg-block d-xl-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Jetzt mehr erfahren!</button>
         </div>
-        <%= partial "partials/newsletter" %>
       </div>
       <div>
         <%= image_tag 'banner.svg', class: "minime" %>
       </div>
     </div>
   </div>
+  <%= partial "partials/newsletter" %>
 </div>
 <div id="header" class="header background-header desktop-hidden">
   <div class="container border-header">
@@ -24,9 +24,9 @@
       </div>
       <p class="mt-5 text-start text-md-start text-lg-left text-xl-left">minime bringt Therapie und Alltag zusammen - spielerisch und interaktiv. Therapeut:innen und ihre Patient:innen können nun das volle Potenzial der Verhaltenstherapie ausschöpfen.</p>
       <div class="text-start pt-3">
-        <button type="button" class="btn btn-app shadow-none" data-bs-toggle="modal" data-bs-target="#exampleModal">Jetzt mehr erfahren!</button>
+        <button type="button" class="btn btn-app shadow-none" data-bs-toggle="modal" data-bs-target="#mobilenewsletterModal">Jetzt mehr erfahren!</button>
       </div>
-      <%= partial "partials/newsletter" %>
     </div>
   </div>
+  <%= partial "partials/newsletter-mobile" %>
 </div>
