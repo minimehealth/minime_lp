@@ -11,7 +11,7 @@
   position: absolute;
   height: 450px;
   right: 0px;
-  top: 290px;
+  top: 310px;
 }
 
 .illustrations-three {
@@ -19,7 +19,7 @@
   position: absolute;
   height: 400px;
   left: 0px;
-  bottom: 350px;
+  bottom: 320px;
 }
 
 .illustrations-four {
@@ -48,7 +48,7 @@
   background-image: url(../../images/line-2.svg);
   background-repeat: no-repeat;
   background-size: cover;
-
+  // row-gap: 100px;
   margin-bottom: 3em;
 }
 @media (max-width: 1024px) {
@@ -65,13 +65,13 @@
     position: absolute;
     height: 350px;
     right: 0px;
-    top: 250px;
+    top: 330px;
   }
 
   .illustrations-three {
     padding-right: 0px;
     position: absolute;
-    height: 350px;
+    height: 320px;
     left: 0px;
     bottom: 330px;
   }
@@ -105,6 +105,9 @@
 
     margin-bottom: 3em;
   }
+  .padding-left {
+    padding-left: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -121,7 +124,7 @@
     position: absolute;
     height: 350px;
     right: 0px;
-    top: 280px;
+    top: 320px;
   }
 
   .illustrations-three {
@@ -160,6 +163,9 @@
     background-size: cover;
 
     margin-bottom: 3em;
+  }
+  .padding-left {
+    padding-left: 10px;
   }
 }
 
@@ -239,12 +245,12 @@
     padding-right: 0px;
     position: absolute;
     height: 300px;
-    top: 800px;
+    top: 850px;
     right: 0;
   }
 
   .mobile-image-space {
-    height: 260px;
+    height: 300px;
   }
 
   .illustrations-three {
@@ -252,13 +258,147 @@
     position: absolute;
     height: 280px;
     left: 0;
-    top: 1340px;
+    top: 1450px;
   }
 
   .illustrations-four {
     padding-right: 0px;
     position: absolute;
     height: 300px;
+    right: 0;
+    left: 100;
+  }
+
+  .app-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0em;
+    row-gap: 1em;
+  }
+
+  .section-1 {
+    background-image: url(../../images/m-line-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: 0px 0px 10px 100px;
+    margin-bottom: 3em;
+  }
+
+  .section-2 {
+    background-image: url(../../images/m-line-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3em;
+  }
+
+  .padding-left {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .normal {
+    word-break: break-all;
+  }
+  .illustrations-one {
+    padding-right: 0px;
+    position: relative;
+    height: 250px;
+    left: 0;
+    padding-top: 0px !important;
+  }
+
+  .illustrations-two {
+    padding-right: 0px;
+    position: absolute;
+    height: 270px;
+    top: 920px;
+    right: 0;
+  }
+
+  .mobile-image-space {
+    height: 200px;
+  }
+
+  .illustrations-three {
+    padding-right: 0px;
+    position: absolute;
+    height: 250px;
+    left: 0;
+    top: 1450px;
+  }
+
+  .illustrations-four {
+    padding-right: 0px;
+    position: absolute;
+    height: 250px;
+    right: 0;
+    left: 100;
+  }
+
+  .app-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0em;
+    row-gap: 1em;
+  }
+
+  .section-1 {
+    background-image: url(../../images/m-line-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: 0px 0px 10px 100px;
+    margin-bottom: 3em;
+  }
+
+  .section-2 {
+    background-image: url(../../images/m-line-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3em;
+  }
+
+  .padding-left {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 280px) {
+  .normal {
+    word-break: break-all;
+  }
+  .illustrations-one {
+    padding-right: 0px;
+    position: relative;
+    height: 250px;
+    left: 0;
+    padding-top: 0px !important;
+  }
+
+  .illustrations-two {
+    padding-right: 0px;
+    position: absolute;
+    height: 250px;
+    top: 1000px;
+    right: 0;
+  }
+
+  .mobile-image-space {
+    height: 200px;
+  }
+
+  .illustrations-three {
+    padding-right: 0px;
+    position: absolute;
+    height: 230px;
+    left: 0;
+    top: 1580px;
+  }
+
+  .illustrations-four {
+    padding-right: 0px;
+    position: absolute;
+    height: 250px;
     right: 0;
     left: 100;
   }

@@ -39,7 +39,7 @@ li span {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 938px) {
   .blue-grid-right {
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 3;
@@ -61,7 +61,7 @@ li span {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 538px) {
   .blue-grid-right {
     grid-template-columns: 1fr;
     grid-row: 3;
