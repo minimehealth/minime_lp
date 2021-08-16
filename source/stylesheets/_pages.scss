@@ -40,15 +40,28 @@ html {
 }
 
 .outline-header {
+  color: $blue;
+
+  text-rendering: geometricPrecision;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern" 1;
   -webkit-text-fill-color: $blue;
   -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 1px;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 .outline-header-blue {
+  color: white;
+  text-rendering: geometricPrecision;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern" 1;
   -webkit-text-fill-color: White;
   -webkit-text-stroke-color: $blue;
   -webkit-text-stroke-width: 1.5px;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -80,7 +93,7 @@ h4 {
   font-size: 20px;
   font-family: $headers-font;
   color: $dark-blue;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 p {
