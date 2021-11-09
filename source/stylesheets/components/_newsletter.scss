@@ -8,7 +8,17 @@
   align-self: center;
   justify-self: center;
 }
+.border-lightblue {
+  border: 10px $light-blue solid;
+}
 
+.popup-background {
+  background-image: url(../../images/popup.svg);
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: top right;
+  // margin-bottom: 100px;
+}
 .close {
   color: $dark-blue !important;
   background-color: transparent !important;
@@ -43,7 +53,7 @@ label {
   background-color: $light-blue !important;
 }
 
-form {
+.newsletter-form {
   background-color: $light-blue !important;
   color: $dark-blue !important;
 }
@@ -51,6 +61,22 @@ form {
 input {
   background-color: white !important;
   color: $dark-blue !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $dark-blue;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $dark-blue;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: $dark-blue;
 }
 
 .asterisk {

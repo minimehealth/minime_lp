@@ -7,6 +7,7 @@
         <div class="text-start text-md-start text-lg-left text-xl-left mt-5">
           <button type="button" class="float-lg-left btn btn-app shadow-none d-none d-sm-none d-md-block d-lg-block d-xl-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Jetzt mehr erfahren!</button>
         </div>
+        <button type="button" class="d-none" data-bs-toggle="modal" data-bs-target="#examplePopup">Jetzt mehr erfahren!</button>
       </div>
       <div>
         <%= image_tag 'banner.svg', class: "minime" %>
@@ -14,6 +15,7 @@
     </div>
   </div>
   <%= partial "partials/newsletter" %>
+  <%= partial "partials/popup" %>
 </div>
 <div id="header" class="header background-header desktop-hidden">
   <div class="container border-header">
