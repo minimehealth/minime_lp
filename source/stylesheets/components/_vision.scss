@@ -1,6 +1,6 @@
 .blue-grid-right {
   display: grid;
-  grid-template-columns: 2.5fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
 }
 
@@ -19,7 +19,7 @@ li span {
 
 @media (max-width: 1024px) {
   .blue-grid-right {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-row: 3;
     display: grid;
     grid-gap: 1rem;
@@ -41,7 +41,7 @@ li span {
 
 @media (max-width: 938px) {
   .blue-grid-right {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-row: 3;
     display: grid;
     grid-gap: 1rem;

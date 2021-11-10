@@ -157,6 +157,13 @@
     // margin-left: auto;
   }
 
+  .how-bg {
+    background-image: url(../../images/how-bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left; /* Center the image */
+  }
+
   .box-background-blue {
     background-color: $dark-blue;
     border-radius: 10px;
