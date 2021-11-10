@@ -29,9 +29,15 @@ function offset(el) {
   return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
 }
 
-window.onload = () => {
-  document.querySelector('[data-bs-target="#examplePopup"]').click();
-}
+// window.onload = () => {
+//   document.querySelector('[data-bs-target="#examplePopup"]').click;
+// }
+
+function init(){
+  document.querySelector('[data-bs-target="#examplePopup"]').click()
+};
+
+window.onload = init;
 
 document.addEventListener('scroll', function(e) {
   // const appsteps = document.getElementById("app-steps")
