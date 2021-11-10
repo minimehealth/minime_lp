@@ -79,12 +79,34 @@ input {
   color: $dark-blue;
 }
 
+#mc_embed_signup .mc-field-group input[type="text"] {
+  border: 1px solid $dark-blue;
+  border-radius: 4px;
+}
+
+#mc_embed_signup .mc-field-group input[type="email"] {
+  border: 1px solid $dark-blue;
+  border-radius: 4px;
+}
+
+#gdpr_53712 {
+  display: inline;
+  width: auto;
+  margin-right: 5px;
+  border: 1px solid $dark-blue !important;
+  border-radius: 4px;
+}
+
 .asterisk {
   color: $dark-blue !important;
 }
 .newsletter-image {
   width: 50%;
   height: auto;
+}
+
+#mc-embedded-subscribe {
+  margin: 0 !important;
 }
 
 @media (max-width: 768px) {
