@@ -13,9 +13,9 @@
 }
 
 .popup-background {
-  background-image: url(../../images/popup.svg);
+  background-image: url(../../images/popup.png);
   background-repeat: no-repeat;
-  background-size: fill;
+  background-size: contain;
   background-position: top right;
   // margin-bottom: 100px;
 }
