@@ -29,6 +29,10 @@ function offset(el) {
   return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
 }
 
+window.onload = () => {
+  document.querySelector('[data-bs-target="#examplePopup"]').click();
+}
+
 document.addEventListener('scroll', function(e) {
   // const appsteps = document.getElementById("app-steps")
   const how = document.getElementById("how")
