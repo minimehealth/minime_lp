@@ -11,6 +11,39 @@
   color: white;
 }
 
+.how-bg {
+  background-image: url(../../images/how-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-position: 0px 0px 10px 100px;
+  // background-color: #cccccc; /* Used if the image is unavailable */
+  // height: 500px; /* You must set a specified height */
+  background-position: top left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  // background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.dot {
+  height: 30px;
+}
+
+.how-image {
+  // margin: auto;
+  width: 70%;
+  display: inline;
+  margin-left: 30%;
+  margin-top: -200px;
+  // margin-left: auto;
+}
+
+.dots-width {
+  width: 50%;
+}
+
+.margin-left-dot {
+  margin-left: -15px;
+}
+
 .white-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -28,6 +61,18 @@
     height: 250px;
   }
 
+  .dots-width {
+    width: 75%;
+  }
+
+  .how-image {
+    // margin: auto;
+    width: 80%;
+    display: inline;
+    margin-left: auto;
+    margin-top: 0px;
+    // margin-left: auto;
+  }
   .box-background-blue {
     background-color: $dark-blue;
     border-radius: 10px;
@@ -53,6 +98,25 @@
     height: 250px;
   }
 
+  .dots-width {
+    width: 75%;
+  }
+
+  .how-image {
+    // margin: auto;
+    width: 80%;
+    display: inline;
+    margin-left: auto;
+    margin-top: 0px;
+    // margin-left: auto;
+  }
+
+  .how-bg {
+    background-image: url(../../images/how-bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left; /* Center the image */
+  }
   .box-background-blue {
     background-color: $dark-blue;
     border-radius: 10px;
@@ -62,8 +126,9 @@
 
   .white-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-row: 5;
+    grid-gap: 1em;
   }
 
   .icon {
@@ -77,6 +142,26 @@
     border-radius: 10px;
     height: auto;
     margin: 0px 20px;
+  }
+
+  .dots-width {
+    width: 100%;
+  }
+
+  .how-image {
+    // margin: auto;
+    width: 80%;
+    display: inline;
+    margin-left: auto;
+    margin-top: 0px;
+    // margin-left: auto;
+  }
+
+  .how-bg {
+    background-image: url(../../images/how-bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left; /* Center the image */
   }
 
   .box-background-blue {
