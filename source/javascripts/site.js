@@ -34,7 +34,9 @@ function offset(el) {
 // }
 
 function init(){
-  document.querySelector('[data-bs-target="#examplePopup"]').click()
+  if (window.innerWidth > 1023) {
+    document.querySelector('[data-bs-target="#examplePopup"]').click()
+ }
 };
 
 window.onload = init;
