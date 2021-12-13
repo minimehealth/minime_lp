@@ -1,10 +1,10 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # Specify your gem's dependencies in middleman-aws.gemspec
 # gemspec
 
-gem 'middleman', '~> 4.2'
-gem 'middleman-autoprefixer', '~> 2.7'
+gem 'middleman'
+gem 'middleman-autoprefixer'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
 gem 'wdm', platforms: [:mswin, :mingw, :x64_mingw]
 gem 'middleman-livereload'
