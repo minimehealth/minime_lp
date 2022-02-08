@@ -8,6 +8,7 @@ gem 'middleman-autoprefixer'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
 gem 'wdm', platforms: [:mswin, :mingw, :x64_mingw]
 gem 'middleman-livereload'
+gem 'htmlbeautifier'
 
 # Deployment - requires additional configuration.  See links below
 gem 'middleman-s3_sync', '~> 4.0.1.rc.3'
