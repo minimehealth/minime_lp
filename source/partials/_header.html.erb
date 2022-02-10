@@ -1,34 +1,20 @@
-<div id="header" class="header background-header mobile-hidden">
-  <div class="container pt-5 border-header position-relative">
-    <div class="px-lg-5 px-3 header-grid">
-      <div class="header-space">
-        <h1 class="text-start text-md-start text-lg-start text-xl-start">Moderne Psychotherapie braucht moderne Tools</h1>
-        <p class="block-text text-start text-md-start text-lg-left text-xl-left">minime bringt Therapie und Alltag zusammen - spielerisch und interaktiv. Therapeut:innen und ihre Patient:innen können nun das volle Potenzial therapeutischer Hausaufgaben ausschöpfen.</p>
-        <div class="text-start text-md-start text-lg-left text-xl-left mt-5">
-          <button type="button" class="float-lg-left btn btn-app shadow-none d-none d-sm-none d-md-block d-lg-block d-xl-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Jetzt mehr erfahren!</button>
+<div id="header" class="header background-white py-3 bg-header">
+  <div class="container position-relative">
+    <div class="px-lg-5 px-3 header-space">
+      <div class="d-block d-sm-flex justify-content-between align-items-center ">
+        <div class=" flex-grow-1">
+          <h1 class="my-3 my-md-4 my-lg-5 text-start">Moderne Psychotherapie braucht moderne Tools</h1>
+          <h3 class="fw-bold block-text text-start text-sm-start text-lg-start text-xl-start">minime bringt Therapie und Alltag zusammen - spielerisch und interaktiv.</h3>
+          <h3 class="block-text text-start text-md-start text-lg-start text-xl-start pt-3">Registriere dich jetzt als Therapeut:in und lerne minime im Starter-Paket kennen - für immer kostenfrei!</h3>
         </div>
-        <button type="button" class="d-none" data-bs-toggle="modal" data-bs-target="#examplePopup">Jetzt mehr erfahren!</button>
+        <%= image_tag 'phones-header.svg', class: "minime pt-3" %>
       </div>
-      <div>
-        <%= image_tag 'banner.svg', class: "minime" %>
+      <div class="d-flex flex-column flex-md-row justify-content-start align-items-center my-3 mb-5">
+        <a href="https://app.minime.health/users/sign_up" type="button" class="btn btn-aperol shadow-none ">Jetzt starten!</a>
+        <a href="#patients" type="button" class="btn btn-aperol-ghost shadow-none">Ich bin Patient:in!</a>
       </div>
+      <button type="button" class="d-none" data-bs-toggle="modal" data-bs-target="#examplePopup">Jetzt mehr erfahren!</button>
     </div>
   </div>
-  <%= partial "partials/newsletter" %>
 </div>
-<%= partial "partials/popup" %>
-<div id="header" class="header background-header desktop-hidden">
-  <div class="container border-header">
-    <div class="px-3 position-relative">
-      <h1 class="text-start padding-y">Moderne <span class="normal">Psychotherapie </span>braucht moderne Tools</h1>
-      <div class="header-image-space mb-4">
-        <%= image_tag 'banner.svg', class: "minime" %>
-      </div>
-      <p class="mt-5 text-start text-md-start text-lg-left text-xl-left">minime bringt Therapie und Alltag zusammen - spielerisch und interaktiv. Therapeut:innen und ihre Patient:innen können nun das volle Potenzial therapeutischer Hausaufgaben ausschöpfen.</p>
-      <div class="text-start pt-3">
-        <button type="button" class="btn btn-app shadow-none" data-bs-toggle="modal" data-bs-target="#mobilenewsletterModal">Jetzt mehr erfahren!</button>
-      </div>
-    </div>
-  </div>
-  <%= partial "partials/newsletter-mobile" %>
-</div>
+

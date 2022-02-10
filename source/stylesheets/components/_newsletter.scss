@@ -13,10 +13,11 @@
 }
 
 .popup-background {
-  background-image: url(../../images/popup.png);
+  background-image: url(../../images/phones-header.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: top right;
+  background-position: center right;
+  background-size: auto 70%;
   // margin-bottom: 100px;
 }
 .close {
