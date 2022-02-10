@@ -1,56 +1,31 @@
 <div id="how" class="background-lightblue how-bg">
   <div class="container px-lg-5 py-3">
-    <h2 class="px-5 text-start pt-5 mb-5">Wie funktioniert es?</h2>
-    <div class="dots-width">
-      <div class="d-flex justify-content-start">
-        <%= image_tag 'green-dot.png', class: "dot" %>
-        <p class="mt-2 margin-left-dot text-start">Gedanken, Gefühle und Verhalten können mit nur einem Klick hinzugefügt und analysiert werden.</p>
-      </div>
-      <div class="d-flex justify-content-start">
-        <%= image_tag 'green-dot.png', class: "dot" %>
-        <p class="mt-2 margin-left-dot text-start">Alle wichtigen Selbstbeobachtungsbögen sind in der App digital verfügbar.</p>
-      </div>
-      <div class="d-flex justify-content-start">
-        <%= image_tag 'green-dot.png', class: "dot" %>
-        <p class="mt-2 margin-left-dot text-start">Durch die Erstellung von Tasks können individuelle Aufgaben festgelegt werden, um zwischen den Sitzungen präsent zu bleiben</p>
-      </div>
-      <div class="d-flex justify-content-start">
-        <%= image_tag 'green-dot.png', class: "dot" %>
-        <p class="mt-2 margin-left-dot text-start">Keine Einarbeitungszeit notwendig - einfach einloggen und loslegen!</p>
-      </div>
-    </div>
-    <div class="text-right">
-      <%= image_tag 'how.png', class: "how-image" %>
-    </div>
-    <div class="white-grid px-3 my-5">
-      <div class="text-center white-box py-5">
-        <%= image_tag 'icon_register.svg', class: "icon mb-5" %>
-        <p>1. In nur 2 Minuten<br>
-          registrieren</p>
-      </div>
-      <div class="text-center white-box py-5">
-        <%= image_tag 'icon_email.svg', class: "icon mb-5" %>
-        <p>2. Patient:innen<br>
-          hinzufügen</p>
-      </div>
-      <div class="text-center white-box py-5">
-        <%= image_tag 'icon_task.svg', class: "icon mb-5" %>
-        <p>3. Aufgaben<br>
-          erstellen</p>
-      </div>
-      <div class="text-center white-box py-5">
-        <%= image_tag 'icon_checklist.svg', class: "icon mb-5" %>
-        <p>4. Einträge<br>
-          auswerten</p>
-      </div>
-      <button type="button" class="shadow-none btn-blue" data-bs-toggle="modal" data-bs-target="#newsletterModal">
-        <div class="text-center box-background-blue py-5">
-          <%= image_tag 'icon_phone.svg', class: "icon mb-5" %>
-          <p>Jetzt kostenlos<br>
-            testen!</p>
+    <h2 class="px-5 text-start pt-5 mb-5">Wie funktioniert minime?</h2>
+    <div class="d-flex flex-column flex-lg-row align-items-center align-items-lg-end justify-content-between">
+      <div class="dots-width">
+        <div class="d-flex justify-content-start">
+          <%= image_tag 'green-dot.png', class: "dot" %>
+          <p class="mt-2 margin-left-dot text-start"><span class="fw-bold">Einfache Dokumentation: </span>Gedanken, Gefühle und Verhalten, Notizen und Aufträge festhalten - mit nur wenigen Klicks zu jeder Zeit an jedem Ort. </p>
         </div>
-      </button>
+        <div class="d-flex justify-content-start">
+          <%= image_tag 'green-dot.png', class: "dot" %>
+          <p class="mt-2 margin-left-dot text-start"><span class="fw-bold">Gemeinsame Analyse: </span>Therapeut:in und Patient:in sind direkt verbunden und können alle Einträge und Aufträge in der nächsten Behandlungsstunde besprechen.</p>
+        </div>
+        <div class="d-flex justify-content-start">
+          <%= image_tag 'green-dot.png', class: "dot" %>
+          <p class="mt-2 margin-left-dot text-start"><span class="fw-bold">Verhalten verstehen:  </span>Mit minime werden Selbstbeobachtungen gesammelt und dienen als Grundlage um Verhaltensmuster zu erkennen und zu verstehen.</p>
+        </div>
+        <div class="d-flex justify-content-start">
+          <%= image_tag 'green-dot.png', class: "dot" %>
+          <p class="mt-2 margin-left-dot text-start">Registrieren und Patient:innen einladen - in nur wenigen Minuten!</p>
+        </div>
+        <div class="text-start">
+          <a href="https://app.minime.health/users/sign_up" type="button" class="text-start btn btn-aperol shadow-none mt-4">Jetzt starten!</a>
+        </div>
+      </div>
+      <div class="text-right">
+        <%= image_tag 'how.png', class: "how-image my-3 my-md-4 my-lg-5" %>
+      </div>
     </div>
   </div>
-  <%= partial "partials/newsletter2" %>
 </div>

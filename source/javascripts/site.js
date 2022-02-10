@@ -51,12 +51,12 @@ document.addEventListener('scroll', function(e) {
   // return how.top + window.scrollY;
   // console.log(lastKnownScrollPosition)
   // console.log(appPosition)
-  const navbar = document.getElementById("navbar")
+  const navbar = document.getElementById("nb")
   // console.log(navbar)
-  if (lastKnownScrollPosition > (howOffset.top - 180) ) {  
-    navbar.classList.remove("border-nav");
+  if (lastKnownScrollPosition > nb.clientHeight) {  
+    navbar.classList.add("background-white");
   } else {
-    navbar.classList.add("border-nav");
+    navbar.classList.remove("background-white");
   }
 });
 //= require gdpr/cookie_consent
