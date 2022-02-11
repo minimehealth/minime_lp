@@ -33,13 +33,13 @@ function offset(el) {
 //   document.querySelector('[data-bs-target="#examplePopup"]').click;
 // }
 
-function init(){
-  if (window.innerWidth > 1023) {
-    document.querySelector('[data-bs-target="#examplePopup"]').click()
- }
-};
+// function init(){
+//   if (window.innerWidth > 1023) {
+//     document.querySelector('[data-bs-target="#examplePopup"]').click()
+//  }
+// };
 
-window.onload = init;
+// window.onload = init;
 
 document.addEventListener('scroll', function(e) {
   // const appsteps = document.getElementById("app-steps")
