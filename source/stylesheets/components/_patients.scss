@@ -1,3 +1,27 @@
+
+.background-blue-long {
+  background-image: url(../../images/v3/bg-blue-long.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+
+.elli-long {
+  background: url(../../images/v3/long-ellipse.svg) no-repeat center center;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.drop-shadow {
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+}
+
+.patient-icon {
+  height: 34px;
+}
+
 .blue-frame {
   border: 2px;
   border-color: $dark-blue;
@@ -13,10 +37,11 @@
   top: 0px;
 }
 
-.grid-three {
+.grid-four {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+
 }
 
 .grid-two {
