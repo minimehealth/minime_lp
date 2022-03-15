@@ -24,8 +24,8 @@
 
 function offset(el) {
   var rect = el.getBoundingClientRect(),
-  scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
 }
 
@@ -41,9 +41,9 @@ function offset(el) {
 
 // window.onload = init;
 
-document.addEventListener('scroll', function(e) {
+document.addEventListener('scroll', function (e) {
   // const appsteps = document.getElementById("app-steps")
-  const how = document.getElementById("how")
+  const how = document.getElementById("testi")
   var howOffset = offset(how);
   // let appPosition = document.height - top - appsteps.height;
   // console.log(how)
@@ -53,7 +53,7 @@ document.addEventListener('scroll', function(e) {
   // console.log(appPosition)
   const navbar = document.getElementById("nb")
   // console.log(navbar)
-  if (lastKnownScrollPosition > nb.clientHeight) {  
+  if (lastKnownScrollPosition > nb.clientHeight) {
     navbar.classList.add("background-white");
   } else {
     navbar.classList.remove("background-white");

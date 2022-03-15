@@ -1,3 +1,15 @@
+.bg-team-header {
+  background-image: url(../../images/v3/bg-orange.svg);
+  // background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // height: 400px; /* You must set a specified height */
+}
+
+.team-header-img {
+  width: 40vw
+}
+
 .partner {
   width: 120px;
 }

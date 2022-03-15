@@ -96,6 +96,8 @@ h3 {
   font-family: $headers-font;
   color: $dark-grey;
   font-weight: 700;
+  margin: 0;
+  padding:0;
 }
 
 h1 {
@@ -116,10 +118,14 @@ h4 {
   font-family: $headers-font;
   color: $dark-grey;
   font-weight: 600;
+  margin: 0;
+  padding:0;
 }
 
 p {
   font-size: 20px;
+  margin: 0;
+  padding:0;
 }
 
 small {

@@ -36,6 +36,25 @@
   transform: scale(1.1);
 }
 
+.btn-aperol-ghost {
+  background: white !important;
+  color: $aperol !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  border-radius: 100px !important;
+  padding: 16px 32px !important;
+  border: solid $aperol 1px !important;
+  transition: transform 0.5s; /* Animation */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.btn-aperol-ghost:hover {
+  color: $aperol;
+  transform: scale(1.1);
+}
+
 .btn-newsletter {
   background: $lighter-blue !important;
   color: white !important;
@@ -55,24 +74,24 @@
   transform: scale(1.1);
 }
 
-.btn-aperol-ghost {
-  background: none !important;
-  color: $aperol !important;
-  font-size: 18px !important;
-  font-weight: 500 !important;
-  border-radius: 100px !important;
-  padding: 16px 32px !important;
-  border: none !important;
-  transition: transform 0.5s; /* Animation */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
+// .btn-aperol-ghost {
+//   background: none !important;
+//   color: $aperol !important;
+//   font-size: 18px !important;
+//   font-weight: 500 !important;
+//   border-radius: 100px !important;
+//   padding: 16px 32px !important;
+//   border: none !important;
+//   transition: transform 0.5s; /* Animation */
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   appearance: none;
+// }
 
-.btn-aperol-ghost:hover {
-  color: $aperol;
-  transform: scale(1.1);
-}
+// .btn-aperol-ghost:hover {
+//   color: $aperol;
+//   transform: scale(1.1);
+// }
 
 .btn-blue {
   border: none;

@@ -3,8 +3,21 @@
   background-image: url(../../images/v3/bg-blue-long.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: fill;
+  background-size: contain;
 }
+
+.patient-list {
+  // list-style: square url("../../images/v3/check-small.png");
+  // list-style-position: inside;
+
+    margin: 10px !important;
+    padding-left: 20px !important;
+
+  li {
+    padding: 5px;
+    // margin-left: 10px;
+  }
+ }
 
 .elli-long {
   background: url(../../images/v3/long-ellipse.svg) no-repeat center center;
@@ -84,9 +97,9 @@
     top: 0px;
   }
 
-  .grid-three {
+  .grid-four {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
   }
 
@@ -131,9 +144,9 @@
     top: 0px;
   }
 
-  .grid-three {
+  .grid-four {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 1em;
     grid-row-gap: 1em;
   }
@@ -181,7 +194,7 @@
     top: 0px;
   }
 
-  .grid-three {
+  .grid-four {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
