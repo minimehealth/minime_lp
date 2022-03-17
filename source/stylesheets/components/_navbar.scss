@@ -18,10 +18,10 @@
   line-height: 50px;
 }
 
-.navbar-toggler > i {
-  color: $dark-grey;
-  border: none;
-}
+// .navbar-toggler > i {
+//   color: $dark-grey;
+//   border: none;
+// }
 
 .navbar-toggler {
   border: none;
@@ -90,6 +90,10 @@
     border: none;
   }
 
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../../images/logos/hamburger.svg) !important;
+  }
+
   .navbar-toggler:focus {
     outline: none;
   }
@@ -145,7 +149,7 @@
   }
 
   .navbar-light .navbar-toggler-icon {
-    background-image: url(../../images/hamburger.svg) !important;
+    background-image: url(../../images/logos/hamburger.svg) !important;
   }
 
   .logo {
@@ -212,7 +216,7 @@
   }
 
   .navbar-light .navbar-toggler-icon {
-    background-image: url(../../images/hamburger.svg) !important;
+    background-image: url(../../images/logos/hamburger.svg) !important;
   }
 
   .logo {
