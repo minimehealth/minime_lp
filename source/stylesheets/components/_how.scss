@@ -1,3 +1,17 @@
+.background-blue-long-right {
+  background-image: url(../../images/v3/bg-blue-long-right.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.elli-long-blue {
+  background: url(../../images/v3/long-ellipse-blue.svg) no-repeat center center;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  background-size:contain;
+}
+
 .white-box {
   background-color: white;
   border-radius: 10px;

@@ -23,14 +23,14 @@
           <div class="accordion shadow" id="accordionExample">
             <div id="free-pos" class="accordion-item">
               <h2 class="" id="headingOne">
-                <button id="acc-btn" class="rounded-3 accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button id="acc-btn" class="rounded-3 accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                   <div class="d-flex align-items-center justify-content-between flex-grow-1">
                     <h4>Marketing Intern</h4>
                     <%= image_tag 'v3/minime-purple.svg', class: "icon px-lg-5 px-3 px-xl-5" %>
                   </div>
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <p class="my-3"><strong>Vollzeit, Berlin/remote</strong></p>
                   <p class="my-3"><strong>Du bist ...</strong></p>
@@ -76,7 +76,7 @@
                   </div>
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionPos2">
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionPos2">
                 <div class="accordion-body">
                   <p class="my-3"><strong>Vollzeit, Berlin/remote</strong></p>
                   <p class="my-3"><strong>Du bist ...</strong></p>
@@ -119,13 +119,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="https://res.cloudinary.com/minimehealth/image/upload/v1647452374/Website/PXL_20210915_083516733_1_k4sysl.png" class="d-block w-100" alt="Team-Ausflug an die Ostsee">
-        </div>
-        <div class="carousel-item">
           <img src="https://res.cloudinary.com/minimehealth/image/upload/v1647452374/Website/minime2_1_mqaaqk.png" class="d-block w-100" alt="minime bei Vision Health Pioneers">
         </div>
         <div class="carousel-item">
           <img src="https://res.cloudinary.com/minimehealth/image/upload/v1647452376/Website/LEO_8794_1_1_pi5adx.png" class="d-block w-100" alt="Business Plan Wettbewerb Finale">
+        </div>
+        <div class="carousel-item">
+          <img src="https://res.cloudinary.com/minimehealth/image/upload/v1647452374/Website/PXL_20210915_083516733_1_k4sysl.png" class="d-block w-100" alt="Team-Ausflug an die Ostsee">
         </div>
       </div>
     </div>
@@ -136,31 +136,31 @@
     <div class="px-lg-5 px-3">
       <h3 class="my-lg-5 my-3">Gestalte deinen Arbeitsplatz</h3>
       <div class="container my-5 px-3">
-        <div class="row">
+        <div id="team-checks" class="row">
           <div class="col-xs-12 col-sm-4 col-md-4 my-3 text-center d-flex justify-content-center">
-            <div class="circle-security bg-white drop-shadow d-flex justify-content-center align-items-center px-2">
+            <div class="circle-team bg-white drop-shadow d-flex justify-content-center align-items-center px-2">
               <p>REMOTE arbeiten</p>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 my-3 text-center d-flex justify-content-center ">
-            <div class="circle-security bg-white drop-shadow d-flex justify-content-center align-items-center px-2">
+            <div class="circle-team bg-white drop-shadow d-flex justify-content-center align-items-center px-2">
               <p>Mentale Gesundheit auf der Arbeit</p>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 my-3 text-center d-flex justify-content-center   ">
-            <div class="circle-security bg-white drop-shadow d-flex justify-content-center align-items-center px-2">
+            <div class="circle-team bg-white drop-shadow d-flex justify-content-center align-items-center px-2">
               <p>Freundschaft-liches Team</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-6 my-3 text-center d-flex justify-content-center ">
-            <div class="circle-security bg-white drop-shadow d-flex justify-content-center align-items-center px-2">
+            <div class="circle-team bg-white drop-shadow d-flex justify-content-center align-items-center px-2">
               <p>Verantwortung & Vertrauen</p>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6 my-3 text-center d-flex justify-content-center">
-            <div class="circle-security bg-white drop-shadow d-flex justify-content-center align-items-center px-2">
+            <div class="circle-team bg-white drop-shadow d-flex justify-content-center align-items-center px-2">
               <p>Persönliche & Professionelle Entwicklung</p>
             </div>
           </div>
