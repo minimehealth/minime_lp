@@ -38,7 +38,7 @@ function offset(el) {
 //     document.querySelector('[data-bs-target="#examplePopup"]').click()
 //  }
 // };
-
+//
 // window.onload = init;
 
 document.addEventListener('scroll', function (e) {
