@@ -44,19 +44,26 @@ function offset(el) {
 document.addEventListener('scroll', function (e) {
   // const appsteps = document.getElementById("app-steps")
   const how = document.getElementById("testi")
-  var howOffset = offset(how);
-  // let appPosition = document.height - top - appsteps.height;
-  // console.log(how)
-  lastKnownScrollPosition = window.scrollY;
-  // return how.top + window.scrollY;
-  // console.log(lastKnownScrollPosition)
-  // console.log(appPosition)
-  const navbar = document.getElementById("nb")
-  // console.log(navbar)
-  if (lastKnownScrollPosition > nb.clientHeight) {
-    navbar.classList.add("background-white");
+
+  if (how) {
+
+    var howOffset = offset(how);
+    // let appPosition = document.height - top - appsteps.height;
+    // console.log(how)
+    lastKnownScrollPosition = window.scrollY;
+    // return how.top + window.scrollY;
+    // console.log(lastKnownScrollPosition)
+    // console.log(appPosition)
+    const navbar = document.getElementById("nb")
+    // console.log(navbar)
+    if (lastKnownScrollPosition > nb.clientHeight) {
+      navbar.classList.add("background-white");
+    } else {
+      navbar.classList.remove("background-white");
+    }
   } else {
-    navbar.classList.remove("background-white");
-  }
+    const navbar = document.getElementById("nb")
+    navbar.classList.add("background-white");
+  };
 });
 //= require gdpr/cookie_consent
