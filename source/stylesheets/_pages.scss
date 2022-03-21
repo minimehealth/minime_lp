@@ -95,13 +95,21 @@ h2,
 h3 {
   font-family: $headers-font;
   color: $dark-grey;
-  font-weight: 700;
+  // font-weight: 600;
   margin: 0;
   padding:0;
+  font-style: normal;
+  font-weight: 600;
+  // font-size: 48px;
+  // line-height: 74px;
+  /* or 154% */
+
+
 }
 
 h1 {
   font-size: 48px;
+  letter-spacing: -0.5px;
 }
 
 h2 {
