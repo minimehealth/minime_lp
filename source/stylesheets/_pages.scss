@@ -5,13 +5,13 @@ body {
   background-color: white;
   color: $dark-grey;
   font-family: $body-font;
-  font-weight: 400;
+  font-weight: 300;
   // text-align: center;
-  text-rendering: optimizeLegibility;
+  // text-rendering: optimizeLegibility;
 }
 
 html {
-  text-rendering: optimizeLegibility;
+  // text-rendering: optimizeLegibility;
 }
 
 ul{
@@ -24,10 +24,10 @@ ul{
   }
  }
 
-.container {
-  width: 85vw;
-  padding: 0;
-}
+// .container {
+//   width: 85vw;
+//   padding: 0;
+// }
 
 .background-green {
   background-color: #f1fff8;
@@ -92,7 +92,7 @@ a:hover {
 
 h1,
 h2,
-h3 {
+h3, h4 {
   font-family: $headers-font;
   color: $dark-grey;
   // font-weight: 600;
@@ -118,19 +118,15 @@ h2 {
 
 h3 {
   font-size: 24px;
-  font-weight: 600;
+  // font-weight: 600;
 }
 
 h4 {
   font-size: 18px;
-  font-family: $headers-font;
-  color: $dark-grey;
-  font-weight: 600;
-  margin: 0;
-  padding:0;
 }
 
 p {
+  font-weight: 300;
   font-size: 20px;
   margin: 0;
   padding:0;
@@ -145,7 +141,7 @@ li span {
 }
 
 .body-text-black {
-  color: #434343;
+  color: $dark-grey
 }
 
 .text-blue {
@@ -170,9 +166,9 @@ li span {
   display: none;
 }
 @media (max-width: 1200px) {
-  .container {
-    width: 95vw;
-  }
+  // .container {
+  //   width: 95vw;
+  // }
 
   h1 {
     font-size: 35px;
@@ -219,9 +215,9 @@ li span {
 }
 
 @media (max-width: 1024px) {
-  .container {
-    width: 95vw;
-  }
+  // .container {
+  //   width: 95vw;
+  // }
 
   h1 {
     font-size: 35px;
@@ -266,9 +262,9 @@ li span {
 }
 
 @media (max-width: 768px) {
-  .container {
-    width: 95vw;
-  }
+  // .container {
+  //   width: 95vw;
+  // }
 
   h1 {
     font-size: 35px;
@@ -313,9 +309,9 @@ li span {
 }
 
 @media (max-width: 760px) {
-  .container {
-    width: 95vw;
-  }
+  // .container {
+  //   width: 95vw;
+  // }
 
   h1 {
     font-size: 37px;
