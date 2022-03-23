@@ -1,12 +1,71 @@
 .bg-header-purple {
-  background-image: url(../../images/v3/bg-header-purple.svg);
-  // background-position: right bottom;
+  background-image: url(../../images/research/bg-header-purple.svg);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+  // margin-bottom: 200px;
 }
 
 .fachkreise-header-img {
-  width: 20vw;
+  max-width: fit-content;
+  width: 30vw;
   padding: 20px;
   border-radius: 40px;
+}
+
+.citation-bg {
+  background-image: url(../../images/research/bg-citation-purple.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.citation-img {
+  width: 50%;
+  // height: 50%;
+  padding: 20px;
+  border-radius: 40px;
+}
+.bg-right {
+  background-image: url(../../images/research/bg-right.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  // padding-top: 40px;
+  // background-size: 566px 530px;
+  // height: 100%; /* You must set a specified height */
+  }
+
+.bg-left {
+  background-image: url(../../images/research/bg-left.svg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  // padding-top: 40px;
+  // background-size: 566px 530px;
+  // height: 100%; /* You must set a specified height */
+}
+
+.circle-research  {
+  border-radius: 200%;
+  height: 200px;
+  width: 200px;
+  // padding: 50px;
+  background-color: #F3ECF1;
+  background-image: url(../../images/v3/check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  // box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+
+
+@media (max-width: 767px) {
+
+  .fachkreise-header-img {
+    width: 50vw;
+    padding: 20px;
+    border-radius: 40px;
+  }
 }
