@@ -1,21 +1,4 @@
-// .btn-app {
-//   background: $neon-green !important;
-//   color: white !important;
-//   font-size: 18px !important;
-//   font-weight: 500 !important;
-//   border-radius: 10px !important;
-//   padding: 16px 32px !important;
-//   border: none !important;
-//   transition: transform 0.5s; /* Animation */
-//   -webkit-appearance: none;
-//   -moz-appearance: none;
-//   appearance: none;
-// }
 
-// .btn-app:hover {
-//   color: white;
-//   transform: scale(1.1);
-// }
 
 .btn-aperol {
   background: $aperol !important;
@@ -51,6 +34,25 @@
 }
 
 .btn-neon-green:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.btn-purple {
+  background: $purple !important;
+  color: white !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  border-radius: 100px !important;
+  padding: 16px 32px !important;
+  border: none !important;
+  transition: transform 0.5s; /* Animation */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.btn-purple:hover {
   color: white;
   transform: scale(1.1);
 }
@@ -91,59 +93,4 @@
 .btn-newsletter:hover {
   color: white;
   transform: scale(1.1);
-}
-
-// .btn-aperol-ghost {
-//   background: none !important;
-//   color: $aperol !important;
-//   font-size: 18px !important;
-//   font-weight: 500 !important;
-//   border-radius: 100px !important;
-//   padding: 16px 32px !important;
-//   border: none !important;
-//   transition: transform 0.5s; /* Animation */
-//   -webkit-appearance: none;
-//   -moz-appearance: none;
-//   appearance: none;
-// }
-
-// .btn-aperol-ghost:hover {
-//   color: $aperol;
-//   transform: scale(1.1);
-// }
-
-// .btn-blue {
-//   border: none;
-//   background-color: transparent;
-//   margin: 0;
-//   padding: 0;
-//   transition: transform 0.5s; /* Animation */
-//   -webkit-appearance: none;
-//   -moz-appearance: none;
-//   appearance: none;
-// }
-
-// .btn-blue:hover {
-//   color: white;
-//   transform: scale(1.1);
-// }
-
-@media (max-width: 991px) {
-  .btn-app {
-    // border-radius: 15px;
-    padding: 10px 35px;
-    width: 80%;
-  }
-
-  .btn-app:hover {
-    border-radius: 15px;
-    padding: 10px 35px;
-    width: 80%;
-  }
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 480px) {
 }
