@@ -59,6 +59,21 @@
   // box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
+.bg-purple-long {
+  background-image: url(../../images/research/bg-long.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.neg-margin {
+  margin-left: -20px;
+}
+
+.research-cards {
+  min-height: 300px;
+}
 
 
 @media (max-width: 767px) {
@@ -68,4 +83,8 @@
     padding: 20px;
     border-radius: 40px;
   }
+  .research-cards {
+    min-height: max-content;
+  }
+
 }
