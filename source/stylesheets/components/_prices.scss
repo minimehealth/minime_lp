@@ -1,16 +1,16 @@
 .features {
-  list-style: square url("../../images/v3/check-small.png");
+  list-style: square url("../../images/v3/check-orange.svg");
   // list-style-position: inside;
 
-    margin: 0 !important;
-    padding-left: 30px !important;
+  margin: 0 !important;
+  padding-left: 30px !important;
 
   li {
     padding: 5px;
     // margin-left: 10px;
   }
- }
+}
 
- .cards-price {
-   min-height: 800px;
- }
+.cards-price {
+  min-height: 600px;
+}

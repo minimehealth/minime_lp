@@ -3,26 +3,23 @@
     <h3 class="mb-4">minime Pakete</h3>
     <div class="row g-4">
       <div class="col-lg-4 col-md-6 col-12 bg-white my-5">
-        <div class="drop-shadow cards-price rounded-3 py-3">
-          <div class="py-3 text-center" style="height: 100px;">
-            <%= image_tag 'v3/pkt-1.svg', class: "h-100" %>
-          </div>
-          <p class="text-center text-uppercase">Starter-Paket</p>
-          <div class="mt-3 d-flex justify-content-center align-items-center">
-            <h3>0,00</h2>
-            <p>€</p>
-          </div>
-          <p class="mb-3 text-small text-center">monatl. kündbar</p>
-          <div class="px-3 d-flex justify-content-center">
-            <ul class="features">
-              <li><strong>2 Patient:innen-Profile:</strong> Jetzt anlegen und kostenlos einladen!</li>
-              <li><strong>Selbstbeobachtungsbögen:</strong> Stimmungs-, Gefühls- und Gedankenprotokoll</li>
-              <li><strong>Positivtagebuch:</strong> Erfolge und positive Erlebnisse festhalten</li>
-              <li><strong>Verhaltensanalyse (Sorkc):</strong> Interaktiv und spielerisch</li>
-              <li><strong>Verlaufsansicht/Timeline:</strong> Alle Einträge und Aufträge in einer gemeinsamen Übersicht</li>
-              <li><strong>Filter:</strong> für eine individuelle Verlaufsansicht</li>
-              <li><strong>Export:</strong> Verlaufsansicht und Verhaltensanalyse als PDF exportieren und drucken</li>
-            </ul>
+        <div class="drop-shadow cards-price rounded-3 py-3 d-flex flex-column justify-content-between">
+          <div>
+            <div class="py-3 text-center" style="height: 100px;">
+              <%= image_tag 'v3/pkt-1.svg', class: "h-100" %>
+            </div>
+            <p class="text-center text-uppercase">Starter-Paket</p>
+            <div class="mt-3 d-flex justify-content-center align-items-center">
+              <h3>0,00</h2>
+              <p>€</p>
+            </div>
+            <p class="mb-3 text-9 text-center">monatl. kündbar</p>
+            <div class="px-3 d-flex justify-content-center">
+              <ul class="features">
+                <li><strong>Bis zu 2 Patient:innen-Profile:</strong> Jetzt anlegen und kostenlos einladen!</li>
+                <li><strong>Features:</strong> Alle minime Features aus dem Basis-Paket</li>
+              </ul>
+            </div>
           </div>
           <div class="my-3 text-center">
             <a href="https://app.minime.health" type="button" class="btn btn-aperol shadow-none">Registrieren</a>
@@ -30,26 +27,29 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-12 bg-white my-3">
-        <div class="drop-shadow cards-price rounded-3 py-3" >
-          <div class="py-3 text-center" style="height: 100px;">
-            <%= image_tag 'v3/pkt-2.svg', class: "h-100" %>
-          </div>
-          <p class="text-center text-uppercase">Basis-Paket</p>
-          <div class="mt-3 d-flex justify-content-center align-items-center">
-            <h3>29,00</h2>
-            <p>€</p>
-          </div>
-          <p class="mb-3 text-small text-center">monatl. kündbar</p>
-          <div class="px-3 d-flex justify-content-center">
-            <ul class="features">
-              <li><strong>Unbegrenzte Patient:innen-Profile:</strong> Jetzt anlegen und kostenlos einladen!</li>
-              <li><strong>Selbstbeobachtungsbögen:</strong> Stimmungs-, Gefühls- und Gedankenprotokoll</li>
-              <li><strong>Positivtagebuch:</strong> Erfolge und positive Erlebnisse festhalten</li>
-              <li><strong>Verhaltensanalyse (Sorkc):</strong> Interaktiv und spielerisch</li>
-              <li><strong>Verlaufsansicht/Timeline:</strong> Alle Einträge und Aufträge in einer gemeinsamen Übersicht</li>
-              <li><strong>Filter:</strong> für eine individuelle Verlaufsansicht</li>
-              <li><strong>Export:</strong> Verlaufsansicht und Verhaltensanalyse als PDF exportieren und drucken</li>
-            </ul>
+        <div class="drop-shadow cards-price rounded-3 py-3 d-flex flex-column justify-content-between" >
+          <div>
+            <div class="py-3 text-center" style="height: 100px;">
+              <%= image_tag 'v3/pkt-2.svg', class: "h-100" %>
+            </div>
+            <p class="text-center text-uppercase">Basis-Paket</p>
+            <div class="mt-3 d-flex justify-content-center align-items-center">
+              <h3>29,00</h2>
+              <p>€</p>
+            </div>
+            <p class="mb-3 text-9 text-center">monatl. kündbar</p>
+            <div class="px-3 d-flex justify-content-center">
+              <ul class="features">
+                <li><strong>Unbegrenzte Patient:innen-Profile</strong></li>
+                <li>Spielerische Selbstbeobachtungsprotokolle</li>
+                <li>Individuelle Aufträge festhalten</li>
+                <li>Positivtagebuch für Erfolge und Selbstmitgefühl</li>
+                <li>Interaktive Verhaltensanalysen</li>
+                <li>Gemeinsame Verlaufsansicht</li>
+                <li>Entwicklungsverläufe mit Filter-funktion darstellen</li>
+                <li>Alle Beobachtungen in PDF exportieren oder drucken</li>
+              </ul>
+            </div>
           </div>
           <div class="my-3 text-center">
             <a href="https://app.minime.health" type="button" class="btn btn-aperol shadow-none">Registrieren</a>
@@ -57,20 +57,22 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-12 bg-white my-5">
-        <div class="drop-shadow cards-price rounded-3 py-3" >
-          <div class="py-3 text-center" style="height: 100px;">
-            <%= image_tag 'v3/pkt-3.svg', class: "h-100" %>
-          </div>
-          <p class="text-center text-uppercase">Premium-Paket</p>
-          <div class="my-4 d-flex justify-content-center align-items-center">
-            <h4>Bald verfügbar!</h4>
-          </div>
-          <div class="px-3 d-flex justify-content-center">
-            <ul class="features">
-              <li><strong>Unbegrenzte Patient:innen-Profile:</strong> Jetzt anlegen und kostenlos einladen!</li>
-              <li><strong>Features:</strong> alle Übungen aus dem Basis-Paket verfügbar</li>
-              <li><strong>NEU: </strong>Features und Übungen zur therpeutischen Behandlung.</li>
-            </ul>
+        <div class="drop-shadow cards-price rounded-3 py-3 d-flex flex-column justify-content-between" >
+          <div>
+            <div class="py-3 text-center" style="height: 100px;">
+              <%= image_tag 'v3/pkt-3.svg', class: "h-100" %>
+            </div>
+            <p class="text-center text-uppercase">Premium-Paket</p>
+            <div class="my-4 d-flex justify-content-center align-items-center">
+              <h4>Bald verfügbar!</h4>
+            </div>
+            <div class="px-3 d-flex justify-content-center">
+              <ul class="features">
+                <li><strong>Unbegrenzte Patient:innen-Profile</strong></li>
+                <li><strong>Features:</strong> Alle minime Features aus dem Basis-Paket</li>
+                <li><strong>NEU: </strong>zusätzliche Features und Übungen zur therpeutischen Behandlung.</li>
+              </ul>
+            </div>
           </div>
           <div class="my-3 text-center">
             <a href="https://wqtw8kexb45.typeform.com/to/RuXXjf0l" type="button" class="btn btn-aperol-ghost shadow-none">Mitgestalten</a>
