@@ -32,6 +32,7 @@
     <title><%= current_page.data.title || "minime" %></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
     <%= favicon_tag 'images/logo_mobile.png' %>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
@@ -42,31 +43,5 @@
     <%= partial "partials/footer" %>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <%= partial "partials/popup" %>
-    <!-- START - We recommend to place the below code in footer or bottom of your website html  -->
-    <script>
-      window.REQUIRED_CODE_ERROR_MESSAGE = 'Wählen Sie bitte einen Ländervorwahl aus.';
-      window.LOCALE = 'de';
-      window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "Die eingegebenen Informationen sind nicht gültig. Bitte überprüfe das Feldformat und versuche es erneut.";
-
-      window.REQUIRED_ERROR_MESSAGE = "Dieses Feld darf nicht leer sein. ";
-
-      window.GENERIC_INVALID_MESSAGE = "Die eingegebenen Informationen sind nicht gültig. Bitte überprüfe das Feldformat und versuche es erneut.";
-
-
-
-
-      window.translation = {
-        common: {
-          selectedList: '{quantity} Liste ausgewählt',
-          selectedLists: '{quantity} Listen ausgewählt'
-        }
-      };
-
-      var AUTOHIDE = Boolean(0);
-    </script>
-    <script src="https://sibforms.com/forms/end-form/build/main.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?hl=de"></script>
-    <!-- END - We recommend to place the above code in footer or bottom of your website html  -->
-    <!-- End Sendinblue Form -->
   </body>
 </html>
