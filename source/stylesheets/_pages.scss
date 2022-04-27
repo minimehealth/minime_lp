@@ -46,6 +46,10 @@ textarea:focus {
   background-color: $light-blue;
 }
 
+.bg-lightorange {
+  background-color: $light-orange;
+}
+
 .background-blue {
   background-color: $dark-blue;
 }
@@ -96,11 +100,13 @@ h2 {
 
 h3 {
   font-size: 24px;
+
   // font-weight: 600;
 }
 
 h4 {
   font-size: 18px;
+  font-weight: 400;
 }
 
 p {
