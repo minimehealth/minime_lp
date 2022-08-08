@@ -42,29 +42,38 @@
 								Über uns
 							</li>
 						</a>
-						<% if location == "fachkreise.html" %>
-							<a class="nav-item active" href='/fachkreise'>
+						<% if location == "preise.html" %>
+							<a class="nav-item active" href='/preise'>
 							<% else %>
-								<a class="nav-item" href='/fachkreise'>
+								<a class="nav-item" href='/preise'>
 								<% end %>
 								<li class="nav-link">
-									Fachkreise
+									Preise
 								</li>
 							</a>
-							<a class="nav-item not-desktop" href="/datenschutz">
-								<li class="nav-link">
-									Datenschutz
-								</li>
-							</a>
-							<a class="nav-item not-desktop" href="/impressum">
-								<li class="nav-link">
-									Impressum
-								</li>
-							</a>
-							<div class="my-5 mx-3 my-md-0">
-								<a href="https://app.minime.health" class="btn btn-aperol shadow-none">Jetzt starten!</a>
-							</div>
-						</ul>
+							<% if location == "fachkreise.html" %>
+								<a class="nav-item active" href='/fachkreise'>
+								<% else %>
+									<a class="nav-item" href='/fachkreise'>
+									<% end %>
+									<li class="nav-link">
+										Fachkreise
+									</li>
+								</a>
+								<a class="nav-item not-desktop" href="/datenschutz">
+									<li class="nav-link">
+										Datenschutz
+									</li>
+								</a>
+								<a class="nav-item not-desktop" href="/impressum">
+									<li class="nav-link">
+										Impressum
+									</li>
+								</a>
+								<div class="my-5 mx-3 my-md-0">
+									<a href="https://app.minime.health" class="btn btn-aperol shadow-none">Jetzt starten!</a>
+								</div>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
