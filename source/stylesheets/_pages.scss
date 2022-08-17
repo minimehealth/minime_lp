@@ -30,52 +30,33 @@ textarea:focus {
   box-shadow: none !important;
 }
 
-.background-green {
-  background-color: #f1fff8;
-}
-
-.background-white {
-  background-color: white;
-}
-
-.background-header {
-  background-color: white;
-}
-
-.background-lightblue {
-  background-color: $light-blue;
-}
-
 .bg-lightorange {
   background-color: $light-orange;
 }
 
-.background-blue {
-  background-color: $dark-blue;
-}
 
 .border-blue {
-  border: solid 1px $dark-blue;
+  border: solid 1px $blue;
 }
 
 
 a {
   text-decoration: none;
   font-size: 18px;
-  // color: $dark-blue;
+  // color: $blue;
 }
 
 a:hover {
   text-decoration: none;
   font-size: 18px;
-  // color: $dark-blue;
+  // color: $blue;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: $headers-font;
+  font-family: $body-font;
   color: $gray;
   // font-weight: 600;
   margin: 0;
@@ -91,7 +72,7 @@ h4 {
 
 h1 {
   font-size: 48px;
-  letter-spacing: -0.5px;
+  // letter-spacing: -0.5px;
 }
 
 h2 {
@@ -106,12 +87,12 @@ h3 {
 
 h4 {
   font-size: 18px;
-  font-weight: 400;
+  // font-weight: 600;
 }
 
 p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
 }
@@ -128,17 +109,6 @@ li span {
   font-size: 20px !important;
 }
 
-.body-text-black {
-  color: $dark-grey
-}
-
-.text-blue {
-  color: $dark-blue;
-}
-
-.text-white {
-  color: white;
-}
 
 .mobile-hidden {
   display: block;

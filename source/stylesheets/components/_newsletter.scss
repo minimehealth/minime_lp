@@ -1,5 +1,5 @@
 .indicates-required {
-  font-family: $body-font !important;
+  font-family: $body-font  !important;
 }
 
 .modal-body {
@@ -8,6 +8,7 @@
   align-self: center;
   justify-self: center;
 }
+
 .border-lightblue {
   border: 10px $light-blue solid;
 }
@@ -20,8 +21,9 @@
   background-size: auto 70%;
   // margin-bottom: 100px;
 }
+
 .close {
-  color: $dark-grey !important;
+  color: $gray  !important;
   background-color: transparent !important;
   border: none;
   font-size: 50px;
@@ -32,48 +34,50 @@
 }
 
 
-.link > a {
-  font-family: $body-font !important;
+.link>a {
+  font-family: $body-font  !important;
   font-weight: 500 !important;
-  color: $dark-blue !important;
+  color: $blue  !important;
 }
 
 .input-group {
-  font-family: $body-font !important;
+  font-family: $body-font  !important;
 }
 
 label {
-  font-family: $body-font !important;
+  font-family: $body-font  !important;
 }
 
 
 
 input {
   // background-color: §light-grey !important;
-  color: $dark-grey !important;
+  color: $gray  !important;
   border-radius: 40px !important;
   border: none !important;
-  background-color: $light-gray !important;
+  background-color: $light-gray  !important;
 }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: $gray;
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: $dark-grey;
+  color: $gray;
 
 }
+
 // #mc_embed_signup .mc-field-group input[type="text"] {
-//   border: 1px solid $dark-blue;
+//   border: 1px solid $blue;
 //   border-radius: 4px;
 // }
 
 // #mc_embed_signup .mc-field-group input[type="email"] {
-//   border: 1px solid $dark-blue;
+//   border: 1px solid $blue;
 //   border-radius: 4px;
 // }
 
@@ -81,12 +85,12 @@ input {
   display: inline;
   width: auto;
   margin-right: 5px;
-  border: 1px solid $dark-blue !important;
+  border: 1px solid $blue  !important;
   border-radius: 50%;
 }
 
 .asterisk {
-  color: $dark-grey !important;
+  color: $gray  !important;
 }
 
 
@@ -94,5 +98,4 @@ input {
   margin: 0 !important;
 }
 
-@media (max-width: 768px) {
-}
+@media (max-width: 768px) {}

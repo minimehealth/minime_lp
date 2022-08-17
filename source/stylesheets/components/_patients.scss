@@ -1,5 +1,4 @@
-
-.background-blue-long {
+.bg-blue-long {
   background-image: url(../../images/v3/bg-blue-long.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,20 +8,20 @@
   // list-style: square url("../../images/v3/check-small.png");
   // list-style-position: inside;
 
-    margin: 10px !important;
-    padding-left: 20px !important;
+  margin: 10px !important;
+  padding-left: 20px !important;
 
   li {
     padding: 5px;
     // margin-left: 10px;
   }
- }
+}
 
 .elli-long {
   background: url(../../images/v3/long-ellipse.svg) no-repeat center center;
   // background-position: center;
   // background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
 }
 
 .drop-shadow {
@@ -36,7 +35,7 @@
 
 .blue-frame {
   border: 2px;
-  border-color: $dark-blue;
+  border-color: $blue;
   background-color: white;
   border-radius: 10px;
   height: 220px;
@@ -65,10 +64,14 @@
 
 .check-box {
   background-image: url(../../images/check_box.svg);
-  height: 150px; /* You must set a specified height */
-  background-position: left; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 150px;
+  /* You must set a specified height */
+  background-position: left;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
   position: relative;
   border-radius: 10px;
 }
@@ -83,7 +86,7 @@
 @media (max-width: 1024px) {
   .blue-frame {
     border: 2px;
-    border-color: $dark-blue;
+    border-color: $blue;
     background-color: white;
     border-radius: 10px;
     height: 250px;
@@ -111,10 +114,14 @@
 
   .check-box {
     background-image: url(../../images/check_box.svg);
-    height: 170px; /* You must set a specified height */
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 170px;
+    /* You must set a specified height */
+    background-position: left;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
     position: relative;
     border-radius: 10px;
   }
@@ -130,7 +137,7 @@
 @media (max-width: 768px) {
   .blue-frame {
     border: 2px;
-    border-color: $dark-blue;
+    border-color: $blue;
     background-color: white;
     border-radius: 10px;
     height: 250px;
@@ -161,9 +168,12 @@
     background-image: url(../../images/check_box.svg);
     height: 150px;
     width: 100%;
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: left;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
     position: relative;
     border-radius: 10px;
   }
@@ -180,7 +190,7 @@
 @media (max-width: 480px) {
   .blue-frame {
     border: 2px;
-    border-color: $dark-blue;
+    border-color: $blue;
     background-color: white;
     border-radius: 10px;
     height: 220px;
@@ -211,9 +221,12 @@
     background-image: url(../../images/check_box.svg);
     height: 150px;
     width: 100%;
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: left;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
     position: relative;
     border-radius: 10px;
   }

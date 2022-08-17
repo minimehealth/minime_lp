@@ -22,13 +22,13 @@ function offset(el) {
 //   //   const navbar = document.getElementById("nb")
 //   //   // console.log(navbar)
 //   //   if (lastKnownScrollPosition > nb.clientHeight) {
-//   //     navbar.classList.add("background-white");
+//   //     navbar.classList.add("bg-white");
 //   //   } else {
-//   //     navbar.classList.remove("background-white");
+//   //     navbar.classList.remove("bg-white");
 //   //   }
 //   // } else {
 //   //   const navbar = document.getElementById("nb")
-//   //   navbar.classList.add("background-white");
+//   //   navbar.classList.add("bg-white");
 //   // };
 // });
 

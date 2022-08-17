@@ -13,7 +13,7 @@
   background-size: cover;
 }
 
-.circle-team  {
+.circle-team {
   border-radius: 150%;
   height: 150px;
   width: 150px;
@@ -33,10 +33,11 @@
 
 .accordion-button:not(.collapsed) {
   background-color: white;
-  color: $dark-grey;
+  color: $gray;
   box-shadow: inset;
   border: none !important;
 }
+
 .accordion-body {
   background-color: white;
   padding: 1rem !important;
@@ -46,12 +47,13 @@
   // background-color: #fff;
   border: none !important;
 }
+
 .partner {
   width: 120px;
 }
 
 .blue-box {
-  background-color: $dark-blue;
+  background-color: $blue;
   border-radius: 10px;
 }
 
@@ -74,6 +76,7 @@
   padding: 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+
   img {
     width: 100%;
     object-fit: cover;
@@ -91,7 +94,7 @@
   }
 
   .blue-box {
-    background-color: $dark-blue;
+    background-color: $blue;
     border-radius: 10px;
   }
 
@@ -114,6 +117,7 @@
     padding: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
     img {
       width: 100%;
       object-fit: cover;
@@ -132,7 +136,7 @@
   }
 
   .blue-box {
-    background-color: $dark-blue;
+    background-color: $blue;
     border-radius: 10px;
   }
 
@@ -155,6 +159,7 @@
     padding: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
     img {
       width: 100%;
       object-fit: cover;
