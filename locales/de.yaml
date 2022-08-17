@@ -1,12 +1,26 @@
 ---
 de:
+  therapists: "Therapeut:innen"
+  patients: "Patient:innen"
+  therapist: "Therapeut:in"
+  patient: "Patient:in"
+  company: "Unternehmen"
   navbar:
+    more: "Mehr Dazu"
     blog: "Magazin"
     therapists: "Für Therapeut:innen"
     patients: "Für Patient:innen"
     content: "Inhalte"
     about_us: "Über Uns"
     prices: "Preise"
+    claim: "DIGITALE THERAPIETOOLS"
+    product: "Produkt"
+    legal: "Rechtliches"
+    contact: "Kontakt"
+    data_security: "Datenschutz"
+    impressum: "Impressum"
+  buttons:
+    newsletter: "Newsletter abonnieren"
   prices:
     packages: "Preise"
   paths:
