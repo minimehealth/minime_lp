@@ -1,0 +1,18 @@
+---
+de:
+  navbar:
+    blog: "Magazin"
+    therapists: "Für Therapeut:innen"
+    patients: "Für Patient:innen"
+    content: "Inhalte"
+    about_us: "Über Uns"
+    prices: "Preise"
+  prices:
+    packages: "Preise"
+  paths:
+    prices: "preise"
+    patients: "patienten"
+    therapists: "therapeuten"
+    team: "team"
+    data_security: "datenschutz"
+    impressum: "impressum"

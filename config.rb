@@ -8,7 +8,7 @@ end
 activate :livereload
 activate :directory_indexes  #Removes .html from file
 # activate :sprockets
-# activate :i18n, langs: [:de]
+activate :i18n, langs: [:de]
 
 # activate :external_pipeline,
 #   name: :webpack,
