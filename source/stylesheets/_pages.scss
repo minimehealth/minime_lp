@@ -5,7 +5,7 @@ body {
   background-color: white;
   color: $gray;
   font-family: $body-font;
-  font-weight: 300;
+  font-weight: 400;
   // text-align: center;
   // text-rendering: optimizeLegibility;
 }
@@ -30,10 +30,16 @@ textarea:focus {
   box-shadow: none !important;
 }
 
-.bg-lightorange {
-  background-color: $light-orange;
+.mini-circle {
+  display: block;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  left: 0;
+  top: -30px;
+  border: solid $orange 1px;
 }
-
 
 .border-blue {
   border: solid 1px $blue;

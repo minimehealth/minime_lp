@@ -24,7 +24,7 @@
   position: relative;
 }
 
-.nav-circle {
+.navbar .mini-circle {
   display: none;
   position: absolute;
   height: 70px;
@@ -36,7 +36,7 @@
 }
 
 
-.navbar .active .nav-circle {
+.navbar .active .mini-circle {
   display: block;
 }
 
