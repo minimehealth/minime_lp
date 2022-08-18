@@ -1,64 +1,75 @@
-<div id="team" class="py-3">
-	<div class="container  px-3 px-lg-5 py-3">
-		<h2 class="my-3 text-start">Das sind die minimes.</h2>
-		<div class="blue-grid">
+<div id="team" class="py-3 my-4">
+	<div class="container text-center">
+		<h2 class="my-2 text-uppercase"><%= t(:'team.pic_header') %></h2>
+		<h3 class="my-2"><%= t(:'team.pic_subheader') %></h3>
+		<div class="blue-grid my-5">
 			<div class="text-center">
-				<div class="circle-border"><%= image_tag 'team/nina.png', class: "rounded-circle image-width-200" %></div>
-				<div class="card-body pt-3 position-relative">
+				<div class="d-flex justify-content-center">
+					<div class="circle-border"><%= image_tag 'team/nina.png', class: "rounded-circle image-width-200" %></div>
+				</div>
+				<div class="card-body pt-2 position-relative">
 					<div class="mini-circle"></div>
 					<h4 class="text-center mb-2">Nina Hackenbroich</h4>
 					<p class="text-center">Co-Founder & Fullstack<br>
-						Entwicklerin</p>
+						<%= t(:'team.f_developer') %></p>
 					<a href="https://www.linkedin.com/in/nina-hackenbroich/" target="_blank" class="mt-auto mb-3">
 						<%= image_tag 'team/linkedin-borders.svg', class: "mt-3"%>
 					</a>
 				</div>
 			</div>
 			<div class="text-center">
-				<div class="circle-border"><%= image_tag 'team/paul.png', class: "rounded-circle image-width-200" %></div>
-				<div class="card-body pt-3 position-relative">
+				<div class="d-flex justify-content-center">
+					<div class="circle-border"><%= image_tag 'team/paul.png', class: "rounded-circle image-width-200" %></div>
+				</div>
+				<div class="card-body pt-2 position-relative">
 					<div class="mini-circle"></div>
 					<h4 class="text-center mb-2">Paul Schneeweiß</h4>
-					<p class="text-center">Co-Founder<br>
-						Psychotherapeut</p>
+					<p class="text-center">Co-Founder &<br>
+						<%= t(:'team.therapist') %></p>
 					<a href="https://www.linkedin.com/in/paul-schneewei%C3%9F-258b031b5/" target="_blank" class="mt-auto mb-3">
-						<%= image_tag 'team/linkedin-border.svg', class: "mt-3"%>
+						<%= image_tag 'team/linkedin-borders.svg', class: "mt-3"%>
 					</a>
 				</div>
 			</div>
 			<div class="text-center">
-				<div class="circle-border"><%= image_tag 'team/stella.png', class: "rounded-circle image-width-200" %></div>
-				<div class="card-body pt-3 position-relative">
+				<div class="d-flex justify-content-center">
+					<div class="circle-border"><%= image_tag 'team/stella.png', class: "rounded-circle image-width-200" %></div>
+				</div>
+				<div class="card-body pt-2 position-relative">
 					<div class="mini-circle"></div>
 					<h4 class="text-center mb-2">Stella Römhildt</h4>
 					<p class="text-center">User Experience<br>
 						Research</p>
 					<a href="https://www.linkedin.com/in/stellar%C3%B6mhildt/" target="_blank" class="mt-auto mb-3">
-						<%= image_tag 'team/linkedin-border.svg', class: "mt-3"%>
+						<%= image_tag 'team/linkedin-borders.svg', class: "mt-3"%>
 					</a>
 				</div>
 			</div>
 			<div class="text-center">
-				<div class="circle-border"><%= image_tag 'team/rafael.png', class: "rounded-circle image-width-200" %></div>
-				<div class="card-body pt-3 position-relative">
+				<div class="d-flex justify-content-center">
+					<div class="circle-border"><%= image_tag 'team/ivaylo.png', class: "rounded-circle image-width-200" %></div>
+				</div>
+				<div class="card-body pt-2 position-relative">
 					<div class="mini-circle"></div>
 					<h4 class="text-center mb-2">Ivaylo Dyakov</h4>
-					<p class="text-center">Front & Backend <br>
-						Entwickler</p>
+					<p class="text-center">Fullstack <br>
+						<%= t(:'team.m_developer') %></p>
 					<a href="https://www.linkedin.com/in/ivaylo-dyakov-844376148/" target="_blank" class="mt-auto mb-3" >
-						<%= image_tag 'team/linkedin-border.svg', class: "mt-3"%>
+						<%= image_tag 'team/linkedin-borders.svg', class: "mt-3"%>
 					</a>
 				</div>
 			</div>
 			<div class="text-center">
-				<div class="circle-border"><%= image_tag 'team/kristina.jpeg', class: "rounded-circle image-width-200" %></div>
-				<div class="card-body pt-3 position-relative">
+				<div class="d-flex justify-content-center">
+					<div class="circle-border"><%= image_tag 'team/kristina.jpeg', class: "rounded-circle image-width-200" %></div>
+				</div>
+				<div class="card-body pt-2 position-relative">
 					<div class="mini-circle"></div>
 					<h4 class="text-center mb-2">Kristina Mödl</h4>
 					<p class="text-center">Marketing & Sales<br>
-						Managerin</p>
+						<%= t(:'team.f_manager') %></p>
 					<a href="https://www.linkedin.com/in/kristina-m%C3%B6dl/" target="_blank" class="mt-auto mb-3" >
-						<%= image_tag 'team/linkedin-border.svg', class: "mt-3"%>
+						<%= image_tag 'team/linkedin-borders.svg', class: "mt-3"%>
 					</a>
 				</div>
 			</div>

@@ -1,16 +1,30 @@
-.bg-team-header {
-  background-image: url(../../images/v3/bg-orange.svg);
-  // background-position: right bottom;
+// .bg-team-checks {
+//   background-image: url(../../images/v3/bg-orange-long.svg);
+//   // background-position: right bottom;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+.bg-team {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/minimehealth/image/upload/v1660841188/Website/team_work_hsmqic.png");
+
+  // /* Set a specific height */
+  height: 600px;
+  // width: 100%;
+
+  // /* Position and center the image to scale nicely on all screens */
+  background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
-  // height: 400px; /* You must set a specified height */
 }
 
-.bg-team-checks {
-  background-image: url(../../images/v3/bg-orange-long.svg);
-  // background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.team-header-img {
+  // display: block;
+  height: 600px;
+  // width: 100%;
+  width: 100%;
+  // object-fit: cover;
 }
 
 .circle-team {
@@ -37,9 +51,12 @@
 }
 
 
-.circle-border .team-header-img {
-  width: 40vw
-}
+// .team-header-img {
+//   // width: 50vw;
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+// }
 
 .accordion-button:not(.collapsed) {
   background-color: white;
@@ -62,20 +79,15 @@
   width: 120px;
 }
 
-.blue-box {
-  background-color: $blue;
-  border-radius: 10px;
-}
 
 .blue-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1em;
+  overflow: auto;
+  white-space: nowrap;
 }
 
-.card {
-  border: none;
-}
 
 .card-team-img {
   overflow: hidden;

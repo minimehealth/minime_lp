@@ -36,7 +36,7 @@ textarea:focus {
   height: 70px;
   width: 70px;
   border-radius: 50%;
-  left: 0;
+  left: 15px;
   top: -30px;
   border: solid $orange 1px;
 }
@@ -62,7 +62,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: $body-font;
+  font-family: $headers-font;
   color: $gray;
   // font-weight: 600;
   margin: 0;
@@ -87,13 +87,10 @@ h2 {
 
 h3 {
   font-size: 24px;
-
-  // font-weight: 600;
 }
 
 h4 {
   font-size: 18px;
-  // font-weight: 600;
 }
 
 p {
@@ -368,6 +365,13 @@ li span {
 
   .tablet-desktop-hidden {
     display: block;
+  }
+
+  .mini-circle {
+
+    left: 25%;
+    top: -30px;
+    border: solid $orange 1px;
   }
 }
 

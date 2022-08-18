@@ -21,6 +21,17 @@ de:
     impressum: "Impressum"
   buttons:
     newsletter: "Newsletter abonnieren"
+    register: "Jetzt anmelden!"
+  team:
+    header: "Was ist minime?"
+    subheader: "Das erste digitale Therapietool der Verhaltenstherapie."
+    p_header: "Ursprünglich wollten wir eines der meistgenutzen Übungsblätter in der Verhaltenstherapie digitalisieren. Mittlerweile ist minime zu einem digitalen Therapietagebuch herangewachsen bei dem die wichtigsten verhaltenstherapeutischen Selbstbeobachtungstools integriert wurden. Sei dabei und gestalte die Digitalisierung der Verhaltenstherapie mit."
+    pic_header: "Das minime Team"
+    pic_subheader: "Wir denken Verhaltenstherapie aus ganz verschiedenen Perspektiven"
+    f_developer: "Entwicklerin"
+    m_developer: "Entwickler"
+    therapist: "Psychotherapeut"
+    f_manager: "Managerin"
   prices:
     packages: "Preise"
   paths:
