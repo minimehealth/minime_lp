@@ -1,68 +1,74 @@
-<div id="nb" class="navbar navbar-expand-md sticky-top navbar-light navbar-lewagon py-2 background-white">
+<div id="nb" class="navbar navbar-expand-lg sticky-top navbar-light navbar-lewagon py-2 bg-white">
 	<% location = current_page.path %>
-	<% if location == "index.html" %>
-		<% classes = "nav-item active" %>
-	<% elsif location == "fachkreise.html" %>
-		<% classes = "nav-item active" %>
-	<% elsif location == "team.html" %>
-		<% classes = "nav-item active" %>
-	<% end %>
-	<div class="container-fluid px-0 px-md-3 px-xl-5 mx-0 mx-md-3 mx-xl-5">
-		<% link_to "/#", class: "ms-0 ps-0 ms-xl-5 ps-xl-5" do %>
+	<div class="container-fluid px-0 px-md-3">
+		<% link_to "/#", class: "ps-3 ps-xl-5" do %>
 			<%= image_tag 'logos/logo.svg', :class => "logo" %>
 		<% end %>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse text-end me-0 pe-0 me-xl-5 pe-xl-5" id="navbarTogglerDemo02">
+		<div class="collapse navbar-collapse text-end pe-0 pe-xl-5" id="navbarTogglerDemo02">
 			<ul id="nav-ul" class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
 				<li class="text-right">
 					<a href="#"><span class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target=".navbar-collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><i id="close" class="bi bi-x"></i></span></a>
 				</li>
-				<% if location == "index.html" %>
-					<a class="nav-item active" href="/">
+				<% if location == "index.html" || location == "#{ t(:'paths.therapists') }.html" || location == "#{ t(:'paths.prices') }.html" %>
+					<li class="nav-item dropdown active">
 					<% else %>
-						<a class="nav-item" href="/">
+						<li class="nav-item dropdown">
 						<% end %>
-						<li class="nav-link">
-							Home
-						</li>
-					</a>
-					<a class="nav-item" href="https://blog.minime.health/">
-						<li class="nav-link">
-							Magazin
-						</li>
-					</a>
-					<% if location == "team.html" %>
-						<a class="nav-item active" href='/team'>
+						<div class="mini-circle"></div>
+						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><%= t(:'navbar.therapists') %></a>
+						<ul class="dropdown-menu">
+							<li class="">
+								<a class="nav-link" href="/<%= t(:'paths.therapists') %>">
+									<%= t(:'navbar.content') %>
+								</a>
+							</li>
+							<li class="">
+								<a class="nav-link" href="https://blog.minime.health/">
+									<%= t(:'navbar.blog') %>
+								</a>
+							</li>
+							<li class="">
+								<a class="nav-link" href="/<%= t(:'paths.prices') %>">
+									<%= t(:'navbar.prices') %>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<% if location == "#{ t(:'paths.patients') }.html" %>
+						<a class="nav-item active" href='/<%= t(:'paths.patients') %>'>
 						<% else %>
-							<a class="nav-item" href='/team'>
+							<a class="nav-item" href='/<%= t(:'paths.patients') %>'>
 							<% end %>
+							<div class="mini-circle"></div>
 							<li class="nav-link">
-								Über uns
+								<%= t(:'navbar.patients') %>
 							</li>
 						</a>
-						<% if location == "fachkreise.html" %>
-							<a class="nav-item active" href='/fachkreise'>
+						<% if location == "#{ t(:'paths.team') }.html" %>
+							<a class="nav-item active" href='/<%= t(:'paths.team') %>'>
 							<% else %>
-								<a class="nav-item" href='/fachkreise'>
+								<a class="nav-item" href='/<%= t(:'paths.team') %>'>
 								<% end %>
+								<div class="mini-circle"></div>
 								<li class="nav-link">
-									Fachkreise
+									<%= t(:'navbar.about_us') %>
 								</li>
 							</a>
-							<a class="nav-item not-desktop" href="/datenschutz">
+							<a class="nav-item not-desktop" href="/<%= t(:'paths.data_security') %>">
 								<li class="nav-link">
-									Datenschutz
+									<%= t(:'navbar.data_security') %>
 								</li>
 							</a>
-							<a class="nav-item not-desktop" href="/impressum">
+							<a class="nav-item not-desktop" href="/<%= t(:'paths.impressum') %>">
 								<li class="nav-link">
-									Impressum
+									<%= t(:'navbar.impressum') %>
 								</li>
 							</a>
 							<div class="my-5 mx-3 my-md-0">
-								<a href="https://app.minime.health" class="btn btn-aperol shadow-none">Jetzt starten!</a>
+								<a href="https://app.minime.health" class="btn btn-aperol btn-minime shadow-none"><%= t(:'buttons.register') %></a>
 							</div>
 						</ul>
 					</div>

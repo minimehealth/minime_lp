@@ -1,66 +1,69 @@
-<footer id="footer" class="background-blue pt-lg-5">
-  <div class="container px-lg-5 pt-5 pb-2 mb-4">
-    <div class="footer-grid text-lg-start text-center">
-      <div class="brand-section">
-        <%= image_tag 'logos/white_seal.svg', :class => "logo-footer" %>
-        <div class="minime-claim my-4">DIGITALE THERAPIETOOLS</div>
-        <a href="https://www.instagram.com/minime.health/" target="_blank" class="text-white">
-          <%= image_tag 'logos/insta.svg', :class => "social-icons" %></a>
-        <a href="https://www.linkedin.com/company/minime-health" target="_blank" class="text-white">
-          <%= image_tag 'logos/linkedin_round.svg', :class => "social-icons" %></a>
-        <a href="mailto:INFO@MINIME.HEALTH?subject=Nachricht von der MINIME Webseite" class="text-white"> <%= image_tag 'logos/email_round.svg', :class => "social-icons" %></a>
-      </div>
-      <div class="footer-sub-grid text-start">
-        <div>
-          <h4 class="text-white mb-3">App</h4>
-          <a href="/#how">
-            <p class="text-white">Therapeut:innen</p>
-          </a>
-          <a href="/#patients">
-            <p class="text-white">Patient:innen</p>
-          </a>
-        </div>
-        <div>
-          <h4 class="text-white mb-3">Unternehmen</h4>
-          <a href='/team'>
-            <p class="text-white">Über Uns</p>
-          </a>
-          <a href='/fachkreise#partners'>
-            <p class="text-white">Partner</p>
-          </a>
-        </div>
-        <div>
-          <h4 class="text-white mb-3">Fachkreise</h4>
-          <a href='/fachkreise'>
-            <p class="text-white">Therapeutischer Hintergrund</p>
-          </a>
-        </div>
-        <div>
-          <h4 class="text-white mb-3">Rechtliches</h4>
-          <a href='/impressum' target="_blank">
-            <p class="text-white">Impressum</p>
-          </a>
-          <a href='/datenschutz' target="_blank">
-            <p class="text-white">Datenschutz</p>
-          </a>
-        </div>
-      </div>
-      <div id="contact" class="text-start">
-        <h4 class="text-white mb-3">Kontakt</h4>
-        <div class="">
-          <a href="mailto:INFO@MINIME.HEALTH?subject=Nachricht von der MINIME Webseite" class="text-white">info@minime.health</a>
-        </div>
-        <div>
-          <a href="tel:+491793290246" class="text-white">+49 179 3290246</a>
-        </div>
-        <p class="text-white mt-3">minime GmbH<br>
-          Friedrichstraße 120<br>
-          10117 Berlin</p>
-        <button type="button" class="mt-3 btn btn-newsletter text-nowrap shadow-none d-block" data-bs-toggle="modal" data-bs-target="#examplePopup">Newsletter abonnieren</button>
-      </div>
-    </div>
-  </div>
-  <div class="d-flex justify-content-center align-items-center py-4 background-transparent">
-    <p class="text-copyright">Copyright © 2022 minime GmbH - All Rights Reserved.</p>
-  </div>
+<footer id="footer" class="bg-locked pt-lg-5">
+	<div class="container pt-5 pb-2 mb-4">
+		<div class="footer-grid text-lg-start text-center">
+			<div class="brand-section">
+				<%= image_tag 'logos/seal_blue.png', :class => "logo-footer" %>
+				<div class="minime-claim my-4"><%= t(:'navbar.claim') %></div>
+				<a href="https://www.instagram.com/minime.health/" target="_blank" class="">
+					<%= image_tag 'logos/insta.svg', :class => "social-icons" %></a>
+				<a href="https://www.linkedin.com/company/minime-health" target="_blank" class="">
+					<%= image_tag 'logos/linkedin.svg', :class => "social-icons" %></a>
+				<a href="mailto:INFO@MINIME.HEALTH?subject=Nachricht von der MINIME Webseite" class=""> <%= image_tag 'logos/email_round.svg', :class => "social-icons" %></a>
+			</div>
+			<div class="footer-sub-grid text-start">
+				<div>
+					<h4 class=" mb-3">App</h4>
+					<a href="/<%= t(:'paths.therapists') %>">
+						<p class=""><%= t(:therapists) %></p>
+					</a>
+					<a href="/<%= t(:'paths.patients') %>">
+						<p class=""><%= t(:patients) %></p>
+					</a>
+				</div>
+				<div>
+					<h4 class=" mb-3"><%= t(:company) %></h4>
+					<a href='/<%= t(:'paths.team') %>'>
+						<p class=""><%= t(:'navbar.about_us') %></p>
+					</a>
+					<a href='/index.html#partners'>
+						<p class="">Partner</p>
+					</a>
+				</div>
+				<div>
+					<h4 class=" mb-3"><%= t(:'navbar.more') %></h4>
+					<a href='/<%= t(:'paths.prices') %>'>
+						<p class=""><%= t(:'navbar.prices') %></p>
+					</a>
+					<a href="https://blog.minime.health/">
+						<p class=""><%= t(:'navbar.blog') %></p>
+					</a>
+				</div>
+				<div>
+					<h4 class=" mb-3"><%= t(:'navbar.legal') %></h4>
+					<a href="/<%= t(:'paths.impressum') %>" target="_blank">
+						<p class=""><%= t(:'navbar.impressum') %></p>
+					</a>
+					<a href="/<%= t(:'paths.data_security') %>" target="_blank">
+						<p class=""><%= t(:'navbar.data_security') %></p>
+					</a>
+				</div>
+			</div>
+			<div id="contact" class="text-start">
+				<h4 class=" mb-3"><%= t(:'navbar.contact') %></h4>
+				<div class="">
+					<a href="mailto:INFO@MINIME.HEALTH?subject=Nachricht von der MINIME Webseite" class="">info@minime.health</a>
+				</div>
+				<div>
+					<a href="tel:+491793290246" class="">+49 179 3290246</a>
+				</div>
+				<p class=" mt-3">minime GmbH<br>
+					Friedrichstraße 120<br>
+					10117 Berlin</p>
+				<button type="button" class="mt-3 btn btn-blue btn-minime text-nowrap shadow-none d-block" data-bs-toggle="modal" data-bs-target="#examplePopup"><%= t(:'buttons.newsletter') %></button>
+			</div>
+		</div>
+	</div>
+	<div class="d-flex justify-content-center align-items-center py-4 background-transparent">
+		<p class="text-copyright">Copyright © 2022 minime GmbH - All Rights Reserved.</p>
+	</div>
 </footer>

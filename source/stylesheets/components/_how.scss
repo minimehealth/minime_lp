@@ -1,4 +1,4 @@
-.background-blue-long-right {
+.bg-blue-long-right {
   background-image: url(../../images/v3/bg-blue-long-right.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,10 +9,11 @@
   background: url(../../images/v3/long-ellipse-blue.svg) no-repeat center center;
   // background-position: center;
   // background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
 }
+
 .cards-how {
-min-height: 180px;
+  min-height: 180px;
 }
 
 .white-box {
@@ -21,8 +22,8 @@ min-height: 180px;
   height: 250px;
 }
 
-.box-background-blue {
-  background-color: $dark-blue;
+.box-bg-blue {
+  background-color: $blue;
   border-radius: 10px;
   height: 250px;
   color: white;
@@ -35,8 +36,10 @@ min-height: 180px;
   // background-position: 0px 0px 10px 100px;
   // background-color: #cccccc; /* Used if the image is unavailable */
   // height: 500px; /* You must set a specified height */
-  background-position: top left; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: top left;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
   // background-size: cover; /* Resize the background image to cover the entire container */
 }
 
@@ -90,8 +93,9 @@ min-height: 180px;
     // margin-top: 0px;
     // margin-left: auto;
   }
-  .box-background-blue {
-    background-color: $dark-blue;
+
+  .box-bg-blue {
+    background-color: $blue;
     border-radius: 10px;
     height: 250px;
     color: white;
@@ -132,10 +136,12 @@ min-height: 180px;
     background-image: url(../../images/how-bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top left; /* Center the image */
+    background-position: top left;
+    /* Center the image */
   }
-  .box-background-blue {
-    background-color: $dark-blue;
+
+  .box-bg-blue {
+    background-color: $blue;
     border-radius: 10px;
     height: 250px;
     color: white;
@@ -178,11 +184,12 @@ min-height: 180px;
     background-image: url(../../images/how-bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top left; /* Center the image */
+    background-position: top left;
+    /* Center the image */
   }
 
-  .box-background-blue {
-    background-color: $dark-blue;
+  .box-bg-blue {
+    background-color: $blue;
     border-radius: 10px;
     height: auto;
     margin: 0px 20px;

@@ -1,9 +1,28 @@
-<div id="prices" class="container">
+<div id="prices" class="container my-5">
 	<div class="px-3 px-sm-3 px-md-5 px-lg-5 px-xl-5">
+		<%= t(:'prices.packages') %>
 		<h3 class="mb-4">minime Pakete</h3>
+		<div class="px-1 d-block d-lg-none p-3">
+			<div class="py-3 px-3 text-center" style="height: 100px;">
+				<%= image_tag 'https://res.cloudinary.com/minimehealth/image/upload/v1643214575/Navbar%20Therapists/premium_iyrzyd.svg', :class => "h-100" %>
+			</div>
+			<div class="px-3 text-center">
+				<h3 class="py-3">Unbegrenzete Anzahl an Profilen</h3>
+				<p class="pb-2">Gemeinsame <strong>Verlaufsansicht</strong></p>
+				<p class="pb-2"><strong>Wochenansicht</strong> für gemeinsame Analyse</p>
+				<p class="pb-2">Entwicklungsverläufe mit <strong>Filterfunktion</strong> darstellen</p>
+				<p class="pb-2">Alle Ansichten in <strong>PDF exportieren oder drucken</strong></p>
+			</div>
+		</div>
+		<ul class="features">
+			<li>Gemeinsame <strong>Verlaufsansicht</strong></li>
+			<li><strong>Wochenansicht</strong> für gemeinsame Analyse</li>
+			<li>Entwicklungsverläufe mit <strong>Filterfunktion</strong> darstellen</li>
+			<li>Alle Ansichten in <strong>PDF exportieren oder drucken</strong></li>
+		</ul>
 		<div class="row g-4">
-			<div class="col-lg-4 col-md-6 col-12 bg-white my-5">
-				<div class="drop-shadow cards-price rounded-3 py-3 d-flex flex-column justify-content-between">
+			<div class="col-lg-4 col-md-6 col-12 my-5">
+				<div class="drop-shadow bg-white cards-price rounded-3 py-3 d-flex flex-column justify-content-between">
 					<div>
 						<div class="py-3 text-center" style="height: 100px;">
 							<%= image_tag 'v3/pkt-1.svg', class: "h-100" %>
@@ -16,18 +35,19 @@
 						<p class="mb-3 text-9 text-center">monatl. kündbar</p>
 						<div class="px-3 d-flex justify-content-center">
 							<ul class="features">
-								<li><strong>Bis zu 2 Patient:innen-Profile:</strong> Jetzt anlegen und kostenlos einladen!</li>
-								<li><strong>Features:</strong> Alle minime Features aus dem Basis-Paket</li>
+								<li><strong>Beobachtungsprotokolle</strong> für Gefühle, Gedanken, Anspannung, Stimmung</li>
+								<li><strong>Notizfunktion</strong> Alle minime Features aus dem Basis-Paket</li>
+								<li><strong>Positivtagebuch</strong> für Erfolge und Selbstmitgefühl</li>
 							</ul>
 						</div>
 					</div>
 					<div class="my-3 text-center">
-						<a href="https://app.minime.health" type="button" class="btn btn-aperol shadow-none">Registrieren</a>
+						<a href="https://app.minime.health" type="button" class="btn btn-aperol btn-minime shadow-none">Registrieren</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 col-12 bg-white my-3">
-				<div class="drop-shadow cards-price rounded-3 py-3 d-flex flex-column justify-content-between" >
+			<div class="col-lg-4 col-md-6 col-12 my-3">
+				<div class="drop-shadow bg-white cards-price rounded-3 py-3 d-flex flex-column justify-content-between" >
 					<div>
 						<div class="py-3 text-center" style="height: 100px;">
 							<%= image_tag 'v3/pkt-2.svg', class: "h-100" %>
@@ -40,24 +60,23 @@
 						<p class="mb-3 text-9 text-center">monatl. kündbar</p>
 						<div class="px-3 d-flex justify-content-center">
 							<ul class="features">
-								<li><strong>Unbegrenzte Patient:innen-Profile</strong></li>
-								<li>Spielerische Selbstbeobachtungsprotokolle</li>
-								<li>Individuelle Aufträge festhalten</li>
-								<li>Positivtagebuch für Erfolge und Selbstmitgefühl</li>
-								<li>Interaktive Verhaltensanalysen</li>
-								<li>Gemeinsame Verlaufsansicht</li>
-								<li>Entwicklungsverläufe mit Filter-funktion darstellen</li>
-								<li>Alle Beobachtungen in PDF exportieren oder drucken</li>
+								<li><strong>Beobachtungsprotokolle</strong> für Gefühle, Gedanken, Anspannung, Stimmung</li>
+								<li><strong>Notizfunktion</strong> Alle minime Features aus dem Basis-Paket</li>
+								<li><strong>Positivtagebuch</strong> für Erfolge und Selbstmitgefühl</li>
+								<li>Individuelle <strong>Aufträge</strong> festhalten</li>
+								<li>Interaktive <strong>Verhaltensanalysen</strong></li>
+								<li><strong>ABC-Schema</strong></li>
+								<li><strong>Ressourcen</strong> sammeln & dokumentieren</li>
 							</ul>
 						</div>
 					</div>
 					<div class="my-3 text-center">
-						<a href="https://app.minime.health" type="button" class="btn btn-aperol shadow-none">Registrieren</a>
+						<a href="https://app.minime.health" type="button" class="btn btn-aperol btn-minime shadow-none">Registrieren</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 col-12 bg-white my-5">
-				<div class="drop-shadow cards-price rounded-3 py-3 d-flex flex-column justify-content-between" >
+			<div class="col-lg-4 col-md-6 col-12 my-5">
+				<div class="drop-shadow bg-white cards-price rounded-3 py-3 d-flex flex-column justify-content-between" >
 					<div>
 						<div class="py-3 text-center" style="height: 100px;">
 							<%= image_tag 'v3/pkt-3.svg', class: "h-100" %>
@@ -68,15 +87,23 @@
 						</div>
 						<div class="px-3 d-flex justify-content-center">
 							<ul class="features">
-								<li><strong>Unbegrenzte Patient:innen-Profile</strong></li>
 								<li><strong>Features:</strong> Alle minime Features aus dem Basis-Paket</li>
-								<li><strong>NEU: </strong>zusätzliche Features und Übungen zur therapeutischen Behandlung.</li>
+								<li><strong>NEU: </strong>personalisierbare Features und Übungen</li>
 							</ul>
 						</div>
 					</div>
 					<div class="my-3 text-center">
-						<a href="https://wqtw8kexb45.typeform.com/to/RuXXjf0l" type="button" class="btn btn-aperol-ghost shadow-none">Mitgestalten</a>
+						<a href="https://wqtw8kexb45.typeform.com/to/RuXXjf0l" type="button" class="btn btn-aperol btn-minime-ghost shadow-none">Mitgestalten</a>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="px-1 d-none d-lg-block">
+		<div class="drop-shadow bg-white rounded-3 p-3 d-flex flex-column justify-content-end"style="height: 550px; margin-top: -300px">
+			<div class="d-flex justify-content-center align-items-center pb-3">
+				<div class="px-3">
+					<h3 class="py-3">Unbegrenzt viele Profile einladen</h3>
 				</div>
 			</div>
 		</div>

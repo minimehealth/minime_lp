@@ -1,0 +1,43 @@
+---
+de:
+  therapists: "Therapeut:innen"
+  patients: "Patient:innen"
+  therapist: "Therapeut:in"
+  patient: "Patient:in"
+  company: "Unternehmen"
+  navbar:
+    more: "Mehr Dazu"
+    blog: "Magazin"
+    therapists: "Für Therapeut:innen"
+    patients: "Für Patient:innen"
+    content: "Inhalte"
+    about_us: "Über Uns"
+    prices: "Preise"
+    claim: "DIGITALE THERAPIETOOLS"
+    product: "Produkt"
+    legal: "Rechtliches"
+    contact: "Kontakt"
+    data_security: "Datenschutz"
+    impressum: "Impressum"
+  buttons:
+    newsletter: "Newsletter abonnieren"
+    register: "Jetzt anmelden!"
+  team:
+    header: "Was ist minime?"
+    subheader: "Das erste digitale Therapietool der Verhaltenstherapie."
+    p_header: "Ursprünglich wollten wir eines der meistgenutzen Übungsblätter in der Verhaltenstherapie digitalisieren. Mittlerweile ist minime zu einem digitalen Therapietagebuch herangewachsen bei dem die wichtigsten verhaltenstherapeutischen Selbstbeobachtungstools integriert wurden. Sei dabei und gestalte die Digitalisierung der Verhaltenstherapie mit."
+    pic_header: "Das minime Team"
+    pic_subheader: "Wir denken Verhaltenstherapie aus ganz verschiedenen Perspektiven"
+    f_developer: "Entwicklerin"
+    m_developer: "Entwickler"
+    therapist: "Psychotherapeut"
+    f_manager: "Managerin"
+  prices:
+    packages: "Preise"
+  paths:
+    prices: "preise"
+    patients: "patienten"
+    therapists: "therapeuten"
+    team: "team"
+    data_security: "datenschutz"
+    impressum: "impressum"

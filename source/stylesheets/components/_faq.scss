@@ -1,11 +1,11 @@
 .faq-item {
-  // background-color: $dark-blue;
+  // background-color: $blue;
   // color: white !important;
-  border-color: $light-gray !important;
+  border-color: $light-gray  !important;
 }
 
 .faq-question {
-  color: $dark-grey;
+  color: $gray;
   background-color: white !important;
 
   padding: 5px 0px;
@@ -13,7 +13,7 @@
 }
 
 .faq-question:not(.collapsed) {
-  color: $dark-grey;
+  color: $gray;
   background-color: white !important;
   text-decoration: none;
 }
@@ -39,8 +39,7 @@
 .accordion-body {
   padding: 20px 0px;
 }
-@media (max-width: 768px) {
-}
 
-@media (max-width: 480px) {
-}
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {}
