@@ -32,6 +32,10 @@ de:
     m_developer: "Entwickler"
     therapist: "Psychotherapeut"
     f_manager: "Managerin"
+    jobs_header: "Offene Stellen"
+    jobs_subheader: "Wir sind immer gespannt auf neue Leute und neue Ideen. Lass uns einfach kurz quatschen."
+    p_job_header: "Ursprünglich wollten wir eines der meistgenutzen Übungsblätter in der Verhaltenstherapie digitalisieren. Mittlerweile ist minime zu einem digitalen Therapietagebuch herangewachsen bei dem die wichtigsten verhaltenstherapeutischen Selbstbeobachtungstools integriert wurden. Sei dabei und gestalte die Digitalisierung der Verhaltenstherapie mit."
+
   prices:
     packages: "Preise"
   paths:
