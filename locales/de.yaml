@@ -35,7 +35,19 @@ de:
     jobs_header: "Offene Stellen"
     jobs_subheader: "Wir sind immer gespannt auf neue Leute und neue Ideen. Lass uns einfach kurz quatschen."
     p_job_header: "Ursprünglich wollten wir eines der meistgenutzen Übungsblätter in der Verhaltenstherapie digitalisieren. Mittlerweile ist minime zu einem digitalen Therapietagebuch herangewachsen bei dem die wichtigsten verhaltenstherapeutischen Selbstbeobachtungstools integriert wurden. Sei dabei und gestalte die Digitalisierung der Verhaltenstherapie mit."
-
+    values:
+      remote: "100% Remote"
+      p_remote: "Arbeite  wann und von wo do willst. Natürlich auch gerne in unserem kleinen Office im Süden Berlins."
+      self: "Selbstbestimmt"
+      p_self: "Wir verlassen uns aufeinander. Wir übernehmen Verantwortung für das, was wir tun und können uns gegenseitig vertrauen."
+      health: "Gesund"
+      p_health: "In einem Mental Health Startup mit Therapeuten als CEO wird natürlich auf eine gesunde Arbeitsweise geachtet. Mache Pausen, nimm den Urlaub. Du weißt was gut für dich ist."
+      teamwork: "Teamwork"
+      p_teamwork: "Gemeinsam haben wir schon so viel geschafft. Und wir wollen noch mehr - zusammen. Jedes minime ist wichtig für das Team."
+      heroes: "No Heroes"
+      p_heroes: "Wir suchen keine absoluten Expertinnen, sondern wollen uns gemeinsam entwickeln. Vor allem wollen wir neue Dinge lernen."
+      feedback: "Feedback"
+      p_feedback: "Offenes Feedback sorgt dafür, dass wir uns gegenseitig helfen, fördern und unterstützen. Nur so können wir wachsen."
   prices:
     packages: "Preise"
   paths:

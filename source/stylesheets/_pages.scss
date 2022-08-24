@@ -38,11 +38,20 @@ textarea:focus {
   border-radius: 50%;
   left: 15px;
   top: -30px;
-  border: solid $orange 1px;
+
+}
+
+
+.border-white {
+  border: solid white 1px;
 }
 
 .border-blue {
   border: solid 1px $blue;
+}
+
+.border-orange {
+  border: solid 1px $orange;
 }
 
 

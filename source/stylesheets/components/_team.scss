@@ -50,6 +50,27 @@
   width: 220px;
 }
 
+#company-values .mini-circle {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  left: 15px;
+  top: -30px;
+}
+
+.image-width-400 {
+  width: 400px;
+}
+
+#founders .circle-border {
+  border: 1px solid $tension;
+  border-radius: 50%;
+  padding: 10px;
+  width: 420px;
+}
+
+
 
 // .team-header-img {
 //   // width: 50vw;
@@ -164,7 +185,7 @@
 
   .blue-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 1em;
   }
 
