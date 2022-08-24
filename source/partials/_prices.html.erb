@@ -1,32 +1,9 @@
-<div id="prices" class="container my-5">
-	<div class="px-3 px-sm-3 px-md-5 px-lg-5 px-xl-5">
-		<%= t(:'prices.packages') %>
-		<h3 class="mb-4">minime Pakete</h3>
-		<div class="px-1 d-block d-lg-none p-3">
-			<div class="py-3 px-3 text-center" style="height: 100px;">
-				<%= image_tag 'https://res.cloudinary.com/minimehealth/image/upload/v1643214575/Navbar%20Therapists/premium_iyrzyd.svg', :class => "h-100" %>
-			</div>
-			<div class="px-3 text-center">
-				<h3 class="py-3">Unbegrenzete Anzahl an Profilen</h3>
-				<p class="pb-2">Gemeinsame <strong>Verlaufsansicht</strong></p>
-				<p class="pb-2"><strong>Wochenansicht</strong> für gemeinsame Analyse</p>
-				<p class="pb-2">Entwicklungsverläufe mit <strong>Filterfunktion</strong> darstellen</p>
-				<p class="pb-2">Alle Ansichten in <strong>PDF exportieren oder drucken</strong></p>
-			</div>
-		</div>
-		<ul class="features">
-			<li>Gemeinsame <strong>Verlaufsansicht</strong></li>
-			<li><strong>Wochenansicht</strong> für gemeinsame Analyse</li>
-			<li>Entwicklungsverläufe mit <strong>Filterfunktion</strong> darstellen</li>
-			<li>Alle Ansichten in <strong>PDF exportieren oder drucken</strong></li>
-		</ul>
+<div id="prices" class="my-5">
+	<div class="container py-3">
 		<div class="row g-4">
 			<div class="col-lg-4 col-md-6 col-12 my-5">
 				<div class="drop-shadow bg-white cards-price rounded-3 py-3 d-flex flex-column justify-content-between">
 					<div>
-						<div class="py-3 text-center" style="height: 100px;">
-							<%= image_tag 'v3/pkt-1.svg', class: "h-100" %>
-						</div>
 						<p class="text-center text-uppercase">Starter-Paket</p>
 						<div class="mt-3 d-flex justify-content-center align-items-center">
 							<h3>0,00</h2>
@@ -42,16 +19,13 @@
 						</div>
 					</div>
 					<div class="my-3 text-center">
-						<a href="https://app.minime.health" type="button" class="btn btn-aperol btn-minime shadow-none">Registrieren</a>
+						<a href="https://app.minime.health" type="button" class="btn btn-purple btn-minime shadow-none">Registrieren</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 col-12 my-3">
-				<div class="drop-shadow bg-white cards-price rounded-3 py-3 d-flex flex-column justify-content-between" >
+			<div class="col-lg-4 col-md-6 col-12 pt-5">
+				<div class="drop-shadow bg-white cards-price rounded-3 py-3 d-flex flex-column justify-content-between mt-5" >
 					<div>
-						<div class="py-3 text-center" style="height: 100px;">
-							<%= image_tag 'v3/pkt-2.svg', class: "h-100" %>
-						</div>
 						<p class="text-center text-uppercase">Basis-Paket</p>
 						<div class="mt-3 d-flex justify-content-center align-items-center">
 							<h3>29,00</h2>
@@ -71,16 +45,13 @@
 						</div>
 					</div>
 					<div class="my-3 text-center">
-						<a href="https://app.minime.health" type="button" class="btn btn-aperol btn-minime shadow-none">Registrieren</a>
+						<a href="https://app.minime.health" type="button" class="btn btn-purple btn-minime shadow-none">Registrieren</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6 col-12 my-5">
 				<div class="drop-shadow bg-white cards-price rounded-3 py-3 d-flex flex-column justify-content-between" >
 					<div>
-						<div class="py-3 text-center" style="height: 100px;">
-							<%= image_tag 'v3/pkt-3.svg', class: "h-100" %>
-						</div>
 						<p class="text-center text-uppercase">Premium-Paket</p>
 						<div class="my-4 d-flex justify-content-center align-items-center">
 							<h4>Bald verfügbar!</h4>
@@ -93,17 +64,86 @@
 						</div>
 					</div>
 					<div class="my-3 text-center">
-						<a href="https://wqtw8kexb45.typeform.com/to/RuXXjf0l" type="button" class="btn btn-aperol btn-minime-ghost shadow-none">Mitgestalten</a>
+						<a href="https://wqtw8kexb45.typeform.com/to/RuXXjf0l" type="button" class="btn btn-minime btn-purple-ghost shadow-none">Mitgestalten</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="px-1 d-none d-lg-block">
-		<div class="drop-shadow bg-white rounded-3 p-3 d-flex flex-column justify-content-end"style="height: 550px; margin-top: -300px">
-			<div class="d-flex justify-content-center align-items-center pb-3">
-				<div class="px-3">
-					<h3 class="py-3">Unbegrenzt viele Profile einladen</h3>
+</div>
+<div id="price-values" class="bg-purple pt-5">
+	<div class="container">
+		<div class="row justify-content-between align-items-start my-5">
+			<div class="col-12 col-md-6 col-lg-4 position-relative">
+				<div class="mini-circle border-white"></div>
+				<div class="ps-5 pb-3">
+					<h3 class="text-uppercase text-white mb-2"><%= t(:'prices.values.one')%></h3>
+					<p class="block-text text-white pb-5 pt-3"><%= t(:'prices.values.p_one') %>
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 position-relative">
+				<div class="mini-circle border-white"></div>
+				<div class="ps-5 pb-3">
+					<h3 class="text-uppercase text-white mb-2"><%= t(:'prices.values.two')%></h3>
+					<p class="block-text text-white pb-5 pt-3"><%= t(:'prices.values.p_two') %>
+					</div>
+				</p>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 position-relative">
+				<div class="mini-circle border-white"></div>
+				<div class="ps-5 pb-3">
+					<h3 class="text-uppercase text-white mb-2"><%= t(:'prices.values.three')%></h3>
+					<p class="block-text text-white pb-5 pt-3"><%= t(:'prices.values.p_three') %>
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 position-relative">
+				<div class="mini-circle border-white"></div>
+				<div class="ps-5 pb-3">
+					<h3 class="text-uppercase text-white mb-2"><%= t(:'prices.values.four')%></h3>
+					<p class="block-text text-white pb-5 pt-3"><%= t(:'prices.values.p_four') %>
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 position-relative">
+				<div class="mini-circle border-white"></div>
+				<div class="ps-5 pb-3">
+					<h3 class="text-uppercase text-white mb-2"><%= t(:'prices.values.five')%></h3>
+					<p class="block-text text-white pb-5 pt-3"><%= t(:'prices.values.p_five') %>
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 position-relative">
+				<div class="mini-circle border-white"></div>
+				<div class="ps-5 pb-3">
+					<h3 class="text-uppercase text-white mb-2"><%= t(:'prices.values.six')%></h3>
+					<p class="block-text text-white pb-5 pt-3"><%= t(:'prices.values.p_six') %>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="webinar" class="py-3 py-md-5 mt-4">
+	<div class="container">
+		<div class="d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-sm-between py-3 text-center">
+			<div class="text-center flex-grow-1">
+				<div class="d-flex justify-content-center">
+					<div class="circle-border"><%= image_tag 'team/paul.png', class: "rounded-circle image-width-200" %></div>
+				</div>
+				<div class="card-body pt-2 position-relative">
+					<div class="mini-circle border-orange"></div>
+					<h4 class="text-center mb-2">Sprich doch mal mit Paul!</h4>
+				</div>
+			</div>
+			<div class="ps-0 ps-lg-5 w-75">
+				<p class="my-3 text-center text-md-start pt-3 pt-sm-0">
+					Unser Mitgründer Paul Schneeweiß ist Psychologe (M.Sc.) und Kinder- und Jugendlichenpsychotherapeut für Verhaltenstherapie.
+					Er setzt sich leidenschaftlich mit Fallkonzeptionen und therapeutischen Materialien auseinander. Hierzu gibt er Workshops und Seminare an Ausbildungsinstituten. Paul gibt Interessierten sehr gerne eine persönliche Einfürhung zu minime.
+				</p>
+				<div class="py-5">
+					<a href="https://calendly.com/paul-minime-health/30min" type="button" class="btn-purple btn-minime btn-minime shadow-none">Termin vereinbaren</a>
 				</div>
 			</div>
 		</div>

@@ -47,3 +47,13 @@
 .btn-aperol-ghost:hover {
   color: $aperol;
 }
+
+.btn-purple-ghost {
+  background: white !important;
+  color: $purple  !important;
+  border: solid $purple 1px !important;
+}
+
+.btn-purple-ghost:hover {
+  color: $purple;
+}

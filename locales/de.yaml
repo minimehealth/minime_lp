@@ -51,7 +51,22 @@ de:
     founders: "Warum minime?"
     founders_subheader: "Eine Gründungsstory"
   prices:
+    header: "Für Deine Therapie."
+    subheader: "Eine Gemeinsame App."
     packages: "Preise"
+    values:
+      one: "100% Kontrolle"
+      p_one: "liegt bei den Therapeut:innen durch eine gemeinsame Verlaufsansicht und detaillierte Einsicht."
+      two: "Störungsübergreifend"
+      p_two: "mit allen klassischen, evidenzbasierten Materialien der Verhaltenstherapie (VT)."
+      three: "Flexibel"
+      p_three: "minime ist auf dem Handy, Tablet, Laptop oder PC vor Ort und in der Videotherapie nutzbar."
+      four: "ISO/IEC 27001"
+      p_four: "Alle Server stehen in Deutschland und sind durch den TÜV Süd gemäß ISO EN27001 zertifiziert."
+      five: "Anonym"
+      p_five: "durch QR Code Anmeldung für Patient:innen, ohne E-Mail Adresse oder sonstige persönliche Daten."
+      six: "Datensicherheit"
+      p_six: "Alle Daten werden verschlüsselt gespeichert. Europäische Server erfüllen höchste Standards der DSGVO."
   paths:
     prices: "preise"
     patients: "patienten"

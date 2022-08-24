@@ -41,6 +41,13 @@ textarea:focus {
 
 }
 
+.bg-img-header {
+  height: 90vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .border-white {
   border: solid white 1px;
@@ -332,6 +339,13 @@ li span {
 }
 
 @media (max-width: 480px) {
+
+  .bg-img-header {
+    height: 50vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: fill;
+  }
 
 
   h1 {
