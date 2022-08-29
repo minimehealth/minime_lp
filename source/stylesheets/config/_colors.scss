@@ -132,6 +132,10 @@ p {
   border: solid 1px $blue;
 }
 
+.border-gray {
+  border: solid 1px $gray;
+}
+
 
 // Font Colors
 
@@ -172,5 +176,13 @@ p {
   background-color: $aperol;
   height: 56.49px;
   width: 56.49px;
+  border-radius: 50%;
+}
+
+
+.aperol-mini-circle-bg {
+  background-color: $orange;
+  height: 28.25px;
+  width: 28.25px;
   border-radius: 50%;
 }

@@ -1,7 +1,7 @@
 ---
 de:
-  therapists: "Therapeut:innen"
-  patients: "Patient:innen"
+  therapist-pl: "Therapeut:innen"
+  patient-pl: "Patient:innen"
   therapist: "Therapeut:in"
   patient: "Patient:in"
   company: "Unternehmen"
@@ -19,6 +19,13 @@ de:
     contact: "Kontakt"
     data_security: "Datenschutz"
     impressum: "Impressum"
+  paths:
+    prices: "preise"
+    patients: "patienten"
+    therapists: "therapeuten"
+    team: "team"
+    data_security: "datenschutz"
+    impressum: "impressum"
   buttons:
     newsletter: "Newsletter abonnieren"
     register: "Jetzt anmelden!"
@@ -67,10 +74,21 @@ de:
       p_five: "durch QR Code Anmeldung für Patient:innen, ohne E-Mail Adresse oder sonstige persönliche Daten."
       six: "Datensicherheit"
       p_six: "Alle Daten werden verschlüsselt gespeichert. Europäische Server erfüllen höchste Standards der DSGVO."
-  paths:
-    prices: "preise"
-    patients: "patienten"
-    therapists: "therapeuten"
-    team: "team"
-    data_security: "datenschutz"
-    impressum: "impressum"
+  patients:
+    header: "Für Deine Therapie."
+    subheader: "Eine Gemeinsame App."
+    share_header: "Willst du minime in deiner Therapie ausprobieren?"
+    share_subheader: "minime mit deiner/m Therapeut:in teilen"
+    values:
+      one: "Intuitiv"
+      p_one: "Erlebnisse aus dem Alltag mit nur 3 Klicks dokumentieren"
+      two: "Motivierend"
+      p_two: "schnell Fortschritte und Entwicklungen sehen"
+      three: "Flexibel"
+      p_three: "jederzeit zu Hause und unterwegs nutzbar"
+      four: "Aktiv"
+      p_four: "das eigene Erleben erfassen und Therapie mitgestalten"
+      five: "Anonym"
+      p_five: "durch QR-Code Anmeldung ohne Eingabe persönlicher Daten"
+      six: "Sicher"
+      p_six: "Alle Daten werden verschlüsselt gespeichert. Europäische Server erfüllen höchste Standards der DSGVO."
