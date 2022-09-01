@@ -79,6 +79,12 @@ de:
     subheader: "Eine Gemeinsame App."
     share_header: "Willst du minime in deiner Therapie ausprobieren?"
     share_subheader: "minime mit deiner/m Therapeut:in teilen"
+    app_header: "Spielerische und intuitive Dokumentation"
+    app_subheader: "für den gesamten Therapieverlauf"
+    app_paragraph: "Beobachte Gefühle, Gedanken, Stimmungen oder Situationen und teile alle Einträge mit deiner/m Therapeut:in in eurer gemeinsamen Verlaufsansicht."
+    theory_header: "Zwischen den Therapiestunden"
+    theory_subheader: "Alltag und Therapie verbinden"
+    theory_paragraph: "Eine Therapie findet üblicherweise einmal pro Woche statt für 50 Minuten. Zwischen diesen wöchentlichen Sitzungen ist es oft schwierig, das Besprochene oder Aufträge in den Alltag zu integrieren. Mit minime lassen sich Alltagsbeobachtungen und weitere Therapieaufträge, jederzeit und überall dokumentieren. In wenigen Klicks lassen sich so deine Therapie und dein Alltag verbinden."
     values:
       one: "Intuitiv"
       p_one: "Erlebnisse aus dem Alltag mit nur 3 Klicks dokumentieren"
