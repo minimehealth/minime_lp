@@ -1,16 +1,18 @@
 <div id="share-minime" class="bg-orange py-5">
 	<div class="container text-center">
-		<h2 class="my-2 text-center"><%= t(:'patients.share_header') %></h2>
-		<h3 class="my-2 text-center"><%= t(:'patients.share_subheader') %></h3>
-		<div class="d-flex justify-content-center align-items-center pt-3">
-			<div type="text" value="https://minime.health" id="websiteLink">
-				<p class="text-light-gray">https://minime.health</p>
+		<div class="p-3">
+			<h2 class="my-2 text-center"><%= t(:'patients.share_header') %></h2>
+			<h3 class="my-2 text-center"><%= t(:'patients.share_subheader') %></h3>
+			<div class="d-flex justify-content-center align-items-center pt-3">
+				<div type="text" value="https://minime.health" id="websiteLink">
+					<p class="text-light-gray">https://minime.health</p>
+				</div>
+				<!-- The button used to copy the text -->
+				<div class="ms-1 aperol-mini-circle-bg d-flex justify-content-center align-items-center p-3 text-white" onclick="copyToClipboard()" style="cursor: pointer;"><i class="fa-regular fa-copy"></i></div>
+				<a class="ms-1 aperol-mini-circle-bg d-flex justify-content-center align-items-center p-3 text-white" href="mailto:&subject=minime%20als%20digitales%20Therapietool&body=Ich hab heute diese App entdeckt: www.minime.health und würde sie gerne in unserer Therapie benutzen. Was halten Sie davon?"><i class="fa-regular fa-paper-plane"></i></a>
+				<a class="ms-1 aperol-mini-circle-bg d-flex justify-content-center align-items-center p-3 text-white" href="whatsapp://send?text=Ich%20habe%20eine%20interessante%20App%20%20entdeckt%3A%20https%3A%2F%2Fminime.health"><i class="fa-brands fa-whatsapp"></i></a>
 			</div>
-			<!-- The button used to copy the text -->
-			<div class="ms-1 aperol-mini-circle-bg d-flex justify-content-center align-items-center p-3 text-white" onclick="copyToClipboard()" style="cursor: pointer;"><i class="fa-regular fa-copy"></i></div>
-			<a class="ms-1 aperol-mini-circle-bg d-flex justify-content-center align-items-center p-3 text-white" href="mailto:&subject=minime%20als%20digitales%20Therapietool&body=Ich hab heute diese App entdeckt: www.minime.health und würde sie gerne in unserer Therapie benutzen. Was halten Sie davon?"><i class="fa-regular fa-paper-plane"></i></a>
-			<a class="ms-1 aperol-mini-circle-bg d-flex justify-content-center align-items-center p-3 text-white" href="whatsapp://send?text=Ich%20habe%20eine%20interessante%20App%20%20entdeckt%3A%20https%3A%2F%2Fminime.health"><i class="fa-brands fa-whatsapp"></i></a>
+			<!-- The text field -->
 		</div>
-		<!-- The text field -->
 	</div>
 </div>
