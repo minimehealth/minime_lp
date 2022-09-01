@@ -57,3 +57,14 @@
 .btn-purple-ghost:hover {
   color: $purple;
 }
+
+
+.btn-white-ghost {
+  background: transparent !important;
+  color: white !important;
+  border: solid white 1px !important;
+}
+
+.btn-white-ghost:hover {
+  color: white;
+}

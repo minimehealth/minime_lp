@@ -1,58 +1,11 @@
-<div id="how" class="pt-5">
-	<div class="container">
-		<div class="px-3 px-sm-3 px-md-5 px-lg-5 px-xl-5">
-			<h3 class="mb-4">Wie funktioniert minime?</h3>
-		</div>
-	</div>
-	<div class="bg-app-left">
-		<div class="container my-5">
-			<div class="px-3 px-sm-3 px-md-5 px-lg-5 px-xl-5">
-				<div class="row my-5 align-items-center">
-					<div class="col-12 col-sm-8">
-						<%= image_tag 'v3/task.png', class: "w-75" %>
-					</div>
-					<div class="col-12 col-sm-4">
-						<div class="">
-							<h4>1. Aufträge festhalten</h4>
-							<p>Aufträge in der Therapiestunde direkt festhalten und in der gemeinsamen Verlaufsansicht anzeigen lassen.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="bg-app-right">
-		<div class="container my-5">
-			<div class="px-3 px-sm-3 px-md-5 px-lg-5 px-xl-5">
-				<div class="row my-5 align-items-center">
-					<div class="col-12 col-sm-4 order-last order-sm-first">
-						<div class="">
-							<h4>2. Einträge hinzufügen</h4>
-							<p>Als Patient:in zwischen den Sitzungen Gefühle, Gedanken und Verhalten im Alltag jederzeit einfach und spielerisch in der App dokumentieren.</p>
-						</div>
-					</div>
-					<div class="col-12 col-sm-8 order-first order-sm-last">
-						<%= image_tag 'v3/paperlogs.png', class: "w-100" %>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="bg-app-left">
-		<div class="container my-5">
-			<div class="px-3 px-sm-3 px-md-5 px-lg-5 px-xl-5">
-				<div class="row my-5 align-items-center">
-					<div class="col-12 col-sm-8">
-						<%= image_tag 'v3/session.png', class: "w-100" %>
-					</div>
-					<div class="col-12 col-sm-4">
-						<div class="">
-							<h4>3. Gemeinsame Analyse</h4>
-							<p>Eine gemeinsame Verlaufsansicht für jedes Patient:innenprofil  zur  Besprechung und Analyse in der Therapistunde - geeignet für die Therapie vor Ort, sowie für Videotherapie.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+<div id="app" class="bg-light-blue  py-5">
+	<div class="container text-center">
+		<div class="p-3">
+			<h2 class="my-2 text-center text-white"><%= t(:'index.app_header') %></h2>
+			<h3 class="my-2 text-center text-white"><%= t(:'index.app_subheader') %></h3>
+			<%= partial "partials/carousel" %>
+			<!-- The text field -->
+			<a href="https://app.minime.health" class="btn btn-white-ghost btn-minime shadow-none my-4"><%= t(:'buttons.more') %></a>
 		</div>
 	</div>
 </div>

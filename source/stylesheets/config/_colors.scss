@@ -12,6 +12,7 @@ $bg-orange: #FFAC99;
 // our colors!
 $neon-green: #3ddfd5;
 $light-blue: #d8eff4;
+$bg-blue: #8FCDE8;
 
 // Auxiliary Colors
 $light-blue: #cfeaf6;
@@ -122,6 +123,10 @@ p {
 
 .bg-blue {
   background-color: $blue;
+}
+
+.bg-light-blue {
+  background-color: $bg-blue;
 }
 
 .bg-orange {

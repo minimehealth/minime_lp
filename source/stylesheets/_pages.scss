@@ -30,6 +30,12 @@ textarea:focus {
   box-shadow: none !important;
 }
 
+
+.title-break {
+  overflow-wrap: break-word;
+  hyphens: manual;
+}
+
 .mini-circle {
   display: block;
   position: absolute;
@@ -38,7 +44,16 @@ textarea:focus {
   border-radius: 50%;
   left: 15px;
   top: -30px;
+}
 
+.circle-bg-white {
+  background-color: white;
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bg-img-header {
