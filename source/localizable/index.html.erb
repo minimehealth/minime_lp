@@ -4,5 +4,6 @@
 <%= partial "partials/app" %>
 <%= partial "partials/app-video" %>
 <%= partial "partials/app-values" %>
-<%= partial "partials/seperator" %>
+<% background = "background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://res.cloudinary.com/minimehealth/image/upload/v1661345169/Website/mockup_VT_s46fnj.png');" %>
+<%= partial "partials/seperator", locals: {:background => background } %>
 <%= partial "partials/faq" %>

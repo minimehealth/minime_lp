@@ -32,6 +32,7 @@ $thought: #9a8fc1;
 $tension: #dddf6c;
 $diary: #30DDD3;
 $purple: #833e78;
+$therapist-bg: #A7769F;
 
 
 
@@ -133,12 +134,20 @@ p {
   background-color: $bg-orange;
 }
 
+.bg-therapist {
+  background-color: $therapist-bg;
+}
+
 .border-blue {
   border: solid 1px $blue;
 }
 
 .border-gray {
   border: solid 1px $gray;
+}
+
+.border-purple {
+  border: solid 1px $purple;
 }
 
 
