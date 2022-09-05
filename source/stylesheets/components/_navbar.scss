@@ -186,4 +186,16 @@
   .nav-item {
     padding-top: 20px !important;
   }
+
+  .navbar .dropdown-menu {
+    background-color: $blue;
+    color: white;
+    border: none;
+    padding: 0;
+  }
+
+
+  .navbar .active .mini-circle {
+    display: none;
+  }
 }

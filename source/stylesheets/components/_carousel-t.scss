@@ -1,19 +1,19 @@
-#therapist-app .carousel-indicators {
+.carousel-indicators {
   bottom: 0px !important;
 }
 
 
-#therapist-app .carousel-control-next-icon {
+.carousel-control-next-icon {
   background-image: none !important;
 }
 
-#therapist-app .carousel-control-prev-icon {
+.carousel-control-prev-icon {
   background-image: none !important;
 }
 
 
 @media (max-width: 991px) {
-  #therapist-app .carousel-indicators {
+  .carousel-indicators {
     bottom: -20px !important;
   }
 
