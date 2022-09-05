@@ -142,6 +142,10 @@ p {
   border: solid 1px $blue;
 }
 
+.border-orange {
+  border: solid 1px $orange;
+}
+
 .border-gray {
   border: solid 1px $gray;
 }
@@ -149,6 +153,15 @@ p {
 .border-purple {
   border: solid 1px $purple;
 }
+
+.border-white {
+  border: solid white 1px;
+}
+
+.border-tension {
+  border: solid 1px $tension;
+}
+
 
 
 // Font Colors

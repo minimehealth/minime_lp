@@ -46,6 +46,27 @@ textarea:focus {
   top: -30px;
 }
 
+.medium-circle {
+  display: block;
+  position: absolute;
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+  z-index: -1;
+
+}
+
+.large-circle {
+  display: block;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  z-index: -1;
+
+}
+
+
 .circle-bg-white {
   background-color: white;
   height: 270px;
@@ -64,17 +85,7 @@ textarea:focus {
 }
 
 
-.border-white {
-  border: solid white 1px;
-}
 
-.border-blue {
-  border: solid 1px $blue;
-}
-
-.border-orange {
-  border: solid 1px $orange;
-}
 
 
 a {

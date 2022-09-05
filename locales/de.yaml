@@ -138,6 +138,17 @@ de:
   therapists:
     header: "bewährte Interventionen -"
     subheader: "Digital neu entdecken."
+    app_header: "Digitale, evidenzbasierte Therapiematerialien"
+    app_subheader: "für den gesamten Therapieverlauf"
+    app_paragraph: "Beobachte Gefühle, Gedanken, Stimmungen oder Situationen und teile alle Einträge mit deiner/m Therapeut:in in eurer gemeinsamen Verlaufsansicht."
+    app_h1: "Selbstbeobachtungsbögen"
+    app_p1: "Gefühle - Gedanken - Stimmung - Anspannung"
+    app_h2: "Analysen"
+    app_p2: "Verhaltensanalyse - ABC Schema"
+    app_h3: "Ressourcenbasierte Übungen"
+    app_p3: "Positivtagebuch - Ressourcenliste - Ressourcenerlebnis"
+    app_h4: "Therapeutische Steuerung"
+    app_p4: "Aufträge - Notizen - Wochenübersicht - Filter - PDF-Export/Drucken"
     values:
       header: "Wie funktioniert minime?"
       subheader: "Alle Funktionen und Inhalte entdecken"
