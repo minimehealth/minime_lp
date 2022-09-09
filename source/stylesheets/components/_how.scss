@@ -1,3 +1,12 @@
+#app-video iframe,
+#how iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  min-height: 350px;
+}
+
+
 .bg-blue-long-right {
   background-image: url(../../images/v3/bg-blue-long-right.svg);
   background-repeat: no-repeat;
@@ -119,6 +128,14 @@
     height: 250px;
   }
 
+  #app-video iframe,
+  #how iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    min-height: 200px;
+  }
+
   .dots-width {
     width: 75%;
   }
@@ -205,5 +222,16 @@
 
   .icon {
     height: 50px;
+  }
+}
+
+@media (max-width: 321px) {
+
+  #app-video iframe,
+  #how iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    // min-height: 200px;
   }
 }

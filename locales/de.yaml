@@ -105,7 +105,7 @@ de:
     subberheader: "Eine Gemeinsame App."
     citation: "Mit minime weiß ich bereits vor der Sitzung, was bei meinen Patient:innen los ist"
     citation_author: "Nina Tiefenbacher, VT"
-    app_header: "Digitale, evidenzbasierte Therapiematerialien"
+    app_header: "Digitale, evidenz&shy;basierte Therapie&shy;materialien"
     app_subheader: "für den gesamten Therapieverlauf"
     app_paragraph: "Beobachte Gefühle, Gedanken, Stimmungen oder Situationen und teile alle Einträge mit deiner/m Therapeut:in in eurer gemeinsamen Verlaufsansicht."
     app_p1: "Alle klassischen Protokolle (Stimmung, Gedanken, Gefühle, etc.) und Analysen (ABC, Verhaltensanalyse)"
@@ -114,7 +114,7 @@ de:
     values:
       one: "100% Kontrolle "
       p_one: "liegt bei den Therapeut:innen durch eine gemeinsame Verlaufsansicht und detaillierte Einsicht."
-      two: "Störungsübergreifend"
+      two: "Störungs&shy;übergreifend"
       p_two: "mit allen klassischen, evidenzbasierten Materialien der Verhaltenstherapie (VT)."
       three: "Flexibel"
       p_three: "minime ist auf dem Handy, Tablet, Laptop oder PC vor Ort und in der Videotherapie nutzbar."
@@ -156,8 +156,8 @@ de:
       p_one: "Wie kann mich die Wochenansicht bei der gemeinsamen Analyse unterstützen?"
       two: "Gemeinsamer Verlauf"
       p_two: "Wie bin ich mit meinen Patient:innen verbunden in der minime App?"
-      three: "Patient:innen einladen"
-      p_three: "Wie verwalte ich meine Patient:innen in der minime App?"
+      three: "Therapietools"
+      p_three: "Protokolle, Analysen, Ressourcen und vieles mehr!"
     citations:
       header: "Stimmen aus der Praxis"
       subheader: "Über 600 aktive Nutzer:innen"
