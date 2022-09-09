@@ -1,31 +1,215 @@
 /* CSS HEX */
 $light-gray: #f4f4f4;
 $gray: #515151;
+$light-gray: #d8d8d8;
+$locked-gray: #F4F4F4;
 $blue: #5fb8de;
-$green: green;
-$yellow: yellow;
-$red: red;
+$green: #E7F5EC;
+$yellow: #F9EF57;
+$red: #e04545;
 $orange: #ff896d;
-
+$bg-orange: #FFAC99;
 // our colors!
-
-$dark-blue: #5fb8de;
-
 $neon-green: #3ddfd5;
-$aperol: #ff896d;
-$dark-grey: #515151;
 $light-blue: #d8eff4;
+$bg-blue: #8FCDE8;
 
 // Auxiliary Colors
-
+$light-blue: #cfeaf6;
 $lighter-blue: #b3e0ea;
-$ocker: #dddf6c;
 $light-orange: #FFF3F0;
-$rose: #f3c7bf;
-$pink: #de5f8d;
-$lilac: #9a8fc1;
+$light-purple: #dac6d7;
+$light-orange: #fbe9d8;
+// our colors!
+
+$aperol: #ff896d;
+$analysis: #5fb8de;
+$abc: #F9EF57;
+$task: #87CF9F;
+$mood: #F1B47C;
+$feeling: #de5f8d;
+$thought: #9a8fc1;
+$tension: #dddf6c;
+$diary: #30DDD3;
 $purple: #833e78;
+$therapist-bg: #A7769F;
+
+
+
+
+a {
+  text-decoration: none;
+  color: $gray;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $gray;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  color: $gray;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: $gray;
+}
+
+// Background Colors
+.bg-note {
+  background-color: white;
+  border: 1px solid $gray;
+}
+
+.bg-analysis {
+  background-color: $analysis;
+}
+
+.bg-abc {
+  background-color: $abc;
+}
+
+.bg-mood {
+  background-color: $mood;
+}
+
+.bg-thought {
+  background-color: $thought;
+}
+
+.bg-feeling {
+  background-color: $feeling;
+}
+
+.bg-tension {
+  background-color: $tension;
+}
+
+.bg-diary {
+  background-color: $diary;
+}
+
+.bg-purple {
+  background-color: $purple;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-locked {
+  background-color: $locked-gray;
+}
+
+.bg-undone-tasks {
+  background-color: #E7F5EC;
+}
+
+.bg-green {
+  background-color: #f1fff8;
+}
+
+.bg-lightorange {
+  background-color: $light-orange;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-light-blue {
+  background-color: $bg-blue;
+}
+
+.bg-orange {
+  background-color: $bg-orange;
+}
+
+.bg-therapist {
+  background-color: $therapist-bg;
+}
+
+.border-blue {
+  border: solid 1px $blue;
+}
+
+.border-orange {
+  border: solid 1px $orange;
+}
+
+.border-gray {
+  border: solid 1px $gray;
+}
+
+.border-purple {
+  border: solid 1px $purple;
+}
+
+.border-white {
+  border: solid white 1px;
+}
+
+.border-tension {
+  border: solid 1px $tension;
+}
+
+
+
+// Font Colors
+
+
+.text-gray {
+  color: $gray
+}
+
+.text-light-gray {
+  color: $light-gray;
+}
+
+.text-black {
+  color: black;
+}
 
 .text-blue {
-  color: $dark-blue;
+  color: $analysis;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-aperol {
+  color: $aperol;
+}
+
+.text-purple {
+  color: $purple;
+}
+
+.transparent {
+  opacity: 0.3;
+}
+
+.aperol-circle {
+  background-color: $aperol;
+  height: 56.49px;
+  width: 56.49px;
+  border-radius: 50%;
+}
+
+
+.aperol-mini-circle-bg {
+  background-color: $orange;
+  height: 28.25px;
+  width: 28.25px;
+  border-radius: 50%;
 }

@@ -1,0 +1,18 @@
+<div id="therapist-header" class="bg-img-header d-flex justify-content-end align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://res.cloudinary.com/minimehealth/image/upload/v1661345169/Website/mockup_VT_s46fnj.png');">
+	<div class="container">
+		<div class="p-3 w-75">
+			<h1 class="text-uppercase my-2 text-white text-start"><%= t(:'therapists.header') %></h1>
+			<h2 class="text-uppercase my-2 text-white text-start"><%= t(:'therapists.subheader') %></h1>
+		</div>
+	</div>
+</div>
+<%= partial "partials/therapist-app" %>
+<%= partial "partials/therapist-phases" %>
+<%= partial "partials/how" %>
+<% pic_one = "background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://res.cloudinary.com/minimehealth/image/upload/v1661345164/Website/Phone_and_Tablet_Mockup_1_doqlu8.png');" %>
+<%= partial "partials/seperator", locals: {:background => pic_one } %>
+<%= partial "partials/citations" %>
+<% pic_two = "background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://res.cloudinary.com/minimehealth/image/upload/v1661346195/Website/lamp-min_oovv82.png');" %>
+<%= partial "partials/seperator", locals: {:background => pic_two } %>
+<%= partial "partials/therapist-tools" %>
+<%= partial "partials/partners" %>

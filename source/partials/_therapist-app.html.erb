@@ -1,0 +1,54 @@
+<div id="therapist-app" class="bg-therapist py-5">
+	<div class="container text-center">
+		<div class="p-3">
+			<h2 class="my-2 text-center text-white"><%= t(:'therapists.app_header') %></h2>
+			<h3 class="my-2 text-center text-white"><%= t(:'therapists.app_subheader') %></h3>
+			<div id="carouselExampleCaptions" class="carousel slide py-3" data-bs-ride="carousel">
+				<div class="carousel-indicators pt-3">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<%= image_tag 'https://res.cloudinary.com/minimehealth/image/upload/v1662391078/Website/tool_ibud2i.png', class: "d-block my-3 mx-auto", style: "max-width: 100%;", alt: "Therapeutische Tools(Gefühls-, Gedanken-, Stimmungs- und Spannungsprotokoll)" %>
+						<div class="d-md-block py-3 py-md-5">
+							<h4 class="text-white"><%= t(:'therapists.app_h1') %></h4>
+							<p class="text-white"><%= t(:'therapists.app_p1') %></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<%= image_tag 'https://res.cloudinary.com/minimehealth/image/upload/v1662391077/Website/analisis_qyplci.png', class: "d-block my-3 mx-auto", style: "max-width: 100%;", alt: "Verhaltensanalyse und ABC-Schema" %>
+						<div class="d-md-block py-3 py-md-5">
+							<h4 class= "text-white"><%= t(:'therapists.app_h2') %></h4>
+							<p class="text-white"><%= t(:'therapists.app_p2') %></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<%= image_tag 'https://res.cloudinary.com/minimehealth/image/upload/v1662391078/Website/resource_pnoxej.png', class: "d-block my-3 mx-auto", style: "max-width: 100%;", alt: "Ressourcen sammeln und aktivieren" %>
+						<div class="d-md-block py-3 py-md-5">
+							<h4 class="text-white"><%= t(:'therapists.app_h3') %></h4>
+							<p class="text-white"><%= t(:'therapists.app_p3') %></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<%= image_tag 'https://res.cloudinary.com/minimehealth/image/upload/v1662391078/Website/tasks_eeurle.png', class: "d-block my-3 mx-auto", style: "max-width: 100%;", alt: "Therapeutische Hausaufgaben festhalten" %>
+						<div class="d-md-block py-3 py-md-5">
+							<h4 class="text-white"><%= t(:'therapists.app_h4') %></h4>
+							<p class="text-white"><%= t(:'therapists.app_p4') %></p>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</div>

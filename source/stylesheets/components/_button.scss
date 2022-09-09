@@ -1,96 +1,70 @@
+.btn-minime {
+  color: white !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  border-radius: 100px !important;
+  padding: 16px 32px !important;
+  border: none !important;
+  transition: transform 0.5s;
+  /* Animation */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 
+.btn-minime:hover {
+  color: white;
+  transform: scale(1.1);
+}
 
 .btn-aperol {
-  background: $aperol !important;
-  color: white !important;
-  font-size: 18px !important;
-  font-weight: 500 !important;
-  border-radius: 100px !important;
-  padding: 16px 32px !important;
-  border: none !important;
-  transition: transform 0.5s; /* Animation */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  background: $aperol  !important;
 }
 
-.btn-neon-green:hover {
-  color: white;
-  transform: scale(1.1);
-}
-
-.btn-neon-green {
-  background: $neon-green !important;
-  color: white !important;
-  font-size: 18px !important;
-  font-weight: 500 !important;
-  border-radius: 100px !important;
-  padding: 16px 32px !important;
-  border: none !important;
-  transition: transform 0.5s; /* Animation */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.btn-neon-green:hover {
-  color: white;
-  transform: scale(1.1);
+.btn-newsletter {
+  background: $lighter-blue  !important;
 }
 
 .btn-purple {
-  background: $purple !important;
-  color: white !important;
-  font-size: 18px !important;
-  font-weight: 500 !important;
-  border-radius: 100px !important;
-  padding: 16px 32px !important;
-  border: none !important;
-  transition: transform 0.5s; /* Animation */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  background: $purple  !important;
 }
 
-.btn-purple:hover {
-  color: white;
-  transform: scale(1.1);
+.btn-blue {
+  background: $blue  !important;
 }
+
+.btn-neon-green {
+  background: $neon-green  !important;
+}
+
 
 .btn-aperol-ghost {
   background: white !important;
-  color: $aperol !important;
-  font-size: 18px !important;
-  font-weight: 500 !important;
-  border-radius: 100px !important;
-  padding: 16px 32px !important;
+  color: $aperol  !important;
   border: solid $aperol 1px !important;
-  transition: transform 0.5s; /* Animation */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .btn-aperol-ghost:hover {
   color: $aperol;
-  transform: scale(1.1);
 }
 
-.btn-newsletter {
-  background: $lighter-blue !important;
+.btn-purple-ghost {
+  background: white !important;
+  color: $purple  !important;
+  border: solid $purple 1px !important;
+}
+
+.btn-purple-ghost:hover {
+  color: $purple;
+}
+
+
+.btn-white-ghost {
+  background: transparent !important;
   color: white !important;
-  font-size: 16px !important;
-  font-weight: 500 !important;
-  border-radius: 100px !important;
-  padding: 16px 25px !important;
-  border: none !important;
-  transition: transform 0.5s; /* Animation */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  border: solid white 1px !important;
 }
 
-.btn-newsletter:hover {
+.btn-white-ghost:hover {
   color: white;
-  transform: scale(1.1);
 }

@@ -1,19 +1,24 @@
-.bg-team-header {
-  background-image: url(../../images/v3/bg-orange.svg);
-  // background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  // height: 400px; /* You must set a specified height */
+// .bg-team-checks {
+//   background-image: url(../../images/v3/bg-orange-long.svg);
+//   // background-position: right bottom;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+.bg-team {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/minimehealth/image/upload/v1660841188/Website/team_work_hsmqic.png");
 }
 
-.bg-team-checks {
-  background-image: url(../../images/v3/bg-orange-long.svg);
-  // background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.team-header-img {
+  // display: block;
+  height: 600px;
+  // width: 100%;
+  width: 100%;
+  // object-fit: cover;
 }
 
-.circle-team  {
+.circle-team {
   border-radius: 150%;
   height: 150px;
   width: 150px;
@@ -25,18 +30,53 @@
   // box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
-
-
-.team-header-img {
-  width: 40vw
+.image-width-200 {
+  width: 200px;
 }
+
+.circle-border {
+  border: 1px solid $tension;
+  border-radius: 50%;
+  padding: 10px;
+  width: 220px;
+}
+
+#company-values .mini-circle {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  left: 15px;
+  top: -30px;
+}
+
+.image-width-400 {
+  width: 400px;
+}
+
+#founders .circle-border {
+  border: 1px solid $tension;
+  border-radius: 50%;
+  padding: 10px;
+  width: 420px;
+}
+
+
+
+// .team-header-img {
+//   // width: 50vw;
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+// }
 
 .accordion-button:not(.collapsed) {
   background-color: white;
-  color: $dark-grey;
+  color: $gray;
   box-shadow: inset;
   border: none !important;
 }
+
 .accordion-body {
   background-color: white;
   padding: 1rem !important;
@@ -46,24 +86,20 @@
   // background-color: #fff;
   border: none !important;
 }
+
 .partner {
   width: 120px;
 }
 
-.blue-box {
-  background-color: $dark-blue;
-  border-radius: 10px;
-}
 
 .blue-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1em;
+  overflow: auto;
+  white-space: nowrap;
 }
 
-.card {
-  border: none;
-}
 
 .card-team-img {
   overflow: hidden;
@@ -74,6 +110,7 @@
   padding: 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+
   img {
     width: 100%;
     object-fit: cover;
@@ -91,7 +128,7 @@
   }
 
   .blue-box {
-    background-color: $dark-blue;
+    background-color: $blue;
     border-radius: 10px;
   }
 
@@ -114,6 +151,7 @@
     padding: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
     img {
       width: 100%;
       object-fit: cover;
@@ -132,13 +170,13 @@
   }
 
   .blue-box {
-    background-color: $dark-blue;
+    background-color: $blue;
     border-radius: 10px;
   }
 
   .blue-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 1em;
   }
 
@@ -155,6 +193,7 @@
     padding: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
     img {
       width: 100%;
       object-fit: cover;

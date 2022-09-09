@@ -3,9 +3,9 @@
 
 body {
   background-color: white;
-  color: $dark-grey;
+  color: $gray;
   font-family: $body-font;
-  font-weight: 300;
+  font-weight: 400;
   // text-align: center;
   // text-rendering: optimizeLegibility;
 }
@@ -30,45 +30,74 @@ textarea:focus {
   box-shadow: none !important;
 }
 
-.background-green {
-  background-color: #f1fff8;
+
+.title-break {
+  overflow-wrap: break-word;
+  hyphens: manual;
 }
 
-.background-white {
+.mini-circle {
+  display: block;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  left: 15px;
+  top: -30px;
+}
+
+.medium-circle {
+  display: block;
+  position: absolute;
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+  z-index: -1;
+
+}
+
+.large-circle {
+  display: block;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  z-index: -1;
+
+}
+
+
+.circle-bg-white {
   background-color: white;
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.background-header {
-  background-color: white;
+.bg-img-header {
+  height: 90vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.background-lightblue {
-  background-color: $light-blue;
-}
 
-.bg-lightorange {
-  background-color: $light-orange;
-}
 
-.background-blue {
-  background-color: $dark-blue;
-}
-
-.border-blue {
-  border: solid 1px $dark-blue;
-}
 
 
 a {
   text-decoration: none;
   font-size: 18px;
-  color: $dark-blue;
+  // color: $blue;
 }
 
 a:hover {
   text-decoration: none;
   font-size: 18px;
-  color: $dark-blue;
+  // color: $blue;
 }
 
 h1,
@@ -76,7 +105,7 @@ h2,
 h3,
 h4 {
   font-family: $headers-font;
-  color: $dark-grey;
+  color: $gray;
   // font-weight: 600;
   margin: 0;
   padding: 0;
@@ -91,7 +120,7 @@ h4 {
 
 h1 {
   font-size: 48px;
-  letter-spacing: -0.5px;
+  // letter-spacing: -0.5px;
 }
 
 h2 {
@@ -100,18 +129,15 @@ h2 {
 
 h3 {
   font-size: 24px;
-
-  // font-weight: 600;
 }
 
 h4 {
   font-size: 18px;
-  font-weight: 400;
 }
 
 p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
 }
@@ -128,17 +154,6 @@ li span {
   font-size: 20px !important;
 }
 
-.body-text-black {
-  color: $dark-grey
-}
-
-.text-blue {
-  color: $dark-blue;
-}
-
-.text-white {
-  color: white;
-}
 
 .mobile-hidden {
   display: block;
@@ -351,6 +366,13 @@ li span {
 
 @media (max-width: 480px) {
 
+  .bg-img-header {
+    height: 70vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: fill;
+  }
+
 
   h1 {
     font-size: 30px;
@@ -392,6 +414,13 @@ li span {
 
   .tablet-desktop-hidden {
     display: block;
+  }
+
+  .mini-circle {
+
+    left: 20px;
+    top: -30px;
+    border: solid $orange 1px;
   }
 }
 

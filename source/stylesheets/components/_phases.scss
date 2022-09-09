@@ -1,0 +1,74 @@
+.phases-circle {
+  // display: center;
+  // position: absolute;
+  border-width: 1px;
+  border-color: $purple;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  left: 15px;
+  top: -30px;
+  background-color: white;
+}
+
+
+.bg-purple-line {
+  position: absolute;
+  top: 35px;
+}
+
+
+#phases .row {
+  ::before {
+    border-top: 1px solid $purple;
+    border-left: 0px solid $purple;
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+
+#ressources .row {
+  ::before {
+    border-top: 1px solid $purple;
+    // border-left: 0px solid $purple;
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+
+@media (max-width: 991px) {
+  #phases .row {
+    ::before {
+      border-top: 0px solid $purple;
+      border-left: 1px solid $purple;
+      content: "";
+      margin: 0 auto;
+      /* this centers the line to the full width specified */
+      position: absolute;
+      /* positioning must be absolute here, and relative positioning must be applied to the parent */
+      top: 0px;
+      left: 50%;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+  }
+}
