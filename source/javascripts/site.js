@@ -6,19 +6,19 @@ function offset(el) {
 }
 //
 
-function copyToClipboard() {
-  /* Get the text field */
-  let copyText = document.getElementById("websiteLink");
+// function copyToClipboard() {
+//   /* Get the text field */
+//   let copyText = document.getElementById("websiteLink");
 
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+//   /* Select the text field */
+//   copyText.select();
+//   copyText.setSelectionRange(0, 99999); /* For mobile devices */
 
-  /* Copy the text inside the text field */
-  navigator.clipboard.writeText(copyText.value);
+//   /* Copy the text inside the text field */
+//   navigator.clipboard.writeText(copyText.value);
 
-  /* Alert the copied text */
-  // alert("Copied the text: " + copyText.value);
-}
+//   /* Alert the copied text */
+//   // alert("Copied the text: " + copyText.value);
+// }
 
 //= require gdpr/cookie_consent
