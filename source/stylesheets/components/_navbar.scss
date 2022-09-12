@@ -15,6 +15,7 @@
 }
 
 
+
 .navbar .dropdown-menu {
   width: 100%;
   border: none;
@@ -139,7 +140,7 @@
     color: white;
   }
 
-  .navbar-light .navbar-toggler-icon {
+  #nb .navbar-toggler-icon {
     background-image: url(../../images/logos/hamburger.svg) !important;
   }
 
@@ -170,6 +171,18 @@
     text-transform: uppercase;
   }
 
+
+  .nav-link:hover,
+  .nav-link:active,
+  .nav-link:focus {
+    color: white !important;
+  }
+
+  .dropdown-menu .nav-link {
+    text-transform: lowercase;
+
+  }
+
   .navbar-toggle {
     padding-right: 5em !important;
     color: white !important;
@@ -188,10 +201,12 @@
   }
 
   .navbar .dropdown-menu {
-    background-color: $blue;
+    background-color: transparent;
     color: white;
     border: none;
     padding: 0;
+    text-align: center;
+    text-transform: lowercase;
   }
 
 
