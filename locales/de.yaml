@@ -24,7 +24,7 @@ de:
     patients: "patienten"
     therapists: "therapeuten"
     team: "team"
-    data_security: "datenschutz"
+    datasecurity: "datenschutz"
     impressum: "impressum"
   buttons:
     newsletter: "Newsletter abonnieren"
