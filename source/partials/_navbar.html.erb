@@ -1,68 +1,113 @@
-<div id="nb" class="navbar navbar-expand-lg sticky-top navbar-light navbar-lewagon py-2 bg-white">
+<div id="nb" class="navbar navbar-expand-lg sticky-top bg-white d-flex flex-column justify-content-between">
 	<% location = current_page.path %>
-	<div class="container-fluid px-0 px-md-3">
+	<div id="navbar" class="align-items-center container-fluid py-3 p-md-3">
 		<% link_to "/#", class: "ps-3 ps-xl-5" do %>
 			<%= image_tag 'logos/logo.svg', :class => "logo" %>
 		<% end %>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		<div class="d-none d-lg-block">
+			<% main_classes = "nav-item dropdown" %>
+			<div class="d-flex align-items-center">
+				<% if location == "index.html" || location == "#{ t(:'paths.therapists') }.html" || location == "#{ t(:'paths.prices') }.html" %>
+					<% main_classes = "nav-item dropdown active" %>
+				<% end %>
+				<div class="<%= main_classes %>">
+					<div class="mini-circle border-orange"></div>
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><%= t(:'navbar.therapists') %></a>
+					<ul class="dropdown-menu">
+						<li class="">
+							<a class="nav-link" href="/<%= t(:'paths.therapists') %>">
+								<%= t(:'navbar.content') %>
+							</a>
+						</li>
+						<li class="">
+							<a class="nav-link" href="https://blog.minime.health/">
+								<%= t(:'navbar.blog') %>
+							</a>
+						</li>
+						<li class="">
+							<a class="nav-link" href="/<%= t(:'paths.prices') %>">
+								<%= t(:'navbar.prices') %>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<% patient_classes = "nav-item dropdown" %>
+				<% if location == "#{ t(:'paths.patients') }.html" %>
+					<% patient_classes = "nav-item dropdown active" %>
+				<% end %>
+				<a class="<%= patient_classes %>" href='/<%= t(:'paths.patients') %>'>
+					<div class="mini-circle border-orange"></div>
+					<li class="nav-link">
+						<%= t(:'navbar.patients') %>
+					</li>
+				</a>
+				<% team_classes = "nav-item dropdown" %>
+				<% if location == "#{ t(:'paths.team') }.html" %>
+					<% team_classes = "nav-item dropdown active" %>
+				<% end %>
+				<a class="<%= team_classes %>" href='/<%= t(:'paths.team') %>'>
+					<div class="mini-circle border-orange"></div>
+					<li class="nav-link">
+						<%= t(:'navbar.about_us') %>
+					</li>
+				</a>
+				<div class="my-5 mx-3 my-md-0">
+					<a href="https://app.minime.health" class="btn btn-aperol btn-minime shadow-none"><%= t(:'buttons.register') %></a>
+				</div>
+			</div>
+		</div>
+		<button class="navbar-toggler d-lg-none m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse text-end pe-0 pe-xl-5" id="navbarTogglerDemo02">
-			<ul id="nav-ul" class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-				<li class="text-right">
-					<a href="#"><span class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target=".navbar-collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><i id="close" class="bi bi-x"></i></span></a>
-				</li>
-				<% if location == "index.html" || location == "#{ t(:'paths.therapists') }.html" || location == "#{ t(:'paths.prices') }.html" %>
-					<li class="nav-item dropdown active">
-					<% else %>
-						<li class="nav-item dropdown">
-						<% end %>
-						<div class="mini-circle border-orange"></div>
-						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><%= t(:'navbar.therapists') %></a>
-						<ul class="dropdown-menu">
-							<li class="">
-								<a class="nav-link" href="/<%= t(:'paths.therapists') %>">
-									<%= t(:'navbar.content') %>
-								</a>
+		<div style="position: absolute; top: 0; right: 0;">
+			<div class="collapse collapse-horizontal d-lg-none" id="navbarTogglerDemo02">
+				<div class ="bg-blue" style="width: 100vw;
+                    background: #8FCDE8;
+                    height: 100vh;">
+					<div class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+						<div class="d-lg-none">
+							<div class="text-center">
+								<a href="#"><span class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target=".navbar-collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><i id="close" class="bi bi-x"></i></span></a>
+							</div>
+							<li class="nav-item">
+								<div class="mini-circle border-orange"></div>
+								<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><%= t(:'navbar.therapists') %></a>
+								<ul class="dropdown-menu">
+									<li class="">
+										<a class="nav-link" href="/<%= t(:'paths.therapists') %>">
+											<%= t(:'navbar.content') %>
+										</a>
+									</li>
+									<li class="">
+										<a class="nav-link" href="https://blog.minime.health/">
+											<%= t(:'navbar.blog') %>
+										</a>
+									</li>
+									<li class="">
+										<a class="nav-link" href="/<%= t(:'paths.prices') %>">
+											<%= t(:'navbar.prices') %>
+										</a>
+									</li>
+								</ul>
 							</li>
-							<li class="">
-								<a class="nav-link" href="https://blog.minime.health/">
-									<%= t(:'navbar.blog') %>
-								</a>
-							</li>
-							<li class="">
-								<a class="nav-link" href="/<%= t(:'paths.prices') %>">
-									<%= t(:'navbar.prices') %>
-								</a>
-							</li>
-						</ul>
-					</li>
-					<% if location == "#{ t(:'paths.patients') }.html" %>
-						<a class="nav-item active" href='/<%= t(:'paths.patients') %>'>
-						<% else %>
 							<a class="nav-item" href='/<%= t(:'paths.patients') %>'>
-							<% end %>
-							<div class="mini-circle border-orange"></div>
-							<li class="nav-link">
-								<%= t(:'navbar.patients') %>
-							</li>
-						</a>
-						<% if location == "#{ t(:'paths.team') }.html" %>
-							<a class="nav-item active" href='/<%= t(:'paths.team') %>'>
-							<% else %>
-								<a class="nav-item" href='/<%= t(:'paths.team') %>'>
-								<% end %>
+								<div class="mini-circle border-orange"></div>
+								<li class="nav-link">
+									<%= t(:'navbar.patients') %>
+								</li>
+							</a>
+							<a class="nav-item" href='/<%= t(:'paths.team') %>'>
 								<div class="mini-circle border-orange"></div>
 								<li class="nav-link">
 									<%= t(:'navbar.about_us') %>
 								</li>
 							</a>
-							<a class="nav-item not-desktop" href="/<%= t(:'paths.datasecurity') %>">
+							<a class="nav-item" href="/<%= t(:'paths.datasecurity') %>">
 								<li class="nav-link">
 									<%= t(:'navbar.data_security') %>
 								</li>
 							</a>
-							<a class="nav-item not-desktop" href="/<%= t(:'paths.impressum') %>">
+							<a class="nav-item" href="/<%= t(:'paths.impressum') %>">
 								<li class="nav-link">
 									<%= t(:'navbar.impressum') %>
 								</li>
@@ -70,7 +115,10 @@
 							<div class="my-5 mx-3 my-md-0">
 								<a href="https://app.minime.health" class="btn btn-aperol btn-minime shadow-none"><%= t(:'buttons.register') %></a>
 							</div>
-						</ul>
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
