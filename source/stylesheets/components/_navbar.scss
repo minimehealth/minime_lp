@@ -54,7 +54,7 @@
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
-  color: $gray  !important;
+  color: $gray !important;
   ;
 }
 
@@ -72,9 +72,9 @@
 }
 
 .logo {
-  height: 50px;
-  margin-bottom: 0.7em;
-  margin-top: 0.7em;
+  height: 60px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 .not-desktop {
@@ -145,10 +145,10 @@
   }
 
   .logo {
-    height: 40px;
+    height: 50px;
     justify-self: center;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
   }
 
   .navbar-collapse.show .navbar-nav {

@@ -7,10 +7,11 @@
 				<h2 class="text-uppercase my-2 text-white text-start title-break"><%= t(:'index.subberheader') %></h2>
 				<a href="https://app.minime.health" class="btn btn-aperol btn-minime shadow-none my-4"><%= t(:'buttons.register') %></a>
 			</div>
-			<div class="circle-bg-white p-3 d-none d-md-flex">
+			<div class="circle-bg-white p-2 d-none d-md-flex">
 				<div class="text-center">
-					<h4 class="text-center">"<%= t(:'index.citation') %>"</h4>
-					<p class="text-center"><%= t(:'index.citation_author') %></>
+					<%= image_tag 'logos/reactions.svg', :class => "reactions" %>
+					<h4 class="text-center"><%= t(:'index.citation') %></h4>
+					<p class="text-center pt-2"><%= t(:'index.citation_author') %></>
 				</div>
 			</div>
 		</div>
